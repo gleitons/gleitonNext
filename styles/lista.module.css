@@ -1,0 +1,22 @@
+.divS {
+    height: 50px;
+}
+.lista {
+    border: black solid 1px;
+    margin: 10px auto;
+    width: fit-content;
+    padding: 5px 10px;
+    background-color: rgb(160, 0, 0);
+    color: white;
+    border-radius: 8px;
+    box-shadow: black 0px 5px 10px 0px;
+    font-size: 15px;
+    transition: 300ms;
+
+}
+.lista:hover {
+    padding: 3px 8px;
+    box-shadow: inset black 1px 5px 5px 0px;
+    font-size: 12px;
+    cursor: pointer;
+}

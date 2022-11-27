@@ -1,0 +1,109 @@
+.cabecalho {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.fotoPerfil {
+    width: 30%;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.fotoPerfil Image > img {
+    width: 100px;
+    height: 100px;
+    
+}
+.infoCapa {
+    display: flex;
+    margin: auto;
+    
+}
+.infoCapa img { 
+    width: 100%;
+    background-image: linear-gradient(to bottom, rgba(238, 238, 238, 0.587), rgba(0, 0, 0, 0.351) 70%);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border-radius: 8px 0px 0px 8px;
+    margin: 10px 0;
+
+}
+.infoP {
+    width: 70%;
+    background-color: rgba(255, 255, 255, 0.215);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    padding: 10px;
+    color: white;
+    /* line-height: 1.3rem; */
+    border-radius: 0px 8px 8px 0px;
+    margin: 10px 0;
+}
+
+.sociais a {
+    text-decoration: none;
+    color: white;
+    transition: 300ms;
+   
+    
+}
+.sociais a:hover {
+    color: rgb(0, 0, 0);
+}
+.vidPerfil {
+    border-radius: 50%;
+    overflow: hidden;
+}
+.sociais {
+    margin-top: 1px;
+}
+.Isociais {
+    width: fit-content;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+   
+   
+    
+}
+.stail {
+    margin: 10px 0px;
+    display: flex;
+    gap: 10px;
+    background-image: linear-gradient(to bottom, green, rgb(0, 55, 0));
+    box-shadow: black 0px 1px 4px 0px;
+    border-radius: 8px;
+    padding: 2px;
+    width: fit-content;
+    color: rgb(255, 255, 255);
+    transition: 500ms;
+}
+.stail:hover {
+    margin: 10px 0px;
+    display: flex;
+    gap: 10px;
+    background-image: linear-gradient(to bottom, rgb(1, 157, 1), rgb(0, 122, 0));
+    box-shadow: black 0px 6px 8px 0px;
+    border-radius: 8px;
+    padding: 2px;
+    width: fit-content;
+    color: rgb(255, 255, 255);
+}
+@keyframes loading {
+	0% {
+		transform: rotate(0);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+@media (max-width: 568px) {
+    .infoP {
+        width: 100%;
+    }
+    .infoCapa {
+      display: block;
+    }
+    .fotoPerfil {
+        width: 100%;
+    }
+  }

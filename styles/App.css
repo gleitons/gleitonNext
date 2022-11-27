@@ -1,0 +1,64 @@
+body {
+  background-color: rgb(79, 79, 79);
+}
+.flex {
+  display: flex;
+}
+.flex > img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+  align-items: center;
+}
+.papel {
+  background: url(/public/imagens/papel-fino-gleiton-aparecido-soares-de-souza-min.jpg);
+  width: 75%;
+  margin: auto;
+}
+.fundoVidro {
+  
+  width: 95%;
+  padding: 10px;
+  margin: auto;
+  background: url(https://images.pexels.com/photos/3503629/pexels-photo-3503629.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  margin: 10px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+ 
+}
+.topicoDiv {
+  background-color: rgba(255, 255, 255, 0.215);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  padding: 10px;
+  border-radius: 8px;
+  margin: 10px 0;
+}
+.topicoDivE {
+  background-color: rgba(190, 217, 255, 0.215);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  padding: 10px;
+  border-radius: 8px;
+  margin: 10px 0;
+}
+.topicoDivD {
+  background-color: rgba(252, 160, 157, 0.215);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  padding: 10px;
+  border-radius: 8px;
+  margin: 10px 0;
+}
+@media (max-width: 568px) {
+  .papel {
+    width: 100%;
+  }
+  .fundoVidro {
+    width: 96%;
+    
+  }
+}

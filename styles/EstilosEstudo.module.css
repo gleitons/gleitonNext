@@ -1,0 +1,32 @@
+.alink {
+    
+    padding: 10px;
+    color: black;  
+    font-weight: 600;
+   
+    
+}
+.alink:hover {
+    color: blue;
+    text-shadow: black 1px 0px 10px 0px;
+    
+}
+ul {
+    list-style: none;
+}
+.conhecimentos {
+    border: black solid 1px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.conhecimentos a{
+    padding: 10px;
+    
+}
+.estudos {
+    width: 80%;
+    margin: auto;
+}
+.imgLock {
+    width: 100%;
+}

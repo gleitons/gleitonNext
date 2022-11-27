@@ -1,0 +1,12 @@
+.frasecontainer h2 {
+    width: fit-content;
+    margin: auto;
+    background-color: rgb(112, 128, 249);
+    padding: 5px;
+    border: black solid 1px;
+    border-radius: 8px;
+    color: white;
+}
+.continua {
+    border-bottom: black solid 1px;
+}
