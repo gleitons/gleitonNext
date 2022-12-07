@@ -1,0 +1,232 @@
+.estudos {
+    text-align: center;
+    
+    
+}
+.estudos thead {
+    table-layout: fixed;
+    border-collapse: collapse;
+    
+}
+.estudos td {
+    padding: 1em .3em;
+    padding-top: 1.8em;
+}
+.estudos li {
+    border-bottom: rgba(0, 0, 0, 0.523) solid 1px;
+    padding-bottom: .2em;
+    margin-bottom: .2em;
+}
+.matematicafinanceira {
+    background-color: brown;
+    position: relative;
+}
+.matematicafinanceira::after {
+    content: "Matemática Financeira";
+    position: absolute;
+    padding: .2em;
+    border-radius: 8px;
+    top: 0px;
+    left: 2px;
+    background-color: rgb(55, 0, 0);
+    font-size: .8em;
+}
+.inicio {
+    background-color: blue;
+    position: relative;    
+}
+.inicio::after {
+    content: "Exer. e alimentação";
+    position: absolute;
+    background-color:rgb(0, 3, 68);
+    padding: .2em;
+    border-radius: 8px;
+    border: black solid 1px;
+    top: 0px;
+    left: 2px;
+    font-size: .8em;    
+}
+
+.trabalho {
+    background-color: rgb(0, 89, 86);
+    position: relative;    
+}
+.alimentacao {
+    background-color: rgb(89, 34, 0);
+    position: relative;    
+}
+
+.alimentacao::after {
+    content: "Alimentação";
+    position: absolute;
+    background-color:rgb(62, 15, 0);
+    padding: .2em;
+    border-radius: 8px;
+    border: black solid 1px;
+    top: 0px;
+    left: 2px;
+    font-size: .8em;      
+}
+
+
+.trabalho::after {
+    content: "Trabalho";
+    position: absolute;
+    background-color:rgb(0, 62, 50);
+    padding: .2em;
+    border-radius: 8px;
+    border: black solid 1px;
+    top: 0px;
+    left: 2px;
+    font-size: .8em;    
+}
+
+
+.manha {
+    background-color: pink;
+    color: black;
+    position: relative;
+    
+}
+.manha::after {
+    content: "Tarefas";
+    position: absolute;
+    background-color:rgb(198, 2, 201);
+    padding: .2em;
+    border-radius: 8px;
+    border: black solid 1px;
+    top: 0px;
+    left: 2px;
+    font-size: .8em;
+    color: white;
+}
+.etica {
+    background-color: bisque;
+    color: black;
+    position: relative;
+}
+.etica::after {
+    content: "Ética e Diversidade";
+    position: absolute;
+    background-color:rgb(255, 173, 72);
+    padding: .2em;
+    border-radius: 8px;
+    border: black solid 1px;
+    top: 0px;
+    left: 2px;
+    font-size: .8em;
+}
+.estudos thead tr > td {
+    padding: 10px 20px;
+    background-color: rgb(164, 237, 246);
+    color: black;
+}
+.horario {
+    background-color: rgb(164, 237, 246);
+    color: black;
+    position: relative;
+    font-size: .9em;
+}
+.horario::after {
+    content: "Horário";
+    position: absolute;
+    background-color: rgba(0, 62, 0, 0);
+    padding: .2em;
+    border-radius: 8px;
+    border: black solid 1px;
+    top: 0px;
+    left: 2px;
+    font-size: .8em;
+}
+.informatica {
+    background-color: green;
+    position: relative;
+    overflow: hidden;
+}
+.informatica::after {
+    content: "Informática";
+    position: absolute;
+    background-color: rgb(0, 62, 0);
+    padding: .2em;
+    border-radius: 8px;
+    top: 0px;
+    left: 2px;
+    font-size: .8em;
+}
+.portugues {
+    background-color: red;
+    position: relative;
+}
+.portugues::after {
+    content: "Português";
+    position: absolute;
+    background-color: rgb(84, 0, 0);
+    padding: .2em;
+    border-radius: 8px;
+    top: 0px;
+    left: 2px;
+    font-size: .8em;
+}
+.matematica {
+    background-color: yellow;
+    color: black;
+    position: relative;
+}
+.matematica::after {
+    content: "Matemática";
+    position: absolute;
+    color: white;
+    background-color: rgb(106, 74, 0);
+    padding: .2em;
+    border-radius: 8px;
+    top: 0px;
+    left: 2px;
+    font-size: .8em;
+}
+.atualidades {
+    background-color: rgb(151, 197, 0);
+    position: relative;
+    color: black;
+}
+.atualidades::after {
+    content: "Vendas e Negoc.";
+    position: absolute;
+    color: white;
+    background-color: rgb(67, 87, 0);
+    padding: .2em;
+    border-radius: 8px;
+    top: 0px;
+    left: 2px;
+    font-size: .8em;
+}
+.vendas {
+    background-color: blueviolet;
+    position: relative;
+}
+.vendas::after {
+    content: "Vendas e Negoc.";
+    position: absolute;
+    color: white;
+    background-color: rgb(23, 0, 31);
+    padding: .2em;
+    border-radius: 8px;
+    top: 0px;
+    left: 2px;
+    font-size: .8em;
+}
+.conhecimentos {
+    background-color: rgb(255, 200, 241);
+    color: black;
+    position: relative;
+}
+.conhecimentos::after {
+    content: "Conhecimentos Banc.";
+    position: absolute;
+    color: white;
+    background-color:  rgb(83, 1, 63);
+    padding: .2em;
+    border-radius: 8px;
+    top: 0px;
+    left: 2px;
+    font-size: .8em;
+}

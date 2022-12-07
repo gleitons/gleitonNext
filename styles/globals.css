@@ -14,6 +14,19 @@ a {
 * {
   box-sizing: border-box;
 }
+/* INICIO PÁGINA ESTUDOS BANRISUL */
+span {
+  color: red;
+    text-decoration:underline;
+    font-weight: 800;
+}
+.pc {
+  color: blue;
+  text-decoration: none;
+  font-weight: 400;
+  font-style: italic;
+}
+/* FIM PÁGINA ESTUDOS BANRISUL */
 
 @media (prefers-color-scheme: dark) {
   html {
