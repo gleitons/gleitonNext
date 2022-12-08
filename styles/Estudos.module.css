@@ -1,0 +1,19 @@
+.importante {
+    border: red solid 1px;
+    padding: 1em .6em;
+    margin: 1em 0em;
+    position: relative;
+    background-color: rgb(255, 89, 89);
+    color: black;
+}
+.importante::after {
+    content: "Importante";
+    position: absolute;
+    top: 2px;
+    color: rgb(255, 247, 0);
+    background-color: red;
+    padding: .2em;
+}
+.imagem {
+    text-align: center;
+}

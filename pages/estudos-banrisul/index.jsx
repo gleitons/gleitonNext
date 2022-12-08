@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import styles from '../../styles/MenuEstudo.module.css'
 export default function MenuEstudo() {
     return (
@@ -41,7 +42,7 @@ export default function MenuEstudo() {
                     </tr>
                     <tr>
                         <td className={styles.horario}>07:10 - 07:45</td>
-                        <td className={styles.informatica}>1 - Noções de sistemas operacionais - Windows 10 (32-64 bits)</td>
+                        <td className={styles.informatica}><Link href="/estudos-banrisul/conhecimentos-de-informatica/nocoes-de-sistemas-operacionais">1 - Noções de sistemas operacionais - Windows 10 (32-64 bits)</Link></td>
                         <td className={styles.informatica}>Edição de textos, planilhas e apresentação (ambientes Microsoft Office - Word, Excel, power point, office 365; libreOffice 7.4.2)</td>
                         <td className={styles.informatica}>Segurança da Informação: Fundamentos, conceitos e mecanismos de segurança.
                         <li>Visão Geral sobre sistemas de suporte á decisão e inteligência de negócio</li> 
@@ -100,24 +101,46 @@ export default function MenuEstudo() {
                     </tr>
                     <tr>
                         <td className={styles.horario}>18:00 - 19:30</td>
-                        <td className={styles.portugues}>Lingua Portuguesa</td>
-                        <td className={styles.matematica}>Matematica</td>
+                        <td className={styles.portugues}>
+                            <Link href="">
+                                <li>Compreenção de texto</li>
+                            </Link>
+                            <Link href="">
+                                <li>Ortografia Oficial</li>
+                            </Link>
+                            </td>
+                        <td className={styles.matematica}><Link href="">
+                            <li>Matematica</li>
+                        </Link></td>
                         <td className={styles.etica}>Ética e diversidade</td>
-                        <td>Academia</td>
-                        <td>Academia</td>
-                        <td>Estudo</td>
-                        <td>Descanso</td>
+                        <td className={styles.portugues}>Lingua Portuguesa</td>
+                        <td className={styles.portugues}>Lingua Portuguesa</td>
+                        <td className={styles.portugues}>Lingua Portuguesa</td>
+                        <td className={styles.matematicafinanceira}>Matematica Financeira</td>
                         
                     </tr>
                     <tr>
                         <td className={styles.horario}>19:30 - 21:00</td>
-                        <td className={styles.portugues}>Lingua Portuguesa</td>
+                        <td className={styles.portugues}>
+                            <Link href="">
+                                <li>Articulação de Texto: Coesão e coerência</li>
+                            </Link>
+                            <Link href="">
+                                <li>Classe e emprego de palavras</li>
+                            </Link></td>
                         <td className={styles.matematica}>Matematica</td>
                         <td className={styles.etica}>Ética e diversidade</td>
                         <td className={styles.vendas}>Gestão de qualidade em serviços</td>
                         <td className={styles.matematicafinanceira}>Matematica Financeira</td>
-                        <td>Estudo</td>
-                        <td>Descanso</td>
+                        <td className={styles.portugues}>
+                        <Link href="">
+                                <li>Emprego do acento indicativo de crase</li>
+                            </Link>
+                            <Link href="">
+                                <li>Sintaxe da oração e do periodo</li>
+                            </Link>
+                        </td>
+                        <td className={styles.matematicafinanceira}>Matematica Financeira</td>
                         
                     </tr>
                     <tr>
@@ -134,7 +157,7 @@ export default function MenuEstudo() {
                         <td className={styles.vendas}>Técnicas de vendas: da pré-abordagem ao pós-vendas</td>
                         <td className={styles.matematicafinanceira}>Matematica Financeira</td>
                         <td className={styles.atualidades}>Atualidades do Mercado Financeiro</td>
-                        <td>Descanso</td>
+                        <td className={styles.atualidades}>Atualidades do Mercado Financeiro</td>
                         
                     </tr>
                     <tr>
@@ -149,7 +172,7 @@ export default function MenuEstudo() {
                         <td className={styles.vendas}>Ética e conduta profissional em vendas</td>
                         <td className={styles.conhecimentos}>Conhecimentos Bancários</td>
                         <td className={styles.atualidades}>Atualidades dos Mercado Financeiro</td>
-                        <td>Descanso</td>
+                        <td className={styles.vendas}>Vendas e negociação</td>
                         
                     </tr>
                 </tbody>

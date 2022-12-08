@@ -3,6 +3,10 @@
     
     
 }
+.estudos a:hover {
+    transition: 300ms;
+    filter: invert(100);
+}
 .estudos thead {
     table-layout: fixed;
     border-collapse: collapse;
