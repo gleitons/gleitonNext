@@ -10,6 +10,31 @@ import GleitonTransparente from '/public/gleiton-transparente.png'
 import Image from 'next/image'
 import Papel from './Papel'
 
+// Imagens minhas
+
+import gleiton1 from '../public/img/images/gleiton-aparecido-soares-capa/gleiton-aparecido-soares-de-souza_01.jpg'
+import gleiton2 from '../public/img/images/gleiton-aparecido-soares-capa/gleiton-aparecido-soares-de-souza_02.jpg'
+import gleiton3 from '../public/img/images/gleiton-aparecido-soares-capa/gleiton-aparecido-soares-de-souza_03.jpg'
+import gleiton4 from '../public/img/images/gleiton-aparecido-soares-capa/gleiton-aparecido-soares-de-souza_04.jpg'
+
+
+import gleiton5 from '../public/img/images/gleiton-aparecido-soares-capa/gleiton-aparecido-soares-de-souza_05.jpg'
+import gleiton6 from '../public/img/images/gleiton-aparecido-soares-capa/gleiton-aparecido-soares-de-souza_06.jpg'
+import gleiton7 from '../public/img/images/gleiton-aparecido-soares-capa/gleiton-aparecido-soares-de-souza_07.jpg'
+import gleiton8 from '../public/img/images/gleiton-aparecido-soares-capa/gleiton-aparecido-soares-de-souza_08.jpg'
+
+
+import gleiton9 from '../public/img/images/gleiton-aparecido-soares-capa/gleiton-aparecido-soares-de-souza_09.jpg'
+import gleiton10 from '../public/img/images/gleiton-aparecido-soares-capa/gleiton-aparecido-soares-de-souza_10.jpg'
+import gleiton11 from '../public/img/images/gleiton-aparecido-soares-capa/gleiton-aparecido-soares-de-souza_11.jpg'
+import gleiton12 from '../public/img/images/gleiton-aparecido-soares-capa/gleiton-aparecido-soares-de-souza_12.jpg'
+
+
+
+
+
+
+
 
 export default function HeaderCurriculo() {
     function randoImg() {
@@ -28,9 +53,32 @@ export default function HeaderCurriculo() {
        
             <div className={styles.cabecalho}>
                 <div className={styles.infoCapa}>
+
+
                 <div className={styles.fotoPerfil}>
-                    <Image src= {Gleiton} alt="Gleiton Aparecido Soares de Souza" />
+                    <div className={styles.gleitonOne}>
+                            <Image src={gleiton1} alt='Gleiton 1' />
+                            <Image src={gleiton2} alt='Gleiton 2' />
+                            <Image src={gleiton3} alt='Gleiton 3' />
+                            <Image src={gleiton4} alt='Gleiton 4' />
                     </div>
+                    <div className={styles.gleitonOne}>
+                            <Image src={gleiton5} alt='Gleiton 5' />
+                            <Image src={gleiton6} alt='Gleiton 6' />
+                            <Image src={gleiton7} alt='Gleiton 7' />
+                            <Image src={gleiton8} alt='Gleiton 8' />
+                    </div>
+                    <div className={styles.gleitonOne}>
+                            <Image src={gleiton9} alt='Gleiton 9' />
+                            <Image src={gleiton10} alt='Gleiton 10' />
+                            <Image src={gleiton11} alt='Gleiton 11' />
+                            <Image src={gleiton12} alt='Gleiton 12' />
+                    </div>
+                    
+                   
+                    </div>
+
+
                     {/* <div className={styles.fotoPerfil}>
                     <Image src= {Gleiton} alt="Gleiton Aparecido Soares de Souza" />
                     </div> */}
