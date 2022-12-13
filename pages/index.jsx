@@ -3,7 +3,7 @@ import styles from '../styles/Home.module.css'
 import HeaderCurriculo from '../components/HeaderCurriculo'
 import Objetivo from '../components/Objetivo'
 
-export const config = { amp: true }
+
 
 
 export default function Home() {
