@@ -28,9 +28,12 @@ export default function HeaderCurriculo() {
        
             <div className={styles.cabecalho}>
                 <div className={styles.infoCapa}>
-                    <div className={styles.fotoPerfil}>
+                <div className={styles.fotoPerfil}>
                     <Image src= {Gleiton} alt="Gleiton Aparecido Soares de Souza" />
                     </div>
+                    {/* <div className={styles.fotoPerfil}>
+                    <Image src= {Gleiton} alt="Gleiton Aparecido Soares de Souza" />
+                    </div> */}
                     <div className={styles.infoP}>
                         <h2>GLEITON APARECIDO SOARES DE SOUZA</h2>
 
