@@ -10,7 +10,6 @@ import GleitonTransparente from '/public/gleiton-transparente.png'
 import Image from 'next/image'
 import Papel from './Papel'
 
-// Imagens minhas
 
 import gleiton1 from '../public/img/images/gleiton-aparecido-soares-capa/gleiton-aparecido-soares-de-souza_01.jpg'
 import gleiton2 from '../public/img/images/gleiton-aparecido-soares-capa/gleiton-aparecido-soares-de-souza_02.jpg'
