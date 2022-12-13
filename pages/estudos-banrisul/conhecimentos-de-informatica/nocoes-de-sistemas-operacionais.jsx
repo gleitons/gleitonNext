@@ -34,8 +34,8 @@ export default function NocoesSistemas() {
             <h3>Funcionamento do sistema operacional</h3>
             <p>Do momento em que ligameos o computador até o momento em que a interface gráfica está completamente disponível para uso, uma série de ações e configurações são realizadas, tanto nos componentes de harwares como nos aplicativos de software. Acompanhe a seguir estas etapas.</p>
             <div>
-                <Image src={hardware}/>
-                <Image src={software}/>
+                <Image src={hardware} alt='figura windows 10' />
+                <Image src={software} alt='figura windows 10'/>
             </div>
             <p>Todo dispositivo possui possui um sistema de inicilaizaçõ. Quando colocamos a chave no contato do carro e damos a primeita mexida, todas as luzes do painel se acendem e somente auqlesa que estivere ativadas permancece. Quando ligamos o micro-ondas, ele acente todo o painel e faz um beep. Quando ligamos o nosso smartphone, el acende a tecla e faz um toque. Estes procedimento são úteis para identifica que os recurso do dispositivo estão disponíveis corretamente para a utilização.</p>
             <li><strong>POST - Power on Self Teste: </strong> autoteste da inicialização. Instuções definada pelo fabricante para a verificação de conponentes conectados;</li>
@@ -63,7 +63,7 @@ export default function NocoesSistemas() {
                 </ul>
             </ul>
             <div className={styles.imagem} >
-                <Image src={figuraUm} />
+                <Image src={figuraUm} alt='figura windows 10' />
                 <p>Figura 1 - Imagem da área de trabalho com Windows 10</p>
             </div>
 

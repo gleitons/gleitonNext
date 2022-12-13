@@ -153,7 +153,7 @@ export default function Nocoesestrategiasi() {
                 </div>
                 <p>Todas as organizações tem entrada e saída, saída tem originarias dos clientes e as entradas tem dos fornecedores.</p>
                 <p>Definição de forças do michel Conter </p>
-                <Image  src={Estrategiasic} className={styles.imgtotal} />
+                <Image  src={Estrategiasic} className={styles.imgtotal} alt='estratégias' />
                 <li>Três estratégias genéricas</li>
                 <p>Na visão de Michel Porter</p>
                 <h4>Estratégia</h4>
