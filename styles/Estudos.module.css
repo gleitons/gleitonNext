@@ -1,3 +1,8 @@
+.artigo {
+    width: 90%;
+    margin: auto;
+}
+
 .importante {
     border: red solid 1px;
     padding: 1em .6em;
@@ -14,6 +19,37 @@
     background-color: red;
     padding: .2em;
 }
+.importante::before {
+    content: "Cai em prova";
+    position: absolute;
+    top: 2px;
+    color: rgb(255, 247, 0);
+    background-color: red;
+    padding: .2em;
+    right: 0;
+}
+.importante strong {
+    color: red;
+}
+.espaco {
+    height: 200px;
+}
 .imagem {
     text-align: center;
+}
+.tabela table {
+    width: 70%;
+    border: red solid 1px;
+    padding: .9em;
+    margin: .8em 0px;
+}
+.tabela table thead td {
+    border: red solid 1px;
+}
+.tabela table tbody td {
+    border: red solid 1px;
+}
+.imgtotal  {
+    width: 100%;
+    
 }

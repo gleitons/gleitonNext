@@ -11,6 +11,20 @@ import doceneira from "../public/imagens/doceneira.png"
 import projetoP from "../public/imagens/projeto-portofolio.png"
 import cruzeiro from '../public/imagens/cruzeiro-do-sul-logo.jpeg'
 import senac from '../public/imagens/senac-logo.png'
+import ifnmg from '../public/img/instituto-federal-gleiton-aparecido-soares-de-souza.jpeg'
+import ipreus from '../public/img/instituto-padre-reus-logo-gleiton-aparecido-soares-de-souza.png'
+import eernf from '../public/img/escola-raimundo-nonato-da-fonseca-lagoa-dos-patos-mg.png'
+
+
+
+
+
+
+import facit from '../public/img/facit-femc-gleiton-aparecido-soares-de-souza.png'
+
+
+
+
 import Link from 'next/link'
 
 export default function Objetivo() {
@@ -33,7 +47,7 @@ export default function Objetivo() {
                     <h3>Engenharia de Software - Cruzeiro do Sul Virtual</h3>
                 </div>
                 <p className={styles.periodo}><strong>CURSANDO</strong> - Bacharelado em Engenharia, Engenharia de Software · (setembro de
-                2022 - setembro de 2026)</p>
+                    2022 - setembro de 2026)</p>
                 <p className={styles.pDesc}>O curso de Engenharia de Software prepara profissionais focados no desenvolvimento de novos programas de computador.</p>
             </div>
 
@@ -54,13 +68,53 @@ export default function Objetivo() {
 
             <div className={styles.topicoDiv}>
                 <div className={styles.flex}>
-                    <Image src={cruzeiro} alt={NomeGleiton} />
-                    <h3>Engenharia de Software - Cruzeiro do Sul Virtual</h3>
+                    <Image src={senac} alt={NomeGleiton} />
+                    <h3>Representante Comercial - SENAC/MG</h3>
                 </div>
-                <p className={styles.periodo}><strong>CURSANDO</strong> - Bacharelado em Engenharia, Engenharia de Software · (setembro de
-                2022 - setembro de 2026)</p>
-                <p className={styles.pDesc}>O curso de Engenharia de Software prepara profissionais focados no desenvolvimento de novos programas de computador.</p>
+                <p className={styles.periodo}>Curso Representante Comercial, realizado no período de 01/02/2022 à 31/03/2022 na cidade de Uberlândia-MG.</p>
+                <p className={styles.pDesc}>O Representante Comercial é responsável por realizar prospecção de clientes, negociação e vendas externas de produtos e serviços.</p>
             </div>
+
+
+            <div className={styles.topicoDiv}>
+                <div className={styles.flex}>
+                    <Image src={ifnmg} alt={`${NomeGleiton} ${ifnmg}`} />
+                    <h3>Técnico em Informática para Internet - IFNMG - Instituto Federal de Educação Ciência e Tecnologia de Minas Gerais</h3>
+                </div>
+                <p className={styles.periodo}>Técnico em Informática para Internet Tecnologia em Informática/Software 2017 - 2018</p>
+                <p className={styles.pDesc}>Desenvolve programas de computador para internet, seguindo as especificações e paradigmas da lógica de programação e das linguagens de programação. Utiliza ferramentas de desenvolvimento de sistemas, para construir soluções que auxiliam o processo de criação de interfaces e aplicativos empregados no comércio e marketing eletrônicos. Desenvolve e realiza a manutenção de sites e portais na internet e na intranet.</p>
+            </div>
+
+
+            <div className={styles.topicoDiv}>
+                <div className={styles.flex}>
+                    <Image src={facit} alt={`${NomeGleiton} ${facit}`} />
+                    <h3>Engenharia de Computação - FACIT/FEMC</h3>
+                </div>
+                <p className={styles.periodo}>Curso Superior de Tecnologia (CST)Engenharia de Computação</p>
+                <p className={styles.pDesc}>Não concluído 2013 - 2015 / O curso de Engenharia de Computação habilita a pessoa para trabalhar com o desenvolvimento e planejamento de softwares e hardwares.</p>
+            </div>
+
+
+            <div className={styles.topicoDiv}>
+                <div className={styles.flex}>
+                    <Image src={ipr} alt={`${NomeGleiton} ${ipr}`} />
+                    <h3>Montagem e Manutenção de Computadores - UNISC/IPR</h3>
+                </div>
+                <p className={styles.periodo}>Montagem e Manutenção de Computadores - UNISC(Universidade de Santa Cruz do Sul)/IPR (Instituto Padre Reus) - 1/2011 – 07/2011</p>
+                <p className={styles.pDesc}>Montagem, configuração e manutenção de hardware de computadores. Além de cuidados no manuseio e utilização de peças e equipamentos de informática, instalação e configuração dos diversos componentes de um microcomputador, seus periféricos e dos dispositivos auxiliares utilizados na computação.</p>
+            </div>
+
+            <div className={styles.topicoDiv}>
+                <div className={styles.flex}>
+                    <Image src={eernf} alt={`${NomeGleiton} ${eernf}`} />
+                    <h3>Ensino Médio Completo - Escola Estadual Raimundo Nonato da Fonseca</h3>
+                </div>
+                <p className={styles.periodo}>Técnico em Agropecuário - ICA/UFMG - Núcleo Montes Claros - MG - 1/2005 – 12/2006</p>
+                <p className={styles.pDesc}>*Falta Estágio - Planejar, executar, acompanhar e fiscalizar projetos agropecuários, administrar propriedades rurais, realizar levantamentos topográficos, elaborar e monitorar programas preventivos de sanitização da produção animal, vegetal e agroindustrial e atuar em programas de assistência técnica, extensão rural e pesquisa são algumas das responsabilidades do profissional formado em Agropecuária.</p>
+            </div>
+
+
 
         </div>
     )

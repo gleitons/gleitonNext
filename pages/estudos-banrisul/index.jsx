@@ -102,8 +102,8 @@ export default function MenuEstudo() {
                     <tr>
                         <td className={styles.horario}>18:00 - 19:30</td>
                         <td className={styles.portugues}>
-                            <Link href="">
-                                <li>Compreenção de texto</li>
+                            <Link href="./estudos-banrisul/lingua-portuguesa/compreensao-de-texto">
+                                <li>Compreensão de texto</li>
                             </Link>
                             <Link href="">
                                 <li>Ortografia Oficial</li>
@@ -154,7 +154,7 @@ export default function MenuEstudo() {
                             <li>Conceitos de tecnologia e ferramentas multimídia, de reprodução de áudio e vídeo</li>
                             <li>Ferramentas de produtividade e trabalho a distancia (microsoft Teams, cisco Webex, Google Hangout, Google Drive e Skype)</li>
                         </td>
-                        <td className={styles.vendas}>Técnicas de vendas: da pré-abordagem ao pós-vendas</td>
+                        <td className={styles.vendas}><Link href="./estudos-banrisul/vendas-e-negociacao/nocoes-de-estrategias-empresarial"><li>Noções de estratégias empresarial I</li></Link></td>
                         <td className={styles.matematicafinanceira}>Matematica Financeira</td>
                         <td className={styles.atualidades}>Atualidades do Mercado Financeiro</td>
                         <td className={styles.atualidades}>Atualidades do Mercado Financeiro</td>
@@ -167,7 +167,9 @@ export default function MenuEstudo() {
                             <li>Gestão da Experiência do Cliente
                             </li>
                         </td>
-                        <td className={styles.conhecimentos}>Conhecimentos Bancários</td>
+                        <td className={styles.conhecimentos}><a href="./estudos-banrisul/conhecimentos-bancarios/aula-introdutoria">
+                            <li>Noções do conselho Monetário Nacional (CMN)</li>
+                        </a></td>
                         <td className={styles.conhecimentos}>Conhecimentos Bancários</td>
                         <td className={styles.vendas}>Ética e conduta profissional em vendas</td>
                         <td className={styles.conhecimentos}>Conhecimentos Bancários</td>

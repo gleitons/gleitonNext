@@ -5,7 +5,7 @@
 }
 .estudos a:hover {
     transition: 300ms;
-    filter: invert(100);
+    color: gray;
 }
 .estudos thead {
     table-layout: fixed;
@@ -15,6 +15,10 @@
 .estudos td {
     padding: 1em .3em;
     padding-top: 1.8em;
+}
+.estudos td:hover {
+    transition: 350ms;
+    filter: invert(100);
 }
 .estudos li {
     border-bottom: rgba(0, 0, 0, 0.523) solid 1px;
