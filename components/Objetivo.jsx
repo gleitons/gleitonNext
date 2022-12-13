@@ -1,5 +1,5 @@
 import styles from '../styles/Objetivo.module.css'
-import Formulario from './Formulario'
+
 import Image from 'next/image'
 
 import raimundo from "../public/imagens/escola-raimundo-nonato-da-fonseca-lagoa-dos-patos-mg.png"
@@ -25,7 +25,7 @@ import facit from '../public/img/facit-femc-gleiton-aparecido-soares-de-souza.pn
 
 
 
-import Link from 'next/link'
+
 
 export default function Objetivo() {
     const NomeGleiton = 'Gleiton Aparecido Soares de Souza - Formação acadêmica'
