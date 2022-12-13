@@ -1,4 +1,4 @@
-import styles from '../../styles/Banrisul.module.css'
+import styles from '../../../styles/Banrisul.module.css'
 
 export default function ConselhoMonetario() {
     return (
