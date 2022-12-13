@@ -3,6 +3,24 @@
     padding: 0;
     box-sizing: border-box;
 }
+.papel {
+    background-image: url(../public/img/fundo-papel-gleiton-aparecido-soares-de-souza.jpeg);
+    border-radius: 8px;
+    
+
+}
+.papel > * {
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    background-color: #989898;
+    color: transparent;
+    font: 700 arial,sans-serif;
+    padding: 2px;
+    margin: 0;
+    text-align: center;
+    text-shadow: 2px 2px 3px hsl(0deg 0% 100% / 50%);
+}
 .fotoPerfil {
     width: 40%;
     border-radius: 8px;
@@ -99,6 +117,14 @@
 		transform: rotate(360deg);
 	}
 }
+@media (max-width: 768px) {
+    .fotoPerfil {
+        width: 100%;
+        border-radius: 8px;
+        overflow: hidden;
+       
+    }
+}
 @media (max-width: 568px) {
     .infoP {
         width: 100%;
@@ -109,4 +135,17 @@
     .fotoPerfil {
         width: 100%;
     }
+    .Isociais {
+        display: flex;
+      }
+      .Isociais p {
+        max-width: 100%;
+        line-height: 1em;
+        
+      }
+      .infoP h2 {
+        line-height: 1em;
+        font-size: 1.7em;
+        text-align: center;
+      }
   }

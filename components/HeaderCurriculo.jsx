@@ -3,16 +3,33 @@ import styles from '../styles/HeaderCurriculo.module.css'
 import { IoLogoWhatsapp } from 'react-icons/io'
 import { RiMailOpenFill } from 'react-icons/ri'
 import Gleiton from '/public/img/gleiton-aparecido-soares-de-souza.jpg'
+import GleitonCinza from '/public/gleiton-cinza.jpg'
+import GleitonAzul from '/public/gleiton-azul.jpg'
+import GleitonClean from '/public/gleiton-clean.jpg'
+import GleitonTransparente from '/public/gleiton-transparente.png'
 import Image from 'next/image'
+import Papel from './Papel'
 
 
 export default function HeaderCurriculo() {
+    function randoImg() {
+        const rando = Math.floor(4 * Math.random())
+        if (rando == 0) {
+            var imgPerfil = Gleiton;
+        } else {
+            var imgPerfil = GleitonTransparente;
+        }
+        return imgPerfil
+    }
     return (
         <>
+        
+        <Papel />
+       
             <div className={styles.cabecalho}>
                 <div className={styles.infoCapa}>
                     <div className={styles.fotoPerfil}>
-                    <Image src={Gleiton} alt="Gleiton Aparecido Soares de Souza" />
+                    <Image src= {Gleiton} alt="Gleiton Aparecido Soares de Souza" />
                     </div>
                     <div className={styles.infoP}>
                         <h2>GLEITON APARECIDO SOARES DE SOUZA</h2>

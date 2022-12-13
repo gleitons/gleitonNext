@@ -110,6 +110,16 @@ export default function Objetivo() {
                     <Image src={eernf} alt={`${NomeGleiton} ${eernf}`} />
                     <h3>Ensino Médio Completo - Escola Estadual Raimundo Nonato da Fonseca</h3>
                 </div>
+                <p className={styles.periodo}>1/2005 – 12/2007</p>
+                <p className={styles.pDesc}>Conclusão do Ensino médio do ensino Básico - Escola pública</p>
+            </div>
+
+
+            <div className={styles.topicoDiv}>
+                <div className={styles.flex}>
+                    <Image src={icaUFMG} alt={`${NomeGleiton} ${icaUFMG}`} />
+                    <h3>Técnico em Agropecuário - ICA/UFMG</h3>
+                </div>
                 <p className={styles.periodo}>Técnico em Agropecuário - ICA/UFMG - Núcleo Montes Claros - MG - 1/2005 – 12/2006</p>
                 <p className={styles.pDesc}>*Falta Estágio - Planejar, executar, acompanhar e fiscalizar projetos agropecuários, administrar propriedades rurais, realizar levantamentos topográficos, elaborar e monitorar programas preventivos de sanitização da produção animal, vegetal e agroindustrial e atuar em programas de assistência técnica, extensão rural e pesquisa são algumas das responsabilidades do profissional formado em Agropecuária.</p>
             </div>

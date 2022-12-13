@@ -123,6 +123,13 @@
     width: 100%;
     flex-direction: column;
   }
+  .corpoCurriculo {
+    width: 100%;
+  }
+  .container {
+    padding: 0;
+  }
+  
 }
 
 @media (prefers-color-scheme: dark) {
