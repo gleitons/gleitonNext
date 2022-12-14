@@ -20,7 +20,7 @@
   text-shadow: 2px 2px 3px hsl(0deg 0% 100% / 50%);
 }
 .fotoPerfil {
-  width: 35%;
+  width: 30%;
 }
 .fotoPerfil div {
   width: 100%;
@@ -57,7 +57,7 @@
   color: white;
   line-height: 0em;
   border-radius: 0px 8px 8px 0px;
-  margin: 10px 0;
+  margin: 10px 2em;
 }
 
 .sociais a {
@@ -82,6 +82,19 @@
   gap: 10px;
   align-items: center;
 }
+.iconesJ {
+  width: 100%;
+  background-color: gray; 
+}
+.iconesJ a {
+  margin-left: 10px;
+}
+.baixarC a button{
+  padding: .6em;
+  margin: 1.3em;
+}.baixarC a button:hover{
+  cursor: pointer;
+}
 .stail {
   margin: 10px 0px;
   display: flex;
@@ -105,6 +118,20 @@
   width: fit-content;
   color: rgb(255, 255, 255);
 }
+
+/*Janela Windows CSS*/
+.janelaWindows {
+  background-image: url(../public/img/windows-10-gleiton-aparecido-soares-de-souza-baixar-curriculo.jpg);
+  background-size: cover;
+  width: 50%;
+  border: solid 1px black;
+  text-align: center;
+  padding-bottom: 1em;
+}
+.oculted {
+  display: none;
+}
+
 @keyframes loading {
   0% {
     transform: rotate(0);
@@ -119,16 +146,23 @@
     border-radius: 8px;
     overflow: hidden;
   }
+  
 }
 @media (max-width: 568px) {
   .infoP {
     width: 100%;
+    margin: 10px 0em;
   }
   .infoCapa {
     display: block;
   }
   .fotoPerfil {
     width: 100%;
+  }
+  .janelaWindows {
+    
+    width: 100%;
+    
   }
   .Isociais {
     display: flex;
