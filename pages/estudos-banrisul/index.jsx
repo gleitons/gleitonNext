@@ -170,7 +170,12 @@ export default function MenuEstudo() {
                         <td className={styles.conhecimentos}><a href="./estudos-banrisul/conhecimentos-bancarios/aula-introdutoria">
                             <li>Noções do conselho Monetário Nacional (CMN)</li>
                         </a></td>
-                        <td className={styles.conhecimentos}>Conhecimentos Bancários</td>
+                        <td className={styles.conhecimentos}>Conhecimentos Bancários 
+                        <ul>
+                            <a href="./estudos-banrisul/conhecimentos-bancarios/cooperativas">
+                                <li>Cooperativas de Crédito</li>
+                            </a>
+                        </ul></td>
                         <td className={styles.vendas}>Ética e conduta profissional em vendas</td>
                         <td className={styles.conhecimentos}>Conhecimentos Bancários</td>
                         <td className={styles.atualidades}>Atualidades dos Mercado Financeiro</td>

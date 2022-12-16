@@ -17,6 +17,7 @@ import { AiOutlineMinusSquare } from 'react-icons/ai'
 import { BiSquare } from 'react-icons/bi'
 import { FaRegWindowClose } from 'react-icons/fa'
 
+import { useState } from 'react'
 
 
 
@@ -68,11 +69,7 @@ import gleiton12 from '../public/img/images/gleiton-aparecido-soares-capa/gleito
 
 
 export default function HeaderCurriculo() {
-    function aoClicar() {
-        const fJanela = document.getElementById('janelaC');
-        fJanela.classList.replace('janelaWindows', 'oculted')
-
-    }
+    const [Curriculu, setCurriculu] = useState('')
     return (
         <>
 
@@ -175,7 +172,7 @@ export default function HeaderCurriculo() {
                             >
                                 <div className={styles.Isociais}>
                                     < BsFillCloudArrowDownFill />
-                                    <p>Clique aqui para baixar este currículo</p>
+                                    <p onClick={() => setCurriculu (Curriculu)}>Clique aqui para baixar este currículo</p>
                                 </div>
                             </a>
                             <div className={styles.janelaWindows} id='janelaC'>
@@ -186,7 +183,7 @@ export default function HeaderCurriculo() {
                                 <a >
                                     < BiSquare />
                                 </a>
-                                <a onClick={aoClicar} id='fecharJanela' >
+                                <a  >
                                     < FaRegWindowClose />
                                     </a>
                                 </div>
@@ -203,6 +200,7 @@ export default function HeaderCurriculo() {
                                     <p>Estou Online Agora - Clique Aqui</p>
                                 </div>
                             </Link>
+                            <a  href="./estudos-banrisul"><button className={styles.cursoP}>Estudos</button></a>
 
                             
 
