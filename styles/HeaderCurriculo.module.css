@@ -146,10 +146,45 @@
   .fotoPerfil {
     width: 100%;
     border-radius: 8px;
-    overflow: hidden;
+    
+  }
+  .infoP {
+    width: 100%;
+    margin-left: 20%;
+  
+    
+  }
+  .infoP h2 {
+    line-height: 1em;
+    font-size: 1.7em;
+    text-align: center;
+  }
+  .infoP p {
+    line-height: 1em;
+    
+   
   }
   
 }
+@media (max-width: 1200px) {
+  .fotoPerfil {
+    width: 20%;
+    border-radius: 8px;
+    
+  }
+  .fotoPerfil img {
+    width: 60%;
+    height: 60%;
+  }
+  .infoP {
+    width: 100%;
+    margin-left: 20%;
+  
+    
+  }
+  
+}
+
 @media (max-width: 568px) {
   .infoP {
     width: 100%;
