@@ -13,26 +13,9 @@ import { AiFillCar } from 'react-icons/ai'
 import { FaMotorcycle } from 'react-icons/fa'
 import { BsFillCloudArrowDownFill } from 'react-icons/bs'
 
-import { AiOutlineMinusSquare } from 'react-icons/ai'
-import { BiSquare } from 'react-icons/bi'
-import { FaRegWindowClose } from 'react-icons/fa'
+import BaixarC from './BaixarC'
 
 import { useState } from 'react'
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 import Gleiton from '/public/img/gleiton-aparecido-soares-de-souza.jpg'
@@ -69,7 +52,17 @@ import gleiton12 from '../public/img/images/gleiton-aparecido-soares-capa/gleito
 
 
 export default function HeaderCurriculo() {
-    const [Curriculu, setCurriculu] = useState('')
+    const closeBanner=()=>{
+        
+        setHomeBanner(<BaixarC closeCurriculo={closeCurriculo}/>)
+     }
+     const closeCurriculo =() => {
+        setHomeBanner(<></>)
+     }
+     const maxCurriculo =() => {
+        setHomeBanner(<>rqrqwer</>)
+     }
+     const [homeBanner,setHomeBanner]=useState(<></>)
     return (
         <>
 
@@ -167,32 +160,14 @@ export default function HeaderCurriculo() {
                                     <p>CNH(Carteira de Habilitação): A/B</p>
                                 </div>
                             </Link>
-                            <a href="#fecharJanela"
-                                
-                            >
+                            <a href='#'>
                                 <div className={styles.Isociais}>
                                     < BsFillCloudArrowDownFill />
-                                    <p onClick={() => setCurriculu (Curriculu)}>Clique aqui para baixar este currículo</p>
+                                    <p  onClick={closeBanner}>Clique aqui para baixar este currículo</p>
                                 </div>
                             </a>
-                            <div className={styles.janelaWindows} id='janelaC'>
-                                <div className={styles.iconesJ}>
-                                <a >
-                                < AiOutlineMinusSquare />
-                                </a>
-                                <a >
-                                    < BiSquare />
-                                </a>
-                                <a  >
-                                    < FaRegWindowClose />
-                                    </a>
-                                </div>
-                                <p>Selecione o Modelo</p>
-                                <div className={styles.baixarC}>
-                                    <a href="/Gleiton - gleiton.com.br - Curriculo.pdf" target='_blank'><button>Curriculo Page</button></a>
-                                    <a href="/curriculo-gleiton-aparecido-soares-de-souza.pdf" target='_blank'><button>Curriculo Clean</button></a>
-                                </div>
-                            </div>
+                            {homeBanner}
+                           {/* <BaixarC /> */}
                             <Link href="https://api.whatsapp.com/send?phone=5551980652808&text=Ol%C3%A1,%20gostaria%20de%20falar%20com%20Gleiton Soares."
                                 target="_blank">
                                 <div className={styles.stail}>
