@@ -53,7 +53,7 @@ export default function HeaderCurriculo({abrirCurriculo}) {
     return (
         <>
 
-            <Papel />
+            {/* <Papel /> */}
 
             <div className={styles.cabecalho}>
                 <div className={styles.infoCapa}>
