@@ -20,9 +20,15 @@
   position: fixed;
 }
 .papel {
-  background-image: url(../public/img/fundo-papel-gleiton-aparecido-soares-de-souza.jpeg);
+  /* background-image: url(../public/img/fundo-papel-gleiton-aparecido-soares-de-souza.jpeg); */
+  background-color: #fff;
+background-image:
+linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
+linear-gradient(#eee .1em, transparent .1em);
+background-size: 100% 1.2em;
   border-radius: 8px;
 }
+
 .papel > * {
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -68,12 +74,14 @@
 }
 .infoP {
   width: 70%;
-
   padding: 10px;
   color: white;
   line-height: 0em;
   border-radius: 0px 8px 8px 0px;
   margin: 10px 2em;
+}
+.infoP a:hover {
+  cursor: pointer;
 }
 
 .sociais a {
@@ -140,8 +148,17 @@
 
 /*Janela Windows CSS*/
 .janelaWindows {
-  background-image: url(../public/img/windows-10-gleiton-aparecido-soares-de-souza-baixar-curriculo.jpg);
-  background-size: cover;
+  /* background-image: url(../public/img/windows-10-gleiton-aparecido-soares-de-souza-baixar-curriculo.jpg); */
+  background:
+linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+background-color: #131313;
+background-size: 20px 20px;
+ 
   width: 50%;
   margin-top: 20%;
   height: 30%;
@@ -149,7 +166,16 @@
   text-align: center;
   padding-bottom: 1em;
   margin: auto;
- 
+  animation: janelaW 1s ;
+}
+
+@keyframes janelaW {
+  0% {
+    margin-top: -100%;
+  }
+  100% {
+    margin-top: 0px;
+  }
 }
 
 .oculted {

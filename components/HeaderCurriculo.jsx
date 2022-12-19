@@ -147,7 +147,7 @@ export default function HeaderCurriculo({abrirCurriculo}) {
                                     <p>CNH(Carteira de Habilitação): A/B</p>
                                 </div>
                             </Link>
-                            <a href='#'>
+                            <a >
                                 <div className={styles.Isociais}>
                                     < BsFillCloudArrowDownFill />
                                     <p  onClick={abrirCurriculo}>Clique aqui para baixar este currículo</p>
