@@ -13,9 +13,6 @@ import { AiFillCar } from 'react-icons/ai'
 import { FaMotorcycle } from 'react-icons/fa'
 import { BsFillCloudArrowDownFill } from 'react-icons/bs'
 
-import BaixarC from './BaixarC'
-
-import { useState } from 'react'
 
 
 import Gleiton from '/public/img/gleiton-aparecido-soares-de-souza.jpg'
@@ -51,18 +48,8 @@ import gleiton12 from '../public/img/images/gleiton-aparecido-soares-capa/gleito
 
 
 
-export default function HeaderCurriculo() {
-    const closeBanner=()=>{
-        
-        setHomeBanner(<BaixarC closeCurriculo={closeCurriculo}/>)
-     }
-     const closeCurriculo =() => {
-        setHomeBanner(<></>)
-     }
-     const maxCurriculo =() => {
-        setHomeBanner(<>rqrqwer</>)
-     }
-     const [homeBanner,setHomeBanner]=useState(<></>)
+export default function HeaderCurriculo({abrirCurriculo}) {
+   
     return (
         <>
 
@@ -163,10 +150,10 @@ export default function HeaderCurriculo() {
                             <a href='#'>
                                 <div className={styles.Isociais}>
                                     < BsFillCloudArrowDownFill />
-                                    <p  onClick={closeBanner}>Clique aqui para baixar este currículo</p>
+                                    <p  onClick={abrirCurriculo}>Clique aqui para baixar este currículo</p>
                                 </div>
                             </a>
-                            {homeBanner}
+                           
                            {/* <BaixarC /> */}
                             <Link href="https://api.whatsapp.com/send?phone=5551980652808&text=Ol%C3%A1,%20gostaria%20de%20falar%20com%20Gleiton Soares."
                                 target="_blank">
