@@ -42,7 +42,9 @@ background-size: 100% 1.2em;
   text-shadow: 2px 2px 3px hsl(0deg 0% 100% / 50%);
 }
 .fotoPerfil {
-  width: 30%;
+  width: 34%;
+  filter: grayscale(100%);
+
 }
 .fotoPerfil div {
   width: 100%;
@@ -52,25 +54,27 @@ background-size: 100% 1.2em;
   margin-bottom: -20px;
 }
 .infoCapa {
+  border-radius: 8px;
   display: flex;
   margin: auto;
-
+  color: white;
   align-items: center;
-  background-color: rgba(255, 255, 255, 0.215);
-  -webkit-backdrop-filter: blur(10px);
-  backdrop-filter: blur(10px);
+  background-color: rgba(129, 129, 129);
+  /* -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px); */
 }
 .infoCapa img {
   width: 100%;
-  background-image: linear-gradient(
+  
+  /* background-image: linear-gradient(
     to bottom,
     rgba(238, 238, 238, 0.587),
     rgba(0, 0, 0, 0.351) 70%
-  );
-  -webkit-backdrop-filter: blur(10px);
-  backdrop-filter: blur(10px);
+  ); */
+  /* -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px); */
 
-  margin: 10px 0;
+  /* margin: 10px 0; */
 }
 .infoP {
   width: 70%;
@@ -79,6 +83,7 @@ background-size: 100% 1.2em;
   line-height: 0em;
   border-radius: 0px 8px 8px 0px;
   margin: 10px 2em;
+
 }
 .infoP a:hover {
   cursor: pointer;
@@ -95,6 +100,7 @@ background-size: 100% 1.2em;
 .vidPerfil {
   border-radius: 50%;
   overflow: hidden;
+  
 }
 .cursoP {
   cursor: progress;
@@ -144,6 +150,20 @@ background-size: 100% 1.2em;
   padding: 2px;
   width: fit-content;
   color: rgb(255, 255, 255);
+}
+.gleitonWeb {
+  border:  black solid 1px;
+  text-align: center;
+  background-color:black;
+  border-radius: 8px;
+  margin-left: 5px;
+background-image:
+radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
 }
 
 /*Janela Windows CSS*/
@@ -210,13 +230,15 @@ background-size: 20px 20px;
   }
 }
 @media (max-width: 1200px) {
+  
   .fotoPerfil {
-    width: 20%;
+    width: 60%;
     border-radius: 8px;
   }
   .fotoPerfil img {
-    width: 60%;
+    width: 100%;
     height: 60%;
+    margin: auto;
   }
   .infoP {
     width: 100%;
@@ -225,6 +247,11 @@ background-size: 20px 20px;
 }
 
 @media (max-width: 568px) {
+  .gleitonWeb {
+    
+    margin-left: 0px;
+  
+  }
   .infoP {
     width: 100%;
     margin: 10px 0em;

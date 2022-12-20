@@ -41,6 +41,10 @@ import gleiton10 from '../public/img/images/gleiton-aparecido-soares-capa/gleito
 import gleiton11 from '../public/img/images/gleiton-aparecido-soares-capa/gleiton-aparecido-soares-de-souza_11.jpg'
 import gleiton12 from '../public/img/images/gleiton-aparecido-soares-capa/gleiton-aparecido-soares-de-souza_12.jpg'
 
+import gleitonwebp from '../public/img/gleiton-aparecido-soares-de-souza.webp'
+
+
+
 
 
 
@@ -60,7 +64,12 @@ export default function HeaderCurriculo({abrirCurriculo}) {
 
 
                     <div className={styles.fotoPerfil}>
-                        <div className={styles.gleitonOne}>
+                    <div className={styles.gleitonWeb}>
+                    <Image src={gleitonwebp} alt='Gleiton 1' />
+                    </div>
+                   
+
+                        {/* <div className={styles.gleitonOne}>
                             <Image src={gleiton1} alt='Gleiton 1' />
                             <Image src={gleiton2} alt='Gleiton 2' />
                             <Image src={gleiton3} alt='Gleiton 3' />
@@ -77,7 +86,7 @@ export default function HeaderCurriculo({abrirCurriculo}) {
                             <Image src={gleiton10} alt='Gleiton 10' />
                             <Image src={gleiton11} alt='Gleiton 11' />
                             <Image src={gleiton12} alt='Gleiton 12' />
-                        </div>
+                        </div> */}
 
 
                     </div>
