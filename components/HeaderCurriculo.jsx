@@ -64,12 +64,12 @@ export default function HeaderCurriculo({abrirCurriculo}) {
 
 
                     <div className={styles.fotoPerfil}>
-                    <div className={styles.gleitonWeb}>
+                    {/* <div className={styles.gleitonWeb}>
                     <Image src={gleitonwebp} alt='Gleiton 1' />
-                    </div>
+                    </div> */}
                    
 
-                        {/* <div className={styles.gleitonOne}>
+                        <div className={styles.gleitonOne}>
                             <Image src={gleiton1} alt='Gleiton 1' />
                             <Image src={gleiton2} alt='Gleiton 2' />
                             <Image src={gleiton3} alt='Gleiton 3' />
@@ -86,7 +86,7 @@ export default function HeaderCurriculo({abrirCurriculo}) {
                             <Image src={gleiton10} alt='Gleiton 10' />
                             <Image src={gleiton11} alt='Gleiton 11' />
                             <Image src={gleiton12} alt='Gleiton 12' />
-                        </div> */}
+                        </div>
 
 
                     </div>
