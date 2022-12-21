@@ -13,6 +13,7 @@ import cruzeiro from '../public/imagens/cruzeiro-do-sul-logo.jpeg'
 import senac from '../public/imagens/senac-logo.png'
 import ifnmg from '../public/img/instituto-federal-gleiton-aparecido-soares-de-souza.jpeg'
 import ipreus from '../public/img/instituto-padre-reus-logo-gleiton-aparecido-soares-de-souza.png'
+import ldp from '../public/imagens/prefeitura-de-lagoa-dos-patos-mg-logo-gleiton-aparecido-soares-de-souza.png'
 import eernf from '../public/img/escola-raimundo-nonato-da-fonseca-lagoa-dos-patos-mg.png'
 
 
@@ -130,16 +131,126 @@ export default function Objetivo() {
 
             <div className={styles.topicoDiv}>
                 <div className={styles.flex}>
-                    <Image src={icaUFMG} alt={`${NomeGleiton} ${icaUFMG}`} />
-                    <h3>Técnico em Agropecuário - ICA/UFMG</h3>
+                    <Image src={bg} alt={`${NomeGleiton} ${bg}`} />
+                    <h3>Brasil Gôndolas LTDA</h3>
                 </div>
-                <p className={styles.periodo}>Técnico em Agropecuário - ICA/UFMG - Núcleo Montes Claros - MG - 1/2005 – 12/2006</p>
-                <p className={styles.pDesc}>*Falta Estágio - Planejar, executar, acompanhar e fiscalizar projetos agropecuários, administrar propriedades rurais, realizar levantamentos topográficos, elaborar e monitorar programas preventivos de sanitização da produção animal, vegetal e agroindustrial e atuar em programas de assistência técnica, extensão rural e pesquisa são algumas das responsabilidades do profissional formado em Agropecuária.</p>
+                <p className={styles.periodo}>Brasil Gôndolas LTDA - Maio de 2022 – até o Outubro - 5 meses / Canoas - Rio Grande do Sul
+
+                </p>
+                <p className={styles.pDesc}>Atuando na área administrativa de folha de pagamento, compra, venda, contato com fornecedores, contratos, alvarás, criação de planilhas para facilitar controles internos como estoque interno, estoque em centro de distribuição. Captação de clientes através de loja online e-commerce, cobranças, retornos. Facilidade de utilização de sistema terceirizado qualquer que seja ou uso necessário para uso da empresa.
+
+                </p>
             </div>
-            
+
+            <div className={styles.topicoDiv}>
+                <div className={styles.flex}>
+                    <Image src={ldp} alt={`${NomeGleiton} ${ldp}`} />
+                    <h3>Agente de Desenvolvimento Econômico - Prefeitura Municipal de Lagoa dos Patos - MG
+                    </h3>
+                </div>
+                <p className={styles.periodo}>Agente de Desenvolvimento Econômico - Jun. de 2017 – até Maio de 2022 - 5 anos, Lagoa dos Patos, Minas Gerais, Brasil
+
+                </p>
+                <p className={styles.pDesc}>O agente de desenvolvimento foi criado para auxiliar o processo de implementação e continuidade dos programas e projetos contidos na Lei Geral das Micro e Pequenas Empresas. Desempenhar um papel importante de coordenação e continuidade das atividades para desenvolvimento sustentável do município, juntamente com o poder público municipal e as lideranças do setor privado local. Executar e articular as políticas para implementação da Lei Geral das Micro e Pequenas Empresas no Município e criar uma articulação e mobilização na cidade em torno da causa do desenvolvimento local. Técnicas para moderação de grupos, negociação e solução de conflitos, elaboração e gestão de projetos, articulação, captação de recursos.
+
+                </p>
+            </div>
+
+            <div className={styles.topicoDiv}>
+                <div className={styles.flex}>
+                    <Image src={ldp} alt={`${NomeGleiton} ${ldp}`} />
+                    <h3>SEBRAE - Sala Mineira do Empreendedor de Lagoa dos Patos MG</h3>
+                </div>
+                <p className={styles.periodo}>Atendimento ao Cliente - Sala Mineira do Empreendedor em Lagoa dos Patos MG</p>
+                <p className={styles.pDesc}>Atendimento ao público MEI, ME, EPP, emissão de alvará, Emissão de notas fiscais, envio de documentos, cobranças de DAS ́N do simples nacional, organização dos deveres do MEI. Palestras educativas para o microempreendedor local. Atuando lado a lado com as administrações municipais, oferecendo apoio para empreendimentos de todos os portes.Trabalho executado juntamente com o de Agente de Desenvolvimento</p>
+            </div>
+
+            <div className={styles.topicoDiv}>
+                <div className={styles.flex}>
+                    <Image src={ldp} alt={`${NomeGleiton} ${ldp}`} />
+                    <h3>SEBRAE - Sala Mineira do Empreendedor de Lagoa dos Patos MG</h3>
+                </div>
+                <p className={styles.periodo}>Atendimento ao Cliente - Sala Mineira do Empreendedor em Lagoa dos Patos MG</p>
+                <p className={styles.pDesc}>Atendimento ao público MEI, ME, EPP, emissão de alvará, Emissão de notas fiscais, envio de documentos, cobranças de DAS ́N do simples nacional, organização dos deveres do MEI. Palestras educativas para o microempreendedor local. Atuando lado a lado com as administrações municipais, oferecendo apoio para empreendimentos de todos os portes.Trabalho executado juntamente com o de Agente de Desenvolvimento</p>
+            </div>
+
+            <div className={styles.topicoDiv}>
+                <div className={styles.flex}>
+                    <Image src={ldp} alt={`${NomeGleiton} ${ldp}`} />
+                    <h3>Gerente Comercial - HD Produtos Digitais</h3>
+                </div>
+                <p className={styles.periodo}>HD Produtos Digitais 26300217000100</p>
+                <p className={styles.pDesc}>Marketing Digital Criação de Sites Redes Sociais Vendas Online Atendimento ao Cliente Estratégias de Marketing para aumentar Vendas online. Vários projetos Online.</p>
+            </div>
+
+            <div className={styles.topicoDiv}>
+                <div className={styles.flex}>
+                    <Image src={ldp} alt={`${NomeGleiton} ${ldp}`} />
+                    <h3>Agente administrativo Fazendário - Prefeitura de Lagoa dos Patos MG</h3>
+                </div>
+                <p className={styles.periodo}>Abr. de 2016 - jun. de 2017 - 1 ano 3 meses</p>
+                <p className={styles.pDesc}>Lagoa dos Patos, Minas Gerais, Brasil Executar serviços relacionado a fazenda Municipal, orientar e esclarecer os contribuintes quanto ao cumprimento das obrigações legais referentes ao pagamento de tributos, com o objetivo de evitar a sonegação.</p>
+            </div>
+
+            <div className={styles.topicoDiv}>
+                <div className={styles.flex}>
+                    <Image src={ldp} alt={`${NomeGleiton} ${ldp}`} />
+                    <h3>Cadastro Imobiliário - Prefeitura de Lagoa dos Patos MG</h3>
+                </div>
+                <p className={styles.periodo}>Abr. de 2016 - jun. de 2017 - 1 ano 3 meses - Juntamente com o Agente Administrativo Fazendário</p>
+                <p className={styles.pDesc}>Gerenciamento de cadastro, alteração e baixa de imóveis, desmembramento e e regularização fundiária no município de Lagoa dos Patos MG.</p>
+            </div>
+
+            <div className={styles.topicoDiv}>
+                <div className={styles.flex}>
+                    <Image src={ldp} alt={`${NomeGleiton} ${ldp}`} />
+                    <h3>Gerente Patrimonial - Prefeitura de Lagoa dos Patos MG</h3>
+                </div>
+                <p className={styles.periodo}>jan. de 2015 - mar. de 2016 - 1 ano 3 meses - Lagoa dos Patos, Minas Gerais, Brasil</p>
+                <p className={styles.pDesc}>Cadastro, conferência, exclusão e organização de itens do património público. Etiquetagem, alteração e movimentação de património.</p>
+            </div>
+
+            <div className={styles.topicoDiv}>
+                <div className={styles.flex}>
+                    <Image src={ldp} alt={`${NomeGleiton} ${ldp}`} />
+                    <h3>Gerente de operações de almoxarifado - Prefeitura de Lagoa dos Patos MG</h3>
+                </div>
+                <p className={styles.periodo}>set. de 2014 - mar. de 2016 - 1 ano 7 meses - Lagoa dos Patos, Minas Gerais, Brasil</p>
+                <p className={styles.pDesc}>Atuando na área de cadastro, baixa, conferência e entrega de produtos em estoque</p>
+            </div>
+
+            <div className={styles.topicoDiv}>
+                <div className={styles.flex}>
+                    <Image src={ldp} alt={`${NomeGleiton} ${ldp}`} />
+                    <h3>Gerente de vendas e estoque / Ramo de Alimentos - Doceneira e Alimentos LTDA</h3>
+                </div>
+                <p className={styles.periodo}>04/2009 - 08/2013 - Comercial Doceneira e Alimentos LTDA</p>
+                <p className={styles.pDesc}>Gerenciava estoques, entrega, controle de validade e qualidade. Atendimento ao cliente e levantamento de dados para aprimorar lucros.</p>
+            </div>
+
 
 
             <h2>LICENSAS E CERTIFICADOS</h2>
+            
+            <div className={styles.topicoDiv}>
+                <div className={styles.flex}>
+                    <Image src={ldp} alt={`${NomeGleiton} ${ldp}`} />
+                    <h3>Javascript Web</h3>
+                </div>
+                <p className={styles.periodo}>31 de outubro de 2021 - Curso Em Video</p>
+                <p className={styles.pDesc}>Criação de Sites responsivos, domínio front-end.(conhecimento Médio) Javascript MasterClass.</p>
+            </div>
+
+            <div className={styles.topicoDiv}>
+                <div className={styles.flex}>
+                    <Image src={ldp} alt={`${NomeGleiton} ${ldp}`} />
+                    <h3>HTML, CSS</h3>
+                </div>
+                <p className={styles.periodo}>2 de março de 2022 - Curso em vídeo</p>
+                <p className={styles.pDesc}>Criação de Sites responsivos, domínio front-end.(conhecimento Médio) Javascript MasterClass.</p>
+            </div>
+
+
 
         </div>
     )

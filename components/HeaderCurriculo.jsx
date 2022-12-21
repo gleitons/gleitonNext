@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import styles from '../styles/HeaderCurriculo.module.css'
 import { IoLogoWhatsapp } from 'react-icons/io'
-import { RiMailOpenFill } from 'react-icons/ri'
+// import { RiMailOpenFill } from 'react-icons/ri'
 import { BsFillFlagFill } from 'react-icons/bs'
 import { FaMapMarkerAlt } from 'react-icons/fa'
 import { IoCallSharp } from 'react-icons/io5'
@@ -15,13 +15,13 @@ import { BsFillCloudArrowDownFill } from 'react-icons/bs'
 
 
 
-import Gleiton from '/public/img/gleiton-aparecido-soares-de-souza.jpg'
-import GleitonCinza from '/public/gleiton-cinza.jpg'
-import GleitonAzul from '/public/gleiton-azul.jpg'
-import GleitonClean from '/public/gleiton-clean.jpg'
-import GleitonTransparente from '/public/gleiton-transparente.png'
+// import Gleiton from '/public/img/gleiton-aparecido-soares-de-souza.jpg'
+// import GleitonCinza from '/public/gleiton-cinza.jpg'
+// import GleitonAzul from '/public/gleiton-azul.jpg'
+// import GleitonClean from '/public/gleiton-clean.jpg'
+// import GleitonTransparente from '/public/gleiton-transparente.png'
 import Image from 'next/image'
-import Papel from './Papel'
+// import Papel from './Papel'
 
 
 import gleiton1 from '../public/img/images/gleiton-aparecido-soares-capa/gleiton-aparecido-soares-de-souza_01.jpg'
@@ -41,7 +41,7 @@ import gleiton10 from '../public/img/images/gleiton-aparecido-soares-capa/gleito
 import gleiton11 from '../public/img/images/gleiton-aparecido-soares-capa/gleiton-aparecido-soares-de-souza_11.jpg'
 import gleiton12 from '../public/img/images/gleiton-aparecido-soares-capa/gleiton-aparecido-soares-de-souza_12.jpg'
 
-import gleitonwebp from '../public/img/gleiton-aparecido-soares-de-souza.webp'
+
 
 
 
@@ -171,7 +171,7 @@ export default function HeaderCurriculo({abrirCurriculo}) {
                                     <p>Estou Online Agora - Clique Aqui</p>
                                 </div>
                             </Link>
-                            <a  href="./estudos-banrisul"><button className={styles.cursoP}>Estudos</button></a>
+                            
 
                             
 
