@@ -16,6 +16,9 @@ import ipreus from '../public/img/instituto-padre-reus-logo-gleiton-aparecido-so
 import ldp from '../public/imagens/prefeitura-de-lagoa-dos-patos-mg-logo-gleiton-aparecido-soares-de-souza.png'
 import eernf from '../public/img/escola-raimundo-nonato-da-fonseca-lagoa-dos-patos-mg.png'
 
+import gleitonsvg from '../public/imagens/rosto-gleiton-aparecido-soares-de-souza.svg'
+
+
 
 
 
@@ -32,7 +35,19 @@ export default function Objetivo() {
     const NomeGleiton = 'Gleiton Aparecido Soares de Souza - Formação acadêmica'
 
     return (
-
+        <>
+        {/* <div className={styles.imagemEmCss}>
+            
+            <div >
+                cabelo
+            </div>
+            <div >
+                rosto
+            </div>
+            <div>
+                ombro
+            </div>
+        </div> */}
         <div className={styles.corpoDesc}>
             <h2>OBJETIVO</h2>
             <div className={styles.topicoDiv}>
@@ -253,5 +268,9 @@ export default function Objetivo() {
 
 
         </div>
+        <div>
+                    <Image src={gleitonsvg} alt={NomeGleiton}/>
+            </div>
+        </>
     )
 }

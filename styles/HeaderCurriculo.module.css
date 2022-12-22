@@ -3,6 +3,25 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/* Rosto em css*/
+.imagemEmCss {
+  width: 500px;
+  border: #131313 solid 1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 .fundoCurri {
   background: rgba(5, 0, 0, 0.2);
   box-shadow: 0 8px 32px 0 rgba(4, 12, 123, 0.37);
@@ -219,6 +238,7 @@ background-size: 20px 20px;
     width: 100%;
     margin-left: 20%;
   }
+  
 
   .infoP h2 {
     line-height: 1em;
@@ -230,6 +250,14 @@ background-size: 20px 20px;
   }
 }
 @media (max-width: 1200px) {
+  .infoP h2 {
+    line-height: 1em;
+    
+  }
+  .infoP p {
+    line-height: .8em;
+    
+  }
   
   .fotoPerfil {
     width: 60%;
