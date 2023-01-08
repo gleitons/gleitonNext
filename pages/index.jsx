@@ -39,7 +39,7 @@ export default function Home({abrirCurriculo}) {
 
 
         <title>Gleiton Aparecido Soares de Souza - Curriculum Vitae</title>
-        <meta name="description" content="Gleiton Aparecido Soares de Souza, informações profissionais, tudo sobre o Curricullum Vitae de Gleiton, site oficial, saiba mais sobre Gleiton" />
+        <meta name="description" content="Gleiton Aparecido Soares de Souza, informações profissionais, tudo sobre o Curricullum Vitae de Gleiton, site oficial, saiba mais sobre Gleiton - Montagem, configuração e manutenção de hardware de computadores. Além de cuidados no manuseio e utilização de peças e equipamentos de informática, instalação e configuração dos diversos componentes de um microcomputador, seus periféricos e dos dispositivos auxiliares utilizados na computação" />
         
         
       </Head>

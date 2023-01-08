@@ -56,7 +56,7 @@ export default function Objetivo() {
 
             <div className={styles.topicoDiv}>
                 <div className={styles.flex}>
-                    <Image src={cruzeiro} alt={NomeGleiton} />
+                    <Image src={cruzeiro} width={50} height={50} alt={NomeGleiton}  />
                     <h3>Engenharia de Software - Cruzeiro do Sul Virtual</h3>
                 </div>
                 <p className={styles.periodo}><strong>CURSANDO</strong> - Bacharelado em Engenharia, Engenharia de Software · (setembro de
@@ -532,7 +532,7 @@ export default function Objetivo() {
             </div>  
             <div className={styles.topicoDiv}>
                 <div className={styles.flex}>
-                    <Image src={projetoP} alt={`${NomeGleiton} PROJETOS E PORTFÓLIOS`} />
+                    <Image src={projetoP} alt={`${NomeGleiton} PROJETOS E PORTFÓLIOS`} width={50} height={50} />
                     <h3>gondoladeaco.com.br/</h3>
                 </div>
                 <p className={styles.periodo}><a href="http://gondoladeaco.com.br/">http://gondoladeaco.com.br/</a></p>
