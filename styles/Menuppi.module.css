@@ -1,0 +1,44 @@
+
+.menT {
+  width: 80%;
+  margin: auto;
+ 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+  
+}
+
+.msoftware {
+  display: flex;
+  gap: 2em;
+  justify-content: space-between;
+  align-items: center;
+}
+.msoftware p {
+  background-color: blue;
+  padding: 0.1em 3em 0.1em 0.5em;
+}
+.msoftware nav li::before {
+  content: "|";
+  margin: 0.8em;
+}
+.msoftware nav {
+  display: flex;
+  list-style: none;
+  gap: 1.3em;
+}
+.menuTop nav {
+  display: flex;
+  list-style: none;
+  gap: 0.6em;
+}
+.menuTop nav li {
+  background-color: red;
+  padding: 0.6em 1.5em;
+  border-radius: 8px 8px 0 0;
+}
+/* .menuDireito div {
+  margin: 2em 0px;
+} */

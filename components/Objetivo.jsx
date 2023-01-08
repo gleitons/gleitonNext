@@ -7,6 +7,15 @@ import icaUFMG from "../public/imagens/ica-ufmg.png"
 import ipr from "../public/imagens/instituto-padre-reus-logo-gleiton-aparecido-soares-de-souza.png"
 import bg from "../public/imagens/logo-brasil-gondolas-gleiton-aparecido-soares-de-souza.png"
 import hd from "../public/imagens/hd-produtos-digitais.png"
+import bradesco from "../public/imagens/fundacao-bradesco.png"
+import bnc from "../public/img/bolsa-nacional-de-compras.jpg"
+import udemy from "../public/img/udemy.png"
+import sebrae from "../public/img/sebrae.png"
+import ebape from "../public/img/ebape.png"
+import facit from "../public/img/facit-femc-gleiton-aparecido-soares-de-souza-on.png"
+
+
+import mupi from "../public/imagens/mupi-systems.jpeg"
 import doceneira from "../public/imagens/doceneira.png"
 import projetoP from "../public/imagens/projeto-portofolio.png"
 import cruzeiro from '../public/imagens/cruzeiro-do-sul-logo.jpeg'
@@ -16,7 +25,6 @@ import ipreus from '../public/img/instituto-padre-reus-logo-gleiton-aparecido-so
 import ldp from '../public/imagens/prefeitura-de-lagoa-dos-patos-mg-logo-gleiton-aparecido-soares-de-souza.png'
 import eernf from '../public/img/escola-raimundo-nonato-da-fonseca-lagoa-dos-patos-mg.png'
 
-import gleitonsvg from '../public/imagens/rosto-gleiton-aparecido-soares-de-souza.svg'
 
 
 
@@ -24,7 +32,7 @@ import gleitonsvg from '../public/imagens/rosto-gleiton-aparecido-soares-de-souz
 
 
 
-import facit from '../public/img/facit-femc-gleiton-aparecido-soares-de-souza.png'
+
 
 
 
@@ -36,18 +44,7 @@ export default function Objetivo() {
 
     return (
         <>
-        {/* <div className={styles.imagemEmCss}>
-            
-            <div >
-                cabelo
-            </div>
-            <div >
-                rosto
-            </div>
-            <div>
-                ombro
-            </div>
-        </div> */}
+      
         <div className={styles.corpoDesc}>
             <h2>OBJETIVO</h2>
             <div className={styles.topicoDiv}>
@@ -245,7 +242,7 @@ export default function Objetivo() {
 
 
 
-            <h2>LICENSAS E CERTIFICADOS</h2>
+            <h2>LICENÇAS E CERTIFICADOS</h2>
             
             <div className={styles.topicoDiv}>
                 <div className={styles.flex}>
@@ -265,12 +262,296 @@ export default function Objetivo() {
                 <p className={styles.pDesc}>Criação de Sites responsivos, domínio front-end.(conhecimento Médio) Javascript MasterClass.</p>
             </div>
 
+            <div className={styles.topicoDiv}>
+                <div className={styles.flex}>
+                    <Image src={bradesco} alt={`${NomeGleiton} ${bradesco}`} />
+                    <h3>Microsoft Office 365 - Conhecendo o Onedrive</h3>
+                </div>
+                <p className={styles.periodo}>Fundação Bradesco - Emitido em ago. de 2021</p>
+                <p className={styles.pDesc}>Cursos Livres.</p>
+            </div>
+
+            <div className={styles.topicoDiv}>
+                <div className={styles.flex}>
+                    <Image src={bradesco} alt={`${NomeGleiton} ${bradesco}`} />
+                    <h3>Microsoft Office 365 - Conhecendo o Onenote</h3>
+                </div>
+                <p className={styles.periodo}>Fundação Bradesco - Emitido em ago. de 2021</p>
+                <p className={styles.pDesc}>Cursos Livres.</p>
+            </div>
+
+            <div className={styles.topicoDiv}>
+                <div className={styles.flex}>
+                    <Image src={bradesco} alt={`${NomeGleiton} ${bradesco}`} />
+                    <h3>Microsoft Office 365 - Conhecendo o Planner</h3>
+                </div>
+                <p className={styles.periodo}>Fundação Bradesco - Emitido em ago. de 2021</p>
+                <p className={styles.pDesc}>Cursos Livres.</p>
+            </div>
+
+
+            <div className={styles.topicoDiv}>
+                <div className={styles.flex}>
+                    <Image src={bradesco} alt={`${NomeGleiton} ${bradesco}`} />
+                    <h3>Microsoft Office 365 - Conhecendo o Teams</h3>
+                </div>
+                <p className={styles.periodo}>Fundação Bradesco - Emitido em ago. de 2021</p>
+                <p className={styles.pDesc}>Cursos Livres.</p>
+            </div>
+            
+            <div className={styles.topicoDiv}>
+                <div className={styles.flex}>
+                    <Image src={bradesco} alt={`${NomeGleiton} ${bradesco}`} />
+                    <h3>Microsoft Office 365 - Conhecendo o Outlook</h3>
+                </div>
+                <p className={styles.periodo}>Fundação Bradesco - Emitido em ago. de 2021</p>
+                <p className={styles.pDesc}>Cursos Livres.</p>
+            </div>
+
+            <div className={styles.topicoDiv}>
+                <div className={styles.flex}>
+                    <Image src={bnc} alt={`${NomeGleiton} ${bnc}`} />
+                    <h3>Curso de Pregoeiro para Licitação</h3>
+                </div>
+                <p className={styles.periodo}>Bolsa Nacional de Compras Emitido em jul. de 2021</p>
+                <p className={styles.pDesc}>Cursos Livres.</p>
+            </div>
+
+            <div className={styles.topicoDiv}>
+                <div className={styles.flex}>
+                    <Image src={mupi} alt={`${NomeGleiton} ${mupi}`} />
+                    <h3>Fórum: Regularização Fundiária Urbana - Reurb e o desenvolvimento das cidades</h3>
+                </div>
+                <p className={styles.periodo}>Mupi Systems - Emitido em jun. de 2021</p>
+                <p className={styles.pDesc}>Cursos Livres.</p>
+            </div>
+
+            <div className={styles.topicoDiv}>
+                <div className={styles.flex}>
+                    <Image src={mupi} alt={`${NomeGleiton} ${mupi}`} />
+                    <h3>Segurança TI: Segurança da Informação</h3>
+                </div>
+                <p className={styles.periodo}>Mupi Systems - Emitido em jun. de 2021</p>
+                <p className={styles.pDesc}>Cursos Livres.</p>
+            </div>
+
+            <div className={styles.topicoDiv}>
+                <div className={styles.flex}>
+                    <Image src={udemy} alt={`${NomeGleiton} Udemy`} />
+                    <h3>Blog Automático - Ganhar Dinheiro Online Marketing Digital</h3>
+                </div>
+                <p className={styles.periodo}>Udemy - Emitido em dez. de 2020</p>
+                <p className={styles.pDesc}>Cursos Livres.</p>
+            </div>
+
+            <div className={styles.topicoDiv}>
+                <div className={styles.flex}>
+                    <Image src={udemy} alt={`${NomeGleiton} Udemy`} />
+                    <h3>Curso Completo de Instagram Marketing</h3>
+                </div>
+                <p className={styles.periodo}>Udemy - Emitido em nov. de 2018</p>
+                <p className={styles.pDesc}>Cursos Livres.</p>
+            </div>
+
+            <div className={styles.topicoDiv}>
+                <div className={styles.flex}>
+                    <Image src={udemy} alt={`${NomeGleiton} Udemy`} />
+                    <h3>SEO WordPress: Como aparecer no Google</h3>
+                </div>
+                <p className={styles.periodo}>Udemy - Emitido em nov. de 2018</p>
+                <p className={styles.pDesc}>Cursos Livres.</p>
+            </div>
+
+            <div className={styles.topicoDiv}>
+                <div className={styles.flex}>
+                    <Image src={sebrae} alt={`${NomeGleiton} Sebrae`} />
+                    <h3>Curso de agente de Desenvolvimento Avançado</h3>
+                </div>
+                <p className={styles.periodo}>Sebrae - Emitido em mai. de 2017</p>
+                <p className={styles.pDesc}>Cursos Livres.</p>
+            </div>
+
+            <div className={styles.topicoDiv}>
+                <div className={styles.flex}>
+                    <Image src={sebrae} alt={`${NomeGleiton} Sebrae`} />
+                    <h3>Curso de agente de Desenvolvimento Básico</h3>
+                </div>
+                <p className={styles.periodo}>Sebrae - Emitido em mai. de 2017</p>
+                <p className={styles.pDesc}>Cursos Livres.</p>
+            </div>
+
+
+            <div className={styles.topicoDiv}>
+                <div className={styles.flex}>
+                    <Image src={ebape} alt={`${NomeGleiton} Ebape`} />
+                    <h3>Certificado Aprovação Fundiária - EBAP - Escola Brasileira de Administração Pública</h3>
+                </div>
+                <p className={styles.periodo}>EBAP - Escola Brasileira de Administração Pública Emitido em mar. de 2017</p>
+                <p className={styles.pDesc}>Cursos Livres.</p>
+            </div>
+
+            <div className={styles.topicoDiv}>
+                <div className={styles.flex}>
+                    <Image src={facit} alt={`${NomeGleiton} Facit`} />
+                    <h3>I Encontro de Pesquisa Em Ciências e Tecnologia FACIT</h3>
+                </div>
+                <p className={styles.periodo}>Faculdade de Ciência e Tecnologia de Montes Claros - FACIT - Emitido em out. de 2015</p>
+                <p className={styles.pDesc}>Cursos Livres.</p>
+            </div>
+
+
+            <div className={styles.topicoDiv}>
+                <div className={styles.flex}>
+                    <Image src={facit} alt={`${NomeGleiton} Facit`} />
+                    <h3>III Forum das Engenharias 2015</h3>
+                </div>
+                <p className={styles.periodo}>Crea Jr-MG Núcleo Montes Claros - Emitido em ago. de 2015</p>
+                <p className={styles.pDesc}>Cursos Livres.</p>
+            </div>
+
+            <h2>PUBLICAÇÕES</h2>
+            
+
+            <div className={styles.topicoDiv}>
+                <div className={styles.flex}>
+                    <Image src={sebrae} alt={`${NomeGleiton} SEBRAE`} />
+                    <h3>Agente de Desenvolvimento inaugura Sala Mineira do Empreendedor em Lagoa dos Patos MG</h3>
+                </div>
+                <p className={styles.periodo}><a href="http://www.se.agenciasebrae.com.br/sites/asn/uf/MG/inaugurada-sala-mineira-do-empreendedor-em-lagoa-dos-patos,c84273a0523e2610VgnVCM1000004c00210aRCRD">sebrae.com.br</a></p>
+                <p className={styles.pDesc}>Sebrae 20 de abril de 2018 - Inaugurada Sala Mineira do Empreendedor em Lagoa dos Patos</p>
+            </div>
+            <h2>PROJETOS E PORTFÓLIOS</h2>
+
+            <div className={styles.topicoDiv}>
+                <div className={styles.flex}>
+                    <Image src={projetoP} alt={`${NomeGleiton} PROJETOS E PORTFÓLIOS`} />
+                    <h3>Sala Mineira do Empreendedor</h3>
+                </div>
+                <p className={styles.periodo}><a href="https://salamineira.com/">https://salamineira.com/</a></p>
+                <p className={styles.pDesc}>A Sala Mineira do Empreendedor, fruto de uma parceria entre JUCEMG, SEBRAE e municípios mineiros...</p>
+            </div>
+
+            <div className={styles.topicoDiv}>
+                <div className={styles.flex}>
+                    <Image src={projetoP} alt={`${NomeGleiton} PROJETOS E PORTFÓLIOS`} />
+                    <h3>Naturfive</h3>
+                </div>
+                <p className={styles.periodo}><a href="https://naturfive.com">https://naturfive.com</a></p>
+                <p className={styles.pDesc}>Desde 2020 somos Consultora Natura com muito orgulho e confiança! Tanto que em 2021 investimos tudo no site Naturfive Cosméticos para vender on-line todos os produtos Natura, com maior...</p>
+            </div>
+
+            <div className={styles.topicoDiv}>
+                <div className={styles.flex}>
+                    <Image src={projetoP} alt={`${NomeGleiton} PROJETOS E PORTFÓLIOS`} />
+                    <h3>Ó as Zidéia!</h3>
+                </div>
+                <p className={styles.periodo}><a href="https://gleitons.github.io/sou-tim/index.html">https://oaszideia.com</a></p>
+                <p className={styles.pDesc}>Memes aleatoriamente - Clique na imagem e coloque aleatoriamente...</p>
+            </div>
+
+            <div className={styles.topicoDiv}>
+                <div className={styles.flex}>
+                    <Image src={projetoP} alt={`${NomeGleiton} PROJETOS E PORTFÓLIOS`} />
+                    <h3>httpst.net</h3>
+                </div>
+                <p className={styles.periodo}><a href="https://httpst.net">https://httpst.net</a></p>
+                <p className={styles.pDesc}>Secretos - Dados Locked</p>
+            </div>  
+
+            <div className={styles.topicoDiv}>
+                <div className={styles.flex}>
+                    <Image src={projetoP} alt={`${NomeGleiton} PROJETOS E PORTFÓLIOS`} />
+                    <h3>seusiteonline.com</h3>
+                </div>
+                <p className={styles.periodo}><a href="https://seusiteonline.com">https://seusiteonline.com</a></p>
+                <p className={styles.pDesc}>Seusiteonline.com é uma empresa familiar independente de criação de sites com sede em Minas Gerais, Brasil, em uma pequena cidade no Norte de Minas....</p>
+            </div>  
+
+            <div className={styles.topicoDiv}>
+                <div className={styles.flex}>
+                    <Image src={projetoP} alt={`${NomeGleiton} PROJETOS E PORTFÓLIOS`} />
+                    <h3>megadehoje.com</h3>
+                </div>
+                <p className={styles.periodo}><a href="https://megadehoje.com">https://megadehoje.com</a></p>
+                <p className={styles.pDesc}>Somos um site com notícias, informações e dicas de como ganhar na mega-sena. Criado em 2018 o megadehoje.com te informa os últimos sorteios e premiações que...</p>
+            </div>  
+
+            <div className={styles.topicoDiv}>
+                <div className={styles.flex}>
+                    <Image src={projetoP} alt={`${NomeGleiton} PROJETOS E PORTFÓLIOS`} />
+                    <h3>veraoshop.com</h3>
+                </div>
+                <p className={styles.periodo}><a href="https://veraoshop.com">https://veraoshop.com</a></p>
+                <p className={styles.pDesc}>O verão Shop Online está revolucionando o mercado de vestuário, mais especificamente de tênis. A mais de 05 anos no mercado calçadista vendendo produtos de qualidade e sempre com o menor preço e na internet temos loja virtual desde 2018..</p>
+            </div>  
+
+            <div className={styles.topicoDiv}>
+                <div className={styles.flex}>
+                    <Image src={projetoP} alt={`${NomeGleiton} PROJETOS E PORTFÓLIOS`} />
+                    <h3>alexbebidas.com.br</h3>
+                </div>
+                <p className={styles.periodo}><a href="https://www.alexbebidas.com.br/">https://www.alexbebidas.com.br/</a></p>
+                <p className={styles.pDesc}>Venda de bebidas online...</p>
+            </div>  
+
+            <div className={styles.topicoDiv}>
+                <div className={styles.flex}>
+                    <Image src={projetoP} alt={`${NomeGleiton} PROJETOS E PORTFÓLIOS`} />
+                    <h3>alexbrasil.com.br</h3>
+                </div>
+                <p className={styles.periodo}><a href="https://www.alexbrasil.com.br/">https://www.alexbrasil.com.br/</a></p>
+                <p className={styles.pDesc}>Venda de bebidas online...</p>
+            </div>  
+
+            <div className={styles.topicoDiv}>
+                <div className={styles.flex}>
+                    <Image src={projetoP} alt={`${NomeGleiton} PROJETOS E PORTFÓLIOS`} />
+                    <h3>allesestofados.com.br</h3>
+                </div>
+                <p className={styles.periodo}><a href="https://www.allesestofados.com.br">https://www.allesestofados.com.br</a></p>
+                <p className={styles.pDesc}>Alles Estofados em Rio grande do Sul..</p>
+            </div>  
+
+
+            <div className={styles.topicoDiv}>
+                <div className={styles.flex}>
+                    <Image src={projetoP} alt={`${NomeGleiton} PROJETOS E PORTFÓLIOS`} />
+                    <h3>asconstrutora.com.br</h3>
+                </div>
+                <p className={styles.periodo}><a href="https://asconstrutora.com.br">https://asconstrutora.com.br</a></p>
+                <p className={styles.pDesc}>AS Construtora é uma empresa familiar que está no mercado a mais de 05 anos, nossos profissionais tem mais mais de 12 anos de experiência na área de construção..</p>
+            </div>  
+
+            <div className={styles.topicoDiv}>
+                <div className={styles.flex}>
+                    <Image src={projetoP} alt={`${NomeGleiton} PROJETOS E PORTFÓLIOS`} />
+                    <h3>ferragemdoxandi.com.br</h3>
+                </div>
+                <p className={styles.periodo}><a href="https://ferragemdoxandi.com.br">https://ferragemdoxandi.com.br</a></p>
+                <p className={styles.pDesc}>Ferragem do Xandi - FERRAGENS (RETALHO), Novo Hamburgo, 93530, Rua Pastor Gustavo Nordlund 337, TEL: 5195458..</p>
+            </div>  
+            <div className={styles.topicoDiv}>
+                <div className={styles.flex}>
+                    <Image src={projetoP} alt={`${NomeGleiton} PROJETOS E PORTFÓLIOS`} />
+                    <h3>gondoladeaco.com.br/</h3>
+                </div>
+                <p className={styles.periodo}><a href="http://gondoladeaco.com.br/">http://gondoladeaco.com.br/</a></p>
+                <p className={styles.pDesc}>Gôndolas de Aço e Expositores para Lojas e Supermercados, Porta Pallets, móveis de aço, máquinas e equipamentos para estabelecimentos comerciais em Canoas..</p>
+            </div>  
+
+            <div className={styles.topicoDiv}>
+                <div className={styles.flex}>
+                    <Image src={projetoP} alt={`${NomeGleiton} PROJETOS E PORTFÓLIOS`} />
+                    <h3>https://www.refap.com.br//</h3>
+                </div>
+                <p className={styles.periodo}><a href="https://www.refap.com.br/">https://www.refap.com.br/</a></p>
+                <p className={styles.pDesc}>REFAP - Refinaria Alberto Pasqualini</p>
+            </div>  
+
 
 
         </div>
-        <div>
-                    <Image src={gleitonsvg} alt={NomeGleiton}/>
-            </div>
+       
         </>
     )
 }

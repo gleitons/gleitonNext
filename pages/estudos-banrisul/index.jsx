@@ -169,6 +169,9 @@ export default function MenuEstudo() {
                         </td>
                         <td className={styles.conhecimentos}><a href="./estudos-banrisul/conhecimentos-bancarios/aula-introdutoria">
                             <li>Noções do conselho Monetário Nacional (CMN)</li>
+                        </a>
+                        <a href="./estudos-banrisul/conhecimentos-bancarios/questoes">
+                            <li>Questões Conhecimentos Bancários</li>
                         </a></td>
                         <td className={styles.conhecimentos}>Conhecimentos Bancários 
                         <ul>

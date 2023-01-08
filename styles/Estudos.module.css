@@ -1,6 +1,8 @@
 .artigo {
     width: 90%;
     margin: auto;
+    background-color: rgb(34, 34, 34);
+    padding: .8em;
 }
 
 .importante {

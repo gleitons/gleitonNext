@@ -98,6 +98,13 @@ export default function Questoes() {
                 <h4>Banco central - Diretores</h4>
                 <p>O prazo para os mandatos de presidnete do banco central é de 04 anos</p>
             </div>
+            <div>
+                <h2>Mo</h2>
+            </div>
+            <div>
+                <h2>Ética empresarial</h2>
+                <p>Um campo dentro da filosofia, que traz julgamento da moral</p>
+            </div>
 
         </>
         

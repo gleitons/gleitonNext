@@ -1,12 +1,48 @@
 .frasecontainer h2 {
-    width: fit-content;
-    margin: auto;
-    background-color: rgb(112, 128, 249);
-    padding: 5px;
-    border: black solid 1px;
-    border-radius: 8px;
-    color: white;
+  width: fit-content;
+  margin: auto;
+  background-color: rgb(112, 128, 249);
+  padding: 5px;
+  border: black solid 1px;
+  border-radius: 8px;
+  color: white;
 }
 .continua {
-    border-bottom: black solid 1px;
+  border-bottom: black solid 1px;
+}
+.contatoWhats {
+  color: green;
+  background-color: white;
+  border-radius: 12px;
+  font-size: 5em;
+  position: fixed;
+  text-align: center;
+  bottom: 0;
+  
+  right: 1em;
+  animation: whats 1s infinite alternate;
+}
+.contatoWhats:hover {
+    color: rgb(19, 233, 19);
+}
+@keyframes whats {
+  0% {
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+   
+  }
+  100% {
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.5);
+    
+  }
+}
+@media (max-width:568px) {
+    .contatoWhats {
+        
+        right: .2em;
+        
+      }
 }
