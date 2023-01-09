@@ -1,3 +1,7 @@
+Esse Projeto foi realizado utilizando NextJS, meu currículo Online, para visualizar, acesse meu site https://gleiton.com.br
+Também tenho a versão em React JS, para acessar a versão clique aqui - https://gleiton.netlify.app/
+Ainda em Construção e testando as ferramentas.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started

@@ -5,6 +5,7 @@ import Objetivo from '../components/Objetivo'
 import { useState } from 'react'
 import Contato from '../components/Contato'
 
+
 import BaixarC from '../components/BaixarC'
 
 
@@ -47,6 +48,7 @@ export default function Home({abrirCurriculo}) {
       <div className={styles.corpoCurriculo}>
         
         < HeaderCurriculo abrirCurriculo={closeBanner}/>
+        
         < Objetivo />
         < Contato />
       </div>

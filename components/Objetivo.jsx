@@ -14,6 +14,7 @@ import udemy from "../public/img/udemy.png"
 import sebrae from "../public/img/sebrae.png"
 import ebape from "../public/img/ebape.png"
 import facit from "../public/img/facit-femc-gleiton-aparecido-soares-de-souza-on.png"
+import Iframe from './Iframe'
 
 import html from "../public/img/html-css-javascript.png"
 import { BsChevronDoubleDown } from 'react-icons/bs'
@@ -44,7 +45,7 @@ export default function Objetivo() {
     const semInfo = () => {
         setInfomacao(<>
         < RxDoubleArrowUp  onClick={fechaSemInfo} />   
-        <p>Sem Informação no momento</p>
+        <p>...</p>
         </>)
     }
     const fechaSemInfo = () => {
@@ -84,6 +85,49 @@ export default function Objetivo() {
         </>)
     }
 
+    const abrirInsta = () => {
+        setInsta(<>
+         < RxDoubleArrowUp  onClick={fecharInsta} />             
+        <Certificados imagemC ='https://udemy-certificate.s3.amazonaws.com/image/UC-WXJ88BIE.jpg' />
+        </>)
+    }
+    const fecharInsta = () => {
+        setInsta(
+        <>
+          < BsChevronDoubleDown  onClick={abrirInsta} />  
+       
+        </>)
+    }
+
+    const abrirSala = () => {
+        setSala(<>
+         < RxDoubleArrowUp  onClick={fecharSala} />             
+        <Iframe endereco ='https://salamineira.com' />
+        </>)
+    }
+    const fecharSala = () => {
+        setSala(
+        <>
+          < BsChevronDoubleDown  onClick={abrirSala} />  
+       
+        </>)
+    }
+
+    const abrirNaturfive = () => {
+        setNaturfive(<>
+         < RxDoubleArrowUp  onClick={fecharNaturfive} />             
+        <Iframe endereco ='https://naturfive.com' />
+        </>)
+    }
+    const fecharNaturfive = () => {
+        setNaturfive(
+        <>
+          < BsChevronDoubleDown  onClick={abrirNaturfive} />  
+       
+        </>)
+    }
+
+
 
 
 
@@ -94,13 +138,17 @@ export default function Objetivo() {
        
         </>)
     }
-    const [semInformacao, setInfomacao] = useState(<>< BsChevronDoubleDown onClick={semInfo} /></>)
+    const [semInformacao, setInfomacao] = useState(<>< BsChevronDoubleDown   onClick={semInfo}  /></>)
     const [devSummit, setDevSummit] = useState(<>< BsChevronDoubleDown onClick={abrirDevSummit} /></>)
     const [tiSegImage, setTiSeg] = useState(<>< BsChevronDoubleDown onClick={abrirTiSeg} /></>)
+    const [InstaImage, setInsta] = useState(<>< BsChevronDoubleDown onClick={abrirInsta} /></>)
+    const [ISala, setSala] = useState(<>< BsChevronDoubleDown onClick={abrirSala} /></>)
+    const [INaturfive, setNaturfive] = useState(<>< BsChevronDoubleDown onClick={abrirNaturfive} /></>)
+    
 
     return (
         <>
-      
+        
         <div className={styles.corpoDesc}>
             <span id='objetivo'>.</span>
             <h2>OBJETIVO</h2>
@@ -512,7 +560,7 @@ export default function Objetivo() {
                 <p className={styles.periodo}>Udemy - Emitido em nov. de 2018</p>
                 <p className={styles.pDesc}>Cursos Livres.</p>
                 <div className={styles.iconeCertificado}>                    
-                    {semInformacao}                     
+                    {InstaImage}                     
                 </div>
             </div>
 
@@ -644,7 +692,7 @@ export default function Objetivo() {
                 <p className={styles.periodo}><a href="https://salamineira.com/">https://salamineira.com/</a></p>
                 <p className={styles.pDesc}>A Sala Mineira do Empreendedor, fruto de uma parceria entre JUCEMG, SEBRAE e municípios mineiros...</p>
                 <div className={styles.iconeCertificado}>                    
-                    {semInformacao}                     
+                    {ISala}                     
                 </div>
             </div>
 
@@ -656,7 +704,7 @@ export default function Objetivo() {
                 <p className={styles.periodo}><a href="https://naturfive.com">https://naturfive.com</a></p>
                 <p className={styles.pDesc}>Desde 2020 somos Consultora Natura com muito orgulho e confiança! Tanto que em 2021 investimos tudo no site Naturfive Cosméticos para vender on-line todos os produtos Natura, com maior...</p>
                 <div className={styles.iconeCertificado}>                    
-                    {semInformacao}                     
+                    {INaturfive}                     
                 </div>
             </div>
 

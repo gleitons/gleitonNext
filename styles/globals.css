@@ -4,6 +4,10 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    color: white;
+    background: rgb(33, 33, 33);
+    color-scheme: dark;
+    scroll-behavior: smooth;
 }
 
 a {
@@ -16,8 +20,8 @@ a {
 }
 /* INICIO PÁGINA ESTUDOS BANRISUL */
 span {
-  color: red;
-  text-decoration: underline;
+  color: rgb(255, 255, 255);
+  /* text-decoration: underline; */
   font-weight: 800;
 }
 .pc {
@@ -28,13 +32,4 @@ span {
 }
 /* FIM PÁGINA ESTUDOS BANRISUL */
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-    scroll-behavior: smooth;
-  }
-  body {
-    color: white;
-    background: rgb(33, 33, 33);
-  }
-}
+
