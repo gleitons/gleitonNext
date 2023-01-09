@@ -17,16 +17,16 @@
   /* border: rgba(17, 17, 17, 0.48) solid 1px; */
   /* background-image: url(../public/img/fundo-gleiton-aparecido-soares-de-souza.png); */
   /* background-image: linear-gradient(90deg, rgb(0, 12, 93), rgb(0, 0, 143), rgb(0, 40, 104), rgb(53, 0, 152)) ; */
-  
+
   /* background-color:rgb(5, 5, 129); */
-/* background-image: linear-gradient(30deg, #000037 12%, transparent 12.5%, transparent 87%, #000037 87.5%, #000037),
+  /* background-image: linear-gradient(30deg, #000037 12%, transparent 12.5%, transparent 87%, #000037 87.5%, #000037),
 linear-gradient(150deg, #000037 12%, transparent 12.5%, transparent 87%, #000037 87.5%, #000037),
 linear-gradient(30deg, #000037 12%, transparent 12.5%, transparent 87%, #000037 87.5%, #000037),
 linear-gradient(150deg, #000037 12%, transparent 12.5%, transparent 87%, #000037 87.5%, #000037),
 linear-gradient(60deg, #0101a5 25%, transparent 25.5%, transparent 75%, #0101a5 75%, #0101a5),
 linear-gradient(60deg, #0101a5 25%, transparent 25.5%, transparent 75%, #0101a5 75%, #0101a5); */
-background-size:80px 140px;
-background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
+  background-size: 80px 140px;
+  background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
   background-attachment: fixed;
   padding: 10px;
 }
@@ -75,7 +75,8 @@ background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
   font-size: 1.5rem;
 }
 .menuAcima {
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(36, 36, 36);
+  color: rgb(255, 255, 255);
   position: fixed;
   width: 100%;
   height: fit-content;
@@ -100,7 +101,7 @@ background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
   color: rgb(162, 162, 162);
   display: flex;
   list-style: none;
-  gap: .8em;
+  gap: 0.8em;
 }
 .menuTop .menuT {
   font-size: 2em;
@@ -109,11 +110,7 @@ background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
 }
 .menuTop a:hover {
   color: rgb(255, 255, 255);
-  
 }
-
-
-
 
 .code {
   background: #fafafa;
@@ -170,6 +167,10 @@ background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
 @media (max-width: 800px) {
   .iconFechar {
     display: block;
+    cursor: pointer;
+  }
+  .iconFechar:hover {
+    color: aliceblue;
   }
   .menuTop {
     display: flex;
@@ -182,12 +183,12 @@ background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
   .iconFechar {
     font-size: 2.3em;
   }
-  
+
   .menuTop nav {
-   
+    box-shadow: black -5px 5px 10px 0px;
     color: rgb(162, 162, 162);
     display: none;
-    position:absolute;
+    position: absolute;
     font-size: 1.1em;
     line-height: 30px;
     background-color: #111;
@@ -196,23 +197,35 @@ background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
     height: 100vh;
     right: 0;
     animation: menuF 500ms normal;
-    
   }
+  .menuTop nav  a {
+    
+    animation: liMenu 1s infinite ;
+  }
+  @keyframes liMenu {
+    0% {
+      bottom: 100%;
+    }
+    100% {
+      bottom: 0%;
+    }
+  }
+
   @keyframes menuF {
     0% {
       right: -100%;
     }
     100% {
-      right: 0;
+      right: 0%;
     }
   }
-  
+
   .menuTop .menuT {
     font-size: 2em;
     cursor: pointer;
     display: block;
   }
- 
+
   .grid {
     width: 100%;
     flex-direction: column;

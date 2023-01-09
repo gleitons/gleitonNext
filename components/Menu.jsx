@@ -3,7 +3,10 @@ import { GiHamburgerMenu } from 'react-icons/gi'
 import { FaWindowClose } from 'react-icons/fa'
 import { useState } from 'react'
 export default function Menu({fecharM}) {
-    
+   
+   
+   
+
     const fechaM = () => {
         const menUU = document.querySelector('#menuI');
         menUU.style.display = 'none'
@@ -14,13 +17,20 @@ export default function Menu({fecharM}) {
         menUU.style.display = 'block'
         setmEstado(<>Online fecha</>)
     }
+    
+    
     const [mEstado, setmEstado] = useState(<>Aquiii</>)
     return (
         <div className={styles.menuAcima}>
-           
+            
+            
+           <div  id='resolucao'>
+           </div>
             <div className={styles.menuTop}>
                 <div>
-                    <h2>Gleiton</h2>
+                    <a href="./">
+                        <h2>Gleiton</h2>
+                    </a>
                 </div>
                 <div>
                     <nav id='menuI'>
@@ -59,5 +69,7 @@ export default function Menu({fecharM}) {
                 </div>
             </div>
         </div>
+        
     )
+    
 }
