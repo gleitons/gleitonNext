@@ -1,5 +1,6 @@
 import { useState } from "react"
 import Teste from "../components/state/Teste"
+import BaixarC from "../components/BaixarC";
 
 export default function Estado() {
     const mudaEstado = () => {
@@ -11,11 +12,11 @@ export default function Estado() {
     const mudaEstado2 = () => {
        
        
-        setmEstado(<></>)
+        setmEstado(<><BaixarC /></>)
         
     }
 
-    const [mEstado, setmEstado] = useState(<>Estado1 </>)
+    const [mEstado, setmEstado] = useState(<>Fechado</>)
     return (
         <>
         <h3>Vamos ao estado</h3>

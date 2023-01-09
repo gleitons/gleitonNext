@@ -10,18 +10,6 @@
   border: #131313 solid 1px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 .fundoCurri {
   background: rgba(5, 0, 0, 0.2);
   box-shadow: 0 8px 32px 0 rgba(4, 12, 123, 0.37);
@@ -75,7 +63,7 @@ background-size: 100% 1.2em;
 .infoCapa {
   border-radius: 8px;
   display: flex;
-  margin: auto;
+  margin: 2em auto;
   color: white;
   align-items: center;
   background-color: rgba(129, 129, 129);
@@ -244,6 +232,7 @@ background-size: 20px 20px;
     line-height: 1em;
     font-size: 1.7em;
     text-align: center;
+    margin-top: 2em;
   }
   .infoP p {
     line-height: 1em;

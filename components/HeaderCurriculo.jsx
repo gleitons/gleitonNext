@@ -60,8 +60,9 @@ export default function HeaderCurriculo({abrirCurriculo}) {
             {/* <Papel /> */}
 
             <div className={styles.cabecalho}>
+            <span id='inicio'>_</span>
                 <div className={styles.infoCapa}>
-
+               
 
                     <div className={styles.fotoPerfil}>
                     {/* <div className={styles.gleitonWeb}>
@@ -171,9 +172,6 @@ export default function HeaderCurriculo({abrirCurriculo}) {
                                     <p>Estou Online Agora - Clique Aqui</p>
                                 </div>
                             </Link>
-                            
-
-                            
 
                         </div>
                     </div>

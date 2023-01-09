@@ -45,7 +45,7 @@ export default function Home({abrirCurriculo}) {
       </Head>
       
       <div className={styles.corpoCurriculo}>
-      
+        
         < HeaderCurriculo abrirCurriculo={closeBanner}/>
         < Objetivo />
         < Contato />

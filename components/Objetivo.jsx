@@ -14,6 +14,10 @@ import sebrae from "../public/img/sebrae.png"
 import ebape from "../public/img/ebape.png"
 import facit from "../public/img/facit-femc-gleiton-aparecido-soares-de-souza-on.png"
 
+import html from "../public/img/html-css-javascript.png"
+
+
+
 
 import mupi from "../public/imagens/mupi-systems.jpeg"
 import doceneira from "../public/imagens/doceneira.png"
@@ -26,19 +30,6 @@ import ldp from '../public/imagens/prefeitura-de-lagoa-dos-patos-mg-logo-gleiton
 import eernf from '../public/img/escola-raimundo-nonato-da-fonseca-lagoa-dos-patos-mg.png'
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 export default function Objetivo() {
     const NomeGleiton = 'Gleiton Aparecido Soares de Souza - Formação acadêmica'
 
@@ -46,12 +37,13 @@ export default function Objetivo() {
         <>
       
         <div className={styles.corpoDesc}>
+            <span id='objetivo'>.</span>
             <h2>OBJETIVO</h2>
             <div className={styles.topicoDiv}>
                 <p className={styles.pDesc}>Objetivo de atuação na área de TI (Tecnologia da Informação), administrativa, financeira, ou contábil, desenvolvendo e agregando conhecimento de todas as habilidades adquiridas ao longo de minha jornada profissional. Sempre disposto a receber conhecimento da organização que eu venha a me ingressar. Tenho interesse de construir uma carreira de sucesso, dessa forma contribuir para que a empresa alcance seus objetivos através do meu trabalho.</p>
             </div>
 
-
+            <span id='formacao'>.</span>
             <h2>FORMAÇÃO</h2>
 
             <div className={styles.topicoDiv}>
@@ -138,8 +130,8 @@ export default function Objetivo() {
             </div>
 
 
-
-            <h2>EXPERIÊNCIAS PROFISSIONAIS</h2>
+            <span id='experiencia'>.</span>
+            <h2 >EXPERIÊNCIAS PROFISSIONAIS</h2>
 
             <div className={styles.topicoDiv}>
                 <div className={styles.flex}>
@@ -233,7 +225,7 @@ export default function Objetivo() {
 
             <div className={styles.topicoDiv}>
                 <div className={styles.flex}>
-                    <Image src={ldp} alt={`${NomeGleiton} ${ldp}`} />
+                    <Image src={doceneira} alt={`${NomeGleiton} Doceneira`} />
                     <h3>Gerente de vendas e estoque / Ramo de Alimentos - Doceneira e Alimentos LTDA</h3>
                 </div>
                 <p className={styles.periodo}>04/2009 - 08/2013 - Comercial Doceneira e Alimentos LTDA</p>
@@ -241,12 +233,12 @@ export default function Objetivo() {
             </div>
 
 
-
+            <span id='licencas'>.</span>
             <h2>LICENÇAS E CERTIFICADOS</h2>
             
             <div className={styles.topicoDiv}>
                 <div className={styles.flex}>
-                    <Image src={ldp} alt={`${NomeGleiton} ${ldp}`} />
+                    <Image src={html} alt={`${NomeGleiton} `} />
                     <h3>Javascript Web</h3>
                 </div>
                 <p className={styles.periodo}>31 de outubro de 2021 - Curso Em Video</p>
@@ -255,7 +247,7 @@ export default function Objetivo() {
 
             <div className={styles.topicoDiv}>
                 <div className={styles.flex}>
-                    <Image src={ldp} alt={`${NomeGleiton} ${ldp}`} />
+                    <Image src={html} alt={`${NomeGleiton} `} />
                     <h3>HTML, CSS</h3>
                 </div>
                 <p className={styles.periodo}>2 de março de 2022 - Curso em vídeo</p>
@@ -407,9 +399,10 @@ export default function Objetivo() {
                 </div>
                 <p className={styles.periodo}>Crea Jr-MG Núcleo Montes Claros - Emitido em ago. de 2015</p>
                 <p className={styles.pDesc}>Cursos Livres.</p>
-            </div>
+            </div >
+            <span id='publica'>.</span>
 
-            <h2>PUBLICAÇÕES</h2>
+            <h2 >PUBLICAÇÕES</h2>
             
 
             <div className={styles.topicoDiv}>
@@ -420,6 +413,8 @@ export default function Objetivo() {
                 <p className={styles.periodo}><a href="http://www.se.agenciasebrae.com.br/sites/asn/uf/MG/inaugurada-sala-mineira-do-empreendedor-em-lagoa-dos-patos,c84273a0523e2610VgnVCM1000004c00210aRCRD">sebrae.com.br</a></p>
                 <p className={styles.pDesc}>Sebrae 20 de abril de 2018 - Inaugurada Sala Mineira do Empreendedor em Lagoa dos Patos</p>
             </div>
+            <span id='projeto'>.</span>
+            
             <h2>PROJETOS E PORTFÓLIOS</h2>
 
             <div className={styles.topicoDiv}>
