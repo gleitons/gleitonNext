@@ -1,7 +1,7 @@
 import styles from '../styles/Objetivo.module.css'
 
 import Image from 'next/image'
-
+import Certificados from './Certificados'
 import raimundo from "../public/imagens/escola-raimundo-nonato-da-fonseca-lagoa-dos-patos-mg.png"
 import icaUFMG from "../public/imagens/ica-ufmg.png"
 import ipr from "../public/imagens/instituto-padre-reus-logo-gleiton-aparecido-soares-de-souza.png"
@@ -15,8 +15,7 @@ import ebape from "../public/img/ebape.png"
 import facit from "../public/img/facit-femc-gleiton-aparecido-soares-de-souza-on.png"
 
 import html from "../public/img/html-css-javascript.png"
-
-
+import { BsChevronDoubleDown } from 'react-icons/bs'
 
 
 import mupi from "../public/imagens/mupi-systems.jpeg"
@@ -29,9 +28,17 @@ import ipreus from '../public/img/instituto-padre-reus-logo-gleiton-aparecido-so
 import ldp from '../public/imagens/prefeitura-de-lagoa-dos-patos-mg-logo-gleiton-aparecido-soares-de-souza.png'
 import eernf from '../public/img/escola-raimundo-nonato-da-fonseca-lagoa-dos-patos-mg.png'
 
+import { useState } from 'react'
+
 
 export default function Objetivo() {
     const NomeGleiton = 'Gleiton Aparecido Soares de Souza - Formação acadêmica'
+
+    const imagemShow = () => {
+        <Certificados certificado='/certificados/certificado-dev-summit-3-edicao-2021-gleiton-aparecido-soares-de-souza.jpg' />
+       
+    }
+    const [imgShow, setImageS] = useState(<></>)
 
     return (
         <>
@@ -399,8 +406,25 @@ export default function Objetivo() {
                 </div>
                 <p className={styles.periodo}>Crea Jr-MG Núcleo Montes Claros - Emitido em ago. de 2015</p>
                 <p className={styles.pDesc}>Cursos Livres.</p>
+                <div className={styles.iconeCertificado}>
+                    < BsChevronDoubleDown  onClick={imagemShow} />
+                    {imgShow}
+                    
+
+                </div>
             </div >
+
+
+
+
+
+
+
+
             <span id='publica'>.</span>
+
+
+
 
             <h2 >PUBLICAÇÕES</h2>
             
@@ -413,7 +437,22 @@ export default function Objetivo() {
                 <p className={styles.periodo}><a href="http://www.se.agenciasebrae.com.br/sites/asn/uf/MG/inaugurada-sala-mineira-do-empreendedor-em-lagoa-dos-patos,c84273a0523e2610VgnVCM1000004c00210aRCRD">sebrae.com.br</a></p>
                 <p className={styles.pDesc}>Sebrae 20 de abril de 2018 - Inaugurada Sala Mineira do Empreendedor em Lagoa dos Patos</p>
             </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
             <span id='projeto'>.</span>
+
+
             
             <h2>PROJETOS E PORTFÓLIOS</h2>
 

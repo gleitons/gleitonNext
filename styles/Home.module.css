@@ -168,7 +168,9 @@ linear-gradient(60deg, #0101a5 25%, transparent 25.5%, transparent 75%, #0101a5 
   .iconFechar {
     display: block;
     cursor: pointer;
+    animation: iconeFecha 700ms normal;
   }
+ 
   .iconFechar:hover {
     color: aliceblue;
   }
@@ -181,7 +183,7 @@ linear-gradient(60deg, #0101a5 25%, transparent 25.5%, transparent 75%, #0101a5 
     scroll-behavior: smooth;
   }
   .iconFechar {
-    font-size: 2.3em;
+    font-size: 2em;
   }
 
   .menuTop nav {
@@ -189,36 +191,46 @@ linear-gradient(60deg, #0101a5 25%, transparent 25.5%, transparent 75%, #0101a5 
     color: rgb(162, 162, 162);
     display: none;
     position: absolute;
-    font-size: 1.1em;
+    font-size: 1.3em;
     line-height: 30px;
     background-color: #111;
-    padding: 1em;
+    padding: .7em;
+    padding-right: 0px;
     width: 70%;
     height: 100vh;
     right: 0;
-    animation: menuF 500ms normal;
+    animation: menuF 500ms normal ;
   }
   .menuTop nav  a {
+    width: 100%;
     
-    animation: liMenu 1s infinite ;
   }
-  @keyframes liMenu {
-    0% {
-      bottom: 100%;
-    }
-    100% {
-      bottom: 0%;
-    }
-  }
+  
 
   @keyframes menuF {
     0% {
       right: -100%;
+     
     }
     100% {
       right: 0%;
+     
     }
   }
+  @keyframes iconeFecha {
+    0% {
+      
+      rotate: 90deg;
+      
+    }
+    100% {
+      
+      rotate: -90deg;
+      
+    }
+  } 
+
+
 
   .menuTop .menuT {
     font-size: 2em;

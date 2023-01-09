@@ -1,7 +1,15 @@
 import styles from '../styles/Home.module.css'
 import { GiHamburgerMenu } from 'react-icons/gi'
 import { FaWindowClose } from 'react-icons/fa'
+import { MdMenuOpen } from 'react-icons/md'
+import { IoCloseSharp } from 'react-icons/io5'
 import { useState } from 'react'
+
+
+
+
+
+
 export default function Menu({fecharM}) {
    
    
@@ -34,8 +42,8 @@ export default function Menu({fecharM}) {
                 </div>
                 <div>
                     <nav id='menuI'>
-                    <div className={styles.iconFechar}>
-                        <FaWindowClose onClick={fechaM} />
+                    <div >
+                        <IoCloseSharp className={styles.iconFechar} onClick={fechaM} />
                     </div>
                     <a href="#inicio">
                     <div className={styles.menuT}>

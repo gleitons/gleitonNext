@@ -71,7 +71,7 @@ export default function HeaderCurriculo({abrirCurriculo}) {
                    
 
                         <div className={styles.gleitonOne}>
-                            <Image src={gleiton1} alt='Gleiton 1' />
+                            <Image src={gleiton1} alt='Gleiton 1'  />
                             <Image src={gleiton2} alt='Gleiton 2' />
                             <Image src={gleiton3} alt='Gleiton 3' />
                             <Image src={gleiton4} alt='Gleiton 4' />
