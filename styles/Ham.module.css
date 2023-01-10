@@ -33,7 +33,20 @@
     width: 100%;
     height: 480px;
   }
-  
+  .escrita p{
+    font-size: medium;
+    font-style: italic;
+    animation: textoDent 300ms normal;
+  }
+  @keyframes textoDent {
+    0% {
+      margin-top: -5%;
+      opacity: 0%;
+    }
+    100% {
+      top: 0%;
+    }
+  }
   .bm-menu {
     background: #373a47;
     padding: 0.3rem 0.3rem 0;

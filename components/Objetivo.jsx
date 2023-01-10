@@ -18,7 +18,7 @@ import Iframe from './Iframe'
 
 import html from "../public/img/html-css-javascript.png"
 import { BsChevronDoubleDown } from 'react-icons/bs'
-
+import InfoEscritas from './InfoEscritas'
 import { RxDoubleArrowUp } from 'react-icons/rx'
 
 
@@ -45,7 +45,7 @@ export default function Objetivo() {
     const semInfo = () => {
         setInfomacao(<>
         < RxDoubleArrowUp  onClick={fechaSemInfo} />   
-        <p>...</p>
+        <InfoEscritas info = 'Em breve mais informações serão adicionadas. *Alguns itens já possuem.' />
         </>)
     }
     const fechaSemInfo = () => {
@@ -54,6 +54,20 @@ export default function Objetivo() {
               < BsChevronDoubleDown  onClick={semInfo} />  
            
             </>)
+    }
+    //Objetivo
+    const abrirObjetivo = () => {
+        setIObjetivo(<>
+         < RxDoubleArrowUp  onClick={fecharIObjetivo} />             
+        <InfoEscritas info ='A área de TI, ou área de Tecnologia da Informação, é aquela responsável por gerenciar o fluxo de informações em redes de computadores de uma organização. Estas informações, mais comumente conhecidas como dados, são administradas através de softwares, bancos de dados, hardwares, redes de segurança e outros elementos que compõem o escopo de atuação de um profissional de tecnologia.' />
+        </>)
+    }
+    const fecharIObjetivo = () => {
+        setIObjetivo(
+        <>
+          < BsChevronDoubleDown  onClick={abrirObjetivo} />  
+       
+        </>)
     }
     //Imagens Licenças e Certificados
 
@@ -139,6 +153,9 @@ export default function Objetivo() {
         </>)
     }
     const [semInformacao, setInfomacao] = useState(<>< BsChevronDoubleDown   onClick={semInfo}  /></>)
+    const [IObjetivo, setIObjetivo] = useState(<>< BsChevronDoubleDown   onClick={abrirObjetivo}  /></>)
+
+
     const [devSummit, setDevSummit] = useState(<>< BsChevronDoubleDown onClick={abrirDevSummit} /></>)
     const [tiSegImage, setTiSeg] = useState(<>< BsChevronDoubleDown onClick={abrirTiSeg} /></>)
     const [InstaImage, setInsta] = useState(<>< BsChevronDoubleDown onClick={abrirInsta} /></>)
@@ -155,7 +172,7 @@ export default function Objetivo() {
             <div className={styles.topicoDiv}>
                 <p className={styles.pDesc}>Objetivo de atuação na área de TI (Tecnologia da Informação), administrativa, financeira, ou contábil, desenvolvendo e agregando conhecimento de todas as habilidades adquiridas ao longo de minha jornada profissional. Sempre disposto a receber conhecimento da organização que eu venha a me ingressar. Tenho interesse de construir uma carreira de sucesso, dessa forma contribuir para que a empresa alcance seus objetivos através do meu trabalho.</p>
                 <div className={styles.iconeCertificado}>                    
-                    {semInformacao}                     
+                    {IObjetivo}                     
                 </div>
             </div>
 
