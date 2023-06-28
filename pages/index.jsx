@@ -4,9 +4,8 @@ import HeaderCurriculo from '../components/HeaderCurriculo'
 import Objetivo from '../components/Objetivo'
 import { useState } from 'react'
 import Contato from '../components/Contato'
-
-
 import BaixarC from '../components/BaixarC'
+import MenuOriginal from '../components/Menu'
 
 
 
@@ -44,7 +43,7 @@ export default function Home({abrirCurriculo}) {
         
         
       </Head>
-      
+      <MenuOriginal />
       <div className={styles.corpoCurriculo}>
         
         < HeaderCurriculo abrirCurriculo={closeBanner}/>

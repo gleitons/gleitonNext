@@ -24,22 +24,23 @@ import Image from 'next/image'
 // import Papel from './Papel'
 
 
-import gleiton1 from '../public/img/images/gleiton-aparecido-soares-capa/gleiton-aparecido-soares-de-souza_01.jpg'
-import gleiton2 from '../public/img/images/gleiton-aparecido-soares-capa/gleiton-aparecido-soares-de-souza_02.jpg'
-import gleiton3 from '../public/img/images/gleiton-aparecido-soares-capa/gleiton-aparecido-soares-de-souza_03.jpg'
-import gleiton4 from '../public/img/images/gleiton-aparecido-soares-capa/gleiton-aparecido-soares-de-souza_04.jpg'
+import gleiton1 from '../public/img/gleiton/images/gleiton_01.jpg'
+import gleiton2 from '../public/img/gleiton/images/gleiton_02.jpg'
+import gleiton3 from '../public/img/gleiton/images/gleiton_03.jpg'
+import gleiton4 from '../public/img/gleiton/images/gleiton_04.jpg'
 
 
-import gleiton5 from '../public/img/images/gleiton-aparecido-soares-capa/gleiton-aparecido-soares-de-souza_05.jpg'
-import gleiton6 from '../public/img/images/gleiton-aparecido-soares-capa/gleiton-aparecido-soares-de-souza_06.jpg'
-import gleiton7 from '../public/img/images/gleiton-aparecido-soares-capa/gleiton-aparecido-soares-de-souza_07.jpg'
-import gleiton8 from '../public/img/images/gleiton-aparecido-soares-capa/gleiton-aparecido-soares-de-souza_08.jpg'
+import gleiton5 from '../public/img/gleiton/images/gleiton_05.jpg'
+import gleiton6 from '../public/img/gleiton/images/gleiton_06.jpg'
+import gleiton7 from '../public/img/gleiton/images/gleiton_07.jpg'
+import gleiton8 from '../public/img/gleiton/images/gleiton_08.jpg'
 
 
-import gleiton9 from '../public/img/images/gleiton-aparecido-soares-capa/gleiton-aparecido-soares-de-souza_09.jpg'
-import gleiton10 from '../public/img/images/gleiton-aparecido-soares-capa/gleiton-aparecido-soares-de-souza_10.jpg'
-import gleiton11 from '../public/img/images/gleiton-aparecido-soares-capa/gleiton-aparecido-soares-de-souza_11.jpg'
-import gleiton12 from '../public/img/images/gleiton-aparecido-soares-capa/gleiton-aparecido-soares-de-souza_12.jpg'
+import gleiton9 from '../public/img/gleiton/images/gleiton_09.jpg'
+import gleiton10 from '../public/img/gleiton/images/gleiton_10.jpg'
+import gleiton11 from '../public/img/gleiton/images/gleiton_11.jpg'
+import gleiton12 from '../public/img/gleiton/images/gleiton_12.jpg'
+//import gleiton12 from '../public/img/images/gleiton-aparecido-soares-capa/gleiton-aparecido-soares-de-souza_12.jpg'
 
 
 

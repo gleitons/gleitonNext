@@ -31,6 +31,7 @@ import ifnmg from '../public/img/instituto-federal-gleiton-aparecido-soares-de-s
 import ipreus from '../public/img/instituto-padre-reus-logo-gleiton-aparecido-soares-de-souza.png'
 import ldp from '../public/imagens/prefeitura-de-lagoa-dos-patos-mg-logo-gleiton-aparecido-soares-de-souza.png'
 import eernf from '../public/img/escola-raimundo-nonato-da-fonseca-lagoa-dos-patos-mg.png'
+import comprarAgricultura from "../public/img/certificado-gleiton-aparecido-soares-de-souza-gestor-como-comprar-da-agricultura-familiar.jpg"
 
 //import tiSeg from '../public/img/curso-seguranca-da-informacao-gleiton-aparecido-soares-de-souza.png'
 
@@ -99,6 +100,34 @@ export default function Objetivo() {
         </>)
     }
 
+    const abrirComprarAgri = () => {
+        setComprarAgri(<>
+         < RxDoubleArrowUp  onClick={fecharComprarAgri} />             
+        <Certificados imagemC ='/img/certificado-gleiton-aparecido-soares-de-souza-gestor-como-comprar-da-agricultura-familiar.jpg' />
+        </>)
+    }
+    const fecharComprarAgri  = () => {
+        setComprarAgri(
+        <>
+          < BsChevronDoubleDown  onClick={abrirComprarAgri} />  
+       
+        </>)
+    }
+
+    const abrirBlog = () => {
+        setBlogAuto(<>
+         < RxDoubleArrowUp  onClick={fecharBlog} />             
+        <Certificados imagemC ='/img/ganhar-dinheiro-blog-online-marketing-digital-UC-868c11ac-7dd7-4203-8355-887eff3bdb65.jpg' />
+        </>)
+    }
+    const fecharBlog  = () => {
+        setBlogAuto(
+        <>
+          < BsChevronDoubleDown  onClick={abrirBlog} />  
+       
+        </>)
+    }
+
     const abrirInsta = () => {
         setInsta(<>
          < RxDoubleArrowUp  onClick={fecharInsta} />             
@@ -143,7 +172,7 @@ export default function Objetivo() {
 
 
 
-
+    
 
     const fecharDados = () => {
         setImageS(
@@ -158,6 +187,8 @@ export default function Objetivo() {
 
     const [devSummit, setDevSummit] = useState(<>< BsChevronDoubleDown onClick={abrirDevSummit} /></>)
     const [tiSegImage, setTiSeg] = useState(<>< BsChevronDoubleDown onClick={abrirTiSeg} /></>)
+    const [tiComprarAgri, setComprarAgri] = useState(<>< BsChevronDoubleDown onClick={abrirComprarAgri} /></>)
+    const [SeeBlogAuto, setBlogAuto] = useState(<>< BsChevronDoubleDown onClick={abrirBlog} /></>)
     const [InstaImage, setInsta] = useState(<>< BsChevronDoubleDown onClick={abrirInsta} /></>)
     const [ISala, setSala] = useState(<>< BsChevronDoubleDown onClick={abrirSala} /></>)
     const [INaturfive, setNaturfive] = useState(<>< BsChevronDoubleDown onClick={abrirNaturfive} /></>)
@@ -559,13 +590,25 @@ export default function Objetivo() {
 
             <div className={styles.topicoDiv}>
                 <div className={styles.flex}>
+                    <Image src={sebrae} alt={`${NomeGleiton} Udemy`} />
+                    <h3>Gestor Público - Saiba como Comprar da Agricultura Familiar</h3>
+                </div>
+                <p className={styles.periodo}>Sebrae - 30/10/2019 a 01/11/2019</p>
+                <p className={styles.pDesc}>Cursos Livres - 12 Horas</p>
+                <div className={styles.iconeCertificado}>                    
+                    {tiComprarAgri}                     
+                </div>
+            </div>
+
+            <div className={styles.topicoDiv}>
+                <div className={styles.flex}>
                     <Image src={udemy} alt={`${NomeGleiton} Udemy`} />
                     <h3>Blog Automático - Ganhar Dinheiro Online Marketing Digital</h3>
                 </div>
                 <p className={styles.periodo}>Udemy - Emitido em dez. de 2020</p>
                 <p className={styles.pDesc}>Cursos Livres.</p>
                 <div className={styles.iconeCertificado}>                    
-                    {semInformacao}                     
+                    {SeeBlogAuto}                     
                 </div>
             </div>
 

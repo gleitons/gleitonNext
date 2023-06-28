@@ -1,6 +1,6 @@
 import Head from "next/head"
 import { Children } from "react"
-import Menu from "./Menu"
+
 export default function Analytcs({ children }) {
     return (
         <>  
@@ -15,7 +15,7 @@ export default function Analytcs({ children }) {
                     gtag('config', 'G-WYB2K3F9CQ');`}
                 </script>
             </Head>
-            <Menu />
+           
             <div>{children}</div>
         </>
     )
