@@ -10,7 +10,7 @@ export default function BancodeDados() {
                 <p>Curso completo de banco de dados</p>
                 <p>Em um projeot de bancod e dados, a modelagem conceitual define, em um nivel conceitual, o SDB compartilha dados, mas nem todos tem acesso a todos os dados, no nivel conveitura não nos precoupamos com mas sem considerar detalhes da implementação</p>
                 <h3> Caracteristica das tecnologias de BDs</h3>
-               <li>Natureza "auto descritiva": O SGBD armazena uma definição completa das restriçoes e estruturas do banco de dados (catalogo). As informações são chamadas de Metadados</li>
+               <li>Natureza auto descritiva: O SGBD armazena uma definição completa das restriçoes e estruturas do banco de dados (catalogo). As informações são chamadas de Metadados</li>
                <li>Independecnai entre programas e dados: Permite mudanças na esturura de armazenamento</li>
                <li>Multiplas visoes: Cada usuario pode acessar a diferente visões do banco de dados, quais descrevem somente os dados de interesse do usuário</li>
                <li>Controle de redutndandia: Sno SGBD, cada item logigo do dado é armazenado numunico lugar. - pode haber redunnca controlada, para ganhar performance</li>
