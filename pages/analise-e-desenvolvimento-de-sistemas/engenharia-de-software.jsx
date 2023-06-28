@@ -6,7 +6,7 @@ export default function EngenhariaDeSoftware() {
             menuLateral
             </div>
             <div>
-            menu conteudo
+            menu
             </div>
         </div>
         </>
