@@ -201,7 +201,7 @@ export default function Objetivo() {
             <span id='objetivo'>.</span>
             <h2>OBJETIVO</h2>
             <div className={styles.topicoDiv}>
-                <p className={styles.pDesc}>Objetivo de atuação na área de TI (Tecnologia da Informação), administrativa, financeira, ou contábil, desenvolvendo e agregando conhecimento de todas as habilidades adquiridas ao longo de minha jornada profissional. Sempre disposto a receber conhecimento da organização que eu venha a me ingressar. Tenho interesse de construir uma carreira de sucesso, dessa forma contribuir para que a empresa alcance seus objetivos através do meu trabalho.</p>
+                <p className={styles.pDesc}>Objetivo de atuação na área de TI (Tecnologia da Informação) - Fiscal e Auditoria</p>
                 <div className={styles.iconeCertificado}>                    
                     {IObjetivo}                     
                 </div>
