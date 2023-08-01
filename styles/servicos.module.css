@@ -1,5 +1,5 @@
 .hTopo {
-  background-image: url("../public/img/Infraestrutura-de-ti.jpeg");
+  background-image: url("../public/img/Infraestrutura-de-ti.jpg");
   background-size: cover;
   background-position: center;
   width: "100%";
@@ -76,6 +76,10 @@
 }
 .Soferecido li {
   line-height: 2em;
+}
+.suporte {
+  background-color: rgb(255, 255, 255);
+  color: black;
 }
 .contatoB {
   background-image: url("../public/img/entre-em-contato.avif");
