@@ -104,7 +104,7 @@ export default function HeaderCurriculo({abrirCurriculo}) {
                             <Link href="#inicio" >
                                 <div className={styles.Isociais}>
                                     < BsFillFlagFill />
-                                    <p>Brasileiro, solteiro, 32 anos</p>
+                                    <p>Brasileiro, solteiro, 33 anos</p>
                                 </div>
                             </Link>
                             <Link href="https://goo.gl/maps/BL5Wk1CDyH4JVXGv5"

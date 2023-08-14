@@ -11,12 +11,16 @@ export default function Questoes() {
             </Head>
             <Menuestudos />
             <div className={styles.artigo}>
+                <div>
+                    <h2>K pretende realizar atividades financeiras no Brasil, buscando maximizar os lucros dos seus inúmeros clientes sediados no exterior. A quase totalidade dos investidores atua nos denominados “paraísos fiscais”. De acordo com as regras da Carta-Circular nº 4001/2020, do Banco Central do Brasil, essas operações devem ser monitoradas na seguinte categoria:</h2>
+                    <p>De acordo com a carta circular 4001/2020 -   Grupos de lavagem de dinheiro etc</p>
+                </div>
                 <h2>Questões e esclarecimentos</h2>
                 <p>Financiamento a longo prazo para empresas, de maturidade superior a 1 ano, mais de 365 dias.</p>
                 <li>Dados</li>
                 <ul>
                     <li>Ações ordinárias</li>
-                    <li>Ações Preferenciais</li>                    
+                    <li>Ações Preferenciais</li>
                     <ul>
                         <li>As formas acima são consideradas para longo prazo</li>
                         <p>Mas essa forma  não é considerada com captura  de captal de terceiros, mas de capital próprio</p>
@@ -34,6 +38,7 @@ export default function Questoes() {
                         <li>Títulos públicos sem chances alguma de ser aproveitada, como a empresa vai captar de titulo publicos né, quem emite esse tipo de titulo é o tesouro nacional, no caso de titulos publicos federais</li>
                     </ul>
                 </ul>
+
                 <h3>CVM</h3>
                 <p>A CVM - Comissão de valores mobiliários é uma entidade autárquica em regime especial, vinculada ao minitério da fazenda com personalidade juriica e patrimonio propios, dotada de aturoridade administrativa independede, ausencia de sobordinanação dierárquica, mandato fico e estabilidade de seus dirigentes, e autonomias financeira e orçamentária</p>
                 <p>Vamos a seguinte explicação</p>
@@ -43,7 +48,7 @@ export default function Questoes() {
                 <p>O funcionamento é através da autorização do banco central do Brasil</p>
                 <h3>Lavagem de dinheiro</h3>
                 <li>A poliitca referida do art 2 deve contrmplar no minimo:
-                    
+
                 </li>
                 <ul>
                     <li>I - As diretrizes para:</li>
@@ -107,7 +112,7 @@ export default function Questoes() {
             </div>
 
         </>
-        
+
     )
 }
 
