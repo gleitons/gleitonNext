@@ -13,6 +13,8 @@ import { AiFillCar } from 'react-icons/ai'
 import { FaMotorcycle } from 'react-icons/fa'
 import { BsFillCloudArrowDownFill } from 'react-icons/bs'
 
+import { FaProjectDiagram } from 'react-icons/fa'
+
 
 
 // import Gleiton from '/public/img/gleiton-aparecido-soares-de-souza.jpg'
@@ -156,6 +158,16 @@ export default function HeaderCurriculo({abrirCurriculo}) {
                                     < AiFillCar />
 
                                     <p>CNH(Carteira de Habilitação): A/B</p>
+                                </div>
+                            </Link>
+                            <Link href="/servicos"
+                                
+                            >
+                                <div className={styles.Isociais}>
+                                   
+                                    < FaProjectDiagram />
+
+                                    <p>Veja nossos Projetos (Serviços)</p>
                                 </div>
                             </Link>
                             <a >

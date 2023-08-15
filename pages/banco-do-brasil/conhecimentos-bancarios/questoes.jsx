@@ -3,10 +3,12 @@ import Image from 'next/image'
 import Estrategiasic from '../../../public/imagens/grafico-nao.png'
 import Head from 'next/head'
 import Menuestudos from '../Menuestudos'
+import { BsChevronDoubleDown } from 'react-icons/bs'
 export default function Questoes() {
     return (
         <>
             <Head>
+                
                 <title>Questões Conhecimentos Bancários</title>
             </Head>
             <Menuestudos />

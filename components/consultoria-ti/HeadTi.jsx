@@ -2,7 +2,7 @@ import Image from "next/image"
 import styles from '../../styles/servicos.module.css'
 import servicos from "../../public/img/contratos-de-ti.jpeg"
 import wp from "../../public/img/wp.webp"
-
+import { IoArrowBackCircle } from 'react-icons/io5'
 import preparado from "../../public/img/voce-preparado.png"
 
 import Link from "next/link"
@@ -10,7 +10,13 @@ import { IoLogIn } from "react-icons/io5"
 export default function HeadTi() {
 
     return (
-        <>
+        <>  
+            <Link href="/" >
+            <div>
+                <IoArrowBackCircle className={styles.bottonVoltar} />
+                </div>
+            </Link>
+           
             <div className={styles.icoW}>
                 <Link href="https://api.whatsapp.com/send?phone=555180652808&text=Olá, gostaria de uma consulta com a empresa futuro Consultoria.">
                     <Image src={wp} />
@@ -65,7 +71,7 @@ export default function HeadTi() {
             </div>
             <div className={`${styles.cardServicos} ${styles.carInfo}`}>
                 <div>
-                    <Image src={preparado} width={500} quality={60} alt="você está preparado"  />
+                    <Image src={preparado} width={500} quality={60} alt="você está preparado" />
                     <p>Mais de 50% das empresas já agiram ousadamente e deram o salto para a terceirização de TI. Quando você vai??</p>
                 </div>
                 <div>
