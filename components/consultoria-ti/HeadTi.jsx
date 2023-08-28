@@ -26,8 +26,10 @@ export default function HeadTi() {
                 </Link>
             </div>
             <HeadTopo />
-            <BannerTopo />
-            <Sobrenos />
+            <div className={styles.hdd}>
+                <BannerTopo />
+                <Sobrenos />
+            </div>
 
             <div className={styles.hTopo} >
                 <div className={styles.place}>
