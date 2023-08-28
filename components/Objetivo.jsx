@@ -263,6 +263,24 @@ export default function Objetivo() {
             < BsChevronDoubleDown onClick={representanteC} />
         </>)
     }
+    /*REURB */
+    const reurb = () => {
+        setReurb(
+            <>
+                < RxDoubleArrowUp onClick={fecharReurby}  />
+                <InfoEscritas info='Autuação do processo administrativo. 2. Definição de modalidade. 3. Gravar a área/núcleo como ZEIS se Reurb-S. 4. Levantamento documental.' />
+                <InfoEscritas info='' />
+                
+                <InfoEscritas info='CERTIFICADO:' />
+                <Certificados imagemC='/imagens/certificado-regularizacao-reurb-2023-gleiton-aparecido-soares-de-souza_1.png' />
+                <Certificados imagemC='/imagens/certificado-regularizacao-reurb-2023-gleiton-aparecido-soares-de-souza_2.png' />
+            </>)
+    }
+    const fecharReurby = () => {
+        setReurb(<>
+            < BsChevronDoubleDown onClick={reurb} />
+        </>)
+    }
     const [semInformacao, setInfomacao] = useState(<>< BsChevronDoubleDown onClick={semInfo} /></>)
     const [IObjetivo, setIObjetivo] = useState(<>< BsChevronDoubleDown onClick={abrirObjetivo} /></>)
 
@@ -280,6 +298,7 @@ export default function Objetivo() {
     const [analise, setAnalise] = useState(<>< BsChevronDoubleDown onClick={abreAnalise} /></>)
     const [dWeb, setdWeb] = useState(<>< BsChevronDoubleDown onClick={desenvolvimentoW} /></>)
     const [representante, setRepresentante] = useState(<>< BsChevronDoubleDown onClick={representanteC} /></>)
+    const [reurby, setReurb] = useState(<>< BsChevronDoubleDown onClick={reurb} /></>)
 
 
     return (
@@ -541,6 +560,18 @@ export default function Objetivo() {
 
                 <span id='licencas'>.</span>
                 <h2>LICENÇAS E CERTIFICADOS</h2>
+                
+                <div className={styles.topicoDiv}>
+                    <div className={styles.flex}>
+                        <Image src={html} alt={`${NomeGleiton} `} />
+                        <h3>Palestra Reurb</h3>
+                    </div>
+                    <p className={styles.periodo}>31 de outubro de 2021 - Curso Em Video</p>
+                    <p className={styles.pDesc}>Palestra reurb.</p>
+                    <div className={styles.iconeCertificado}>
+                        {reurby}
+                    </div>
+                </div>
 
                 <div className={styles.topicoDiv}>
                     <div className={styles.flex}>
