@@ -27,6 +27,7 @@ import mupi from "../public/imagens/mupi-systems.jpeg"
 import doceneira from "../public/imagens/doceneira.png"
 import projetoP from "../public/imagens/projeto-portofolio.png"
 import cruzeiro from '../public/imagens/cruzeiro-do-sul-logo.jpeg'
+import gran from '../public/imagens/logo-gran.jpeg'
 import senac from '../public/imagens/senac-logo.png'
 import ifnmg from '../public/img/instituto-federal-gleiton-aparecido-soares-de-souza.jpeg'
 import ipreus from '../public/img/instituto-padre-reus-logo-gleiton-aparecido-soares-de-souza.png'
@@ -203,16 +204,64 @@ export default function Objetivo() {
             </>)
     }
 
-
-
-
-
     const fecharDados = () => {
         setImageS(
             <>
                 < BsChevronDoubleDown />
 
             </>)
+    }
+    const abreAnalise = () => {
+        setAnalise(
+            <>
+                < RxDoubleArrowUp onClick={ fecharAnalise}  />
+                <InfoEscritas info='CURSANDO - Graduação em Análise e desenvolvimento de Sistemas · (Maio de 2023 - setembro de 2025).' />
+            </>)
+    }
+    const fecharAnalise = () => {
+        setAnalise(<>
+            < BsChevronDoubleDown onClick={abreAnalise} />
+        </>)
+    }
+    /* Desenvolvedor Web */
+    const desenvolvimentoW = () => {
+        setdWeb(
+            <>
+                < RxDoubleArrowUp onClick={ fecharDesenvolvimentoW}  />
+                <InfoEscritas info='O Programador Web estrutura em front-end e desenvolve em back-end,  publicando aplicações web. Para isto, elabora projetos e testes ao longo do desenvolvimento e permite o acesso a banco de dados por meio de linguagens de programação, seguindo padrões internacionais.' />
+                <InfoEscritas info='Esse profissional trabalha no desenvolvimento de sites institucionais, blogs, fóruns, lojas virtuais e diversos sistemas e aplicações voltados para o ambiente de internet e intranet, conforme políticas de segurança da informação e com respeito à propriedade intelectual.  ' />
+                <InfoEscritas info='Pode atuar em serviços autônomos, temporários ou contrato efetivo em organizações públicas e privadas nos mais diversos setores.' />
+                <InfoEscritas info='O profissional qualificado pelo Senac tem como Marcas Formativas: domínio técnico-científico, visão crítica, colaboração e comunicação, criatividade e atitude empreendedora, autonomia digital e atitude sustentável, com foco em resultados. Essas Marcas reforçam o compromisso da instituição com a formação integral do ser humano, considerando aspectos relacionados ao mundo do trabalho e ao exercício da cidadania. Tal perspectiva propicia o comprometimento do aluno com a qualidade do trabalho, com o desenvolvimento de uma visão ampla e consciente sobre sua atuação profissional e a capacidade de transformação da sociedade.' />
+                <InfoEscritas info='A ocupação está situada no eixo tecnológico Informação e Comunicação, cuja natureza é “comunicar” e pertence ao segmento Informática.' />
+                <InfoEscritas info='A seguir estão as competências que compõem o perfil do Programador web:' />
+                <InfoEscritas info='Elaborar projetos de aplicações para web. Estruturar aplicações front-end para web. Desenvolver aplicações back-end para web. Publicar aplicações web.' />
+                <InfoEscritas info='CERTIFICADO:' />
+                <Certificados imagemC='/imagens/certificado-programador-web-gleiton-aparecido-soares-de-souza.png' />
+                <Certificados imagemC='/imagens/certificado-programador-web-gleiton-aparecido-soares-de-souza-2.png' />
+            </>)
+    }
+    const fecharDesenvolvimentoW = () => {
+        setdWeb(<>
+            < BsChevronDoubleDown onClick={desenvolvimentoW} />
+        </>)
+    }
+    /* Representante Comercial */
+    const representanteC = () => {
+        setRepresentante(
+            <>
+                < RxDoubleArrowUp onClick={fecharRepresentanteC}  />
+                <InfoEscritas info='O Representante Comercial é responsável por realizar prospecção de clientes, negociação e vendas externas de produtos e serviços. Para isso aplica estratégias do composto de marketing, organiza e acompanha pontos de vendas, além de prever e mensurar as demandas de vendas.' />
+                <InfoEscritas info='' />
+                
+                <InfoEscritas info='CERTIFICADO:' />
+                <Certificados imagemC='/imagens/certificado-representante-comercial-gleiton-aparecido-soares-de-souza.png' />
+                <Certificados imagemC='/imagens/certificado-representante-comercial-gleiton-aparecido-soares-de-souza-2.png' />
+            </>)
+    }
+    const fecharRepresentanteC = () => {
+        setRepresentante(<>
+            < BsChevronDoubleDown onClick={representanteC} />
+        </>)
     }
     const [semInformacao, setInfomacao] = useState(<>< BsChevronDoubleDown onClick={semInfo} /></>)
     const [IObjetivo, setIObjetivo] = useState(<>< BsChevronDoubleDown onClick={abrirObjetivo} /></>)
@@ -228,6 +277,9 @@ export default function Objetivo() {
     const [InstaImage, setInsta] = useState(<>< BsChevronDoubleDown onClick={abrirInsta} /></>)
     const [ISala, setSala] = useState(<>< BsChevronDoubleDown onClick={abrirSala} /></>)
     const [INaturfive, setNaturfive] = useState(<>< BsChevronDoubleDown onClick={abrirNaturfive} /></>)
+    const [analise, setAnalise] = useState(<>< BsChevronDoubleDown onClick={abreAnalise} /></>)
+    const [dWeb, setdWeb] = useState(<>< BsChevronDoubleDown onClick={desenvolvimentoW} /></>)
+    const [representante, setRepresentante] = useState(<>< BsChevronDoubleDown onClick={representanteC} /></>)
 
 
     return (
@@ -248,14 +300,14 @@ export default function Objetivo() {
 
                 <div className={styles.topicoDiv}>
                     <div className={styles.flex}>
-                        <Image src={cruzeiro} width={50} height={50} alt={NomeGleiton} />
-                        <h3>Engenharia de Software - Cruzeiro do Sul Virtual</h3>
+                        <Image src={gran} width={50} height={50} alt={NomeGleiton} />
+                        <h3>Análise e Desenvolvimento de Sistemas - Gran Faculdade</h3>
                     </div>
-                    <p className={styles.periodo}><strong>CURSANDO</strong> - Bacharelado em Engenharia, Engenharia de Software · (setembro de
-                        2022 - setembro de 2026)</p>
-                    <p className={styles.pDesc}>O curso de Engenharia de Software prepara profissionais focados no desenvolvimento de novos programas de computador.</p>
+                    <p className={styles.periodo}><strong>CURSANDO</strong> - Graduação em Análise e desenvolvimento de Sistemas · (Maio de
+                        2023 - setembro de 2025)</p>
+                    <p className={styles.pDesc}>Análise e Desenvolvimento de Sistemas é a área da tecnologia responsável por projetar, desenvolver e implementar softwares para atender as necessidades das empresas, utilizando técnicas de programação e gestão de projetos para criar soluções inovadoras e eficientes.</p>
                     <div className={styles.iconeCertificado}>
-                        {semInformacao}
+                        {analise}
                     </div>
                 </div>
 
@@ -267,7 +319,7 @@ export default function Objetivo() {
                     <p className={styles.periodo}>Curso Programador Web, realizado no período de 01/02/2022 a 21/07/2022 na cidade de Sete Lagoas-MG.</p>
                     <p className={styles.pDesc}>Conteúdo 01- Desenvolver aplicações web 02- Publicar e testar aplicações web 03- Realizar manutenção nas funcionalidades das aplicações web 04- Projeto Integrador Programador Web.</p>
                     <div className={styles.iconeCertificado}>
-                        {semInformacao}
+                        {dWeb}
                     </div>
                 </div>
 
@@ -285,7 +337,7 @@ export default function Objetivo() {
                     <p className={styles.periodo}>Curso Representante Comercial, realizado no período de 01/02/2022 à 31/03/2022 na cidade de Uberlândia-MG.</p>
                     <p className={styles.pDesc}>O Representante Comercial é responsável por realizar prospecção de clientes, negociação e vendas externas de produtos e serviços.</p>
                     <div className={styles.iconeCertificado}>
-                        {semInformacao}
+                        {representante}
                     </div>
                 </div>
 

@@ -34,7 +34,7 @@
   font-size: 23px;
   font-weight: 500;
 }
-.place button {
+.pButton {
   font-family: "Roboto", Sans-serif;
   font-size: 27px;
   font-weight: 500;
@@ -86,6 +86,7 @@
   background-size: cover;
   background-position: center;
   padding: 2em;
+
 }
 .contatoC {
   width: 60%;
@@ -97,7 +98,6 @@
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
   padding: 2em;
- 
 }
 
 .contatoC input {
@@ -110,7 +110,8 @@
   width: 100%;
   padding: 10px;
   color: black;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   background-color: white;
 }
 .bottonVoltar {
@@ -123,21 +124,20 @@
   border-radius: 0px 0px 12px 0px;
 }
 .icoW {
-   width: 100%;
-   position: fixed;
-   bottom: 0;
-   text-align: end;
-   padding: 10px;
-   
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  text-align: end;
+  padding: 10px;
 }
 .icoW img {
-   width: 80px;
-   width: 80px;
-   height: 80px;
-   right: 20px;
-   bottom: 0;
-   position: relative;
-   animation: pulsando 1s infinite alternate-reverse linear  ;
+  width: 80px;
+  width: 80px;
+  height: 80px;
+  right: 20px;
+  bottom: 0;
+  position: relative;
+  animation: pulsando 1s infinite alternate-reverse linear;
 }
 @keyframes pulsando {
   0% {
@@ -148,7 +148,7 @@
   }
 }
 .icoW::before {
-  content: '';
+  content: "";
   width: 80px;
   height: 80px;
   border-radius: 50%;
@@ -156,7 +156,7 @@
   bottom: 13px;
   right: 29px;
   position: absolute;
-  animation: gost 5s infinite linear  ;
+  animation: gost 5s infinite linear;
 }
 @keyframes gost {
   0% {
@@ -173,58 +173,114 @@
   100% {
     transform: scale(1.6);
     opacity: 0;
-    
   }
 }
 
 @media (max-width: 576px) {
-   .cardServicos {
-      display: block;
-      padding: 2em;
-    }
-    .cardServicos > div {
-      width: 100%;
-      margin: 10px;
-    }
-    .cardServicos img {
-      width: 100%;
-      height: 100%;
-      margin: auto;
-    }
-    .place {
-      width: 100%;
-      margin: auto;
-      background: rgba(255, 255, 255, 0.25);
-      box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-      backdrop-filter: blur(7.5px);
-      -webkit-backdrop-filter: blur(7.5px);
-      border-radius: 10px;
-      border: 1px solid rgba(255, 255, 255, 0.18);
-      
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      
-      
-    }
-    .contatoC {
-      width: 100%;
-      margin: 20px auto;
-      background: rgba(255, 151, 0, 0.25);
-      box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-      backdrop-filter: blur(7.5px);
-      -webkit-backdrop-filter: blur(7.5px);
-      border-radius: 10px;
-      border: 1px solid rgba(255, 255, 255, 0.18);
-      padding: 2em;
-     
-    }
-    .place p {
-      text-align: center;
-      color: #000000;
-      font-family: "Roboto", Sans-serif;
-      font-size: 23px;
-      font-weight: 500;
-    }
+  .cardServicos {
+    display: block;
+    padding: 2em;
+  }
+  .cardServicos > div {
+    width: 100%;
+    margin: 10px;
+  }
+  .cardServicos img {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+  }
+  .place {
+    width: 100%;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(7.5px);
+    -webkit-backdrop-filter: blur(7.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .contatoC {
+    width: 100%;
+    margin: 20px auto;
+    background: rgba(255, 151, 0, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(7.5px);
+    -webkit-backdrop-filter: blur(7.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    padding: 2em;
+  }
+  .place p {
+    text-align: center;
+    color: #000000;
+    font-family: "Roboto", Sans-serif;
+    font-size: 23px;
+    font-weight: 500;
+  }
+}
+
+/* Header Topo  */
+.tituloTopo {
+  background-color: red;
+  color: white;
+  height: var(--topo);
+  text-align: center;
+}
+/* end Header Topo  */
+
+/* Banner Topo  */
+.bannerTop {
+  background-image: url("../public/img/fundo-consultoria.jpeg");
+  background-size: cover;
+  height: calc(100vh - var(--topo));
+  color: white;
+  padding: 1em 0;
+  text-align: center;
+  position: relative;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.bannerTop::after  {
+  content: '';
+  width: 100%;
+  height: calc(100vh - var(--topo));
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(170, 177, 182, 0.309);
+}
+.bannerTop > div {
+  width: 50%;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: start;
+  z-index: 1;
+  padding: 25px ;
+}
+.bannerTop > div h2{
+  font-size: 4.5rem;
+}
+.bannerTop > div p {
+  font-size: 24px;
+  line-height: 32px;
+}
+.informacaoSobre div:nth-last-child(1){
+  width: 35%;
+  line-height: 2em;
+}
+/* end Banner Topo  */
+.informacaoSobre img {
+  width: 100%;
+}
+.informacaoSobre {
+  padding: 2em;
+  display: flex;
 }

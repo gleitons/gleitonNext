@@ -4,6 +4,9 @@ import servicos from "../../public/img/contratos-de-ti.jpeg"
 import wp from "../../public/img/wp.webp"
 import { IoArrowBackCircle } from 'react-icons/io5'
 import preparado from "../../public/img/voce-preparado.png"
+import BannerTopo from "./BannerTopo"
+import HeadTopo from "./HeadTopo"
+import Sobrenos from "./Sobrenos"
 
 import Link from "next/link"
 import { IoLogIn } from "react-icons/io5"
@@ -22,11 +25,15 @@ export default function HeadTi() {
                     <Image src={wp} />
                 </Link>
             </div>
+            <HeadTopo />
+            <BannerTopo />
+            <Sobrenos />
+
             <div className={styles.hTopo} >
                 <div className={styles.place}>
                     <h2>Suporte e Gestão de TI</h2>
                     <p>Garanta a eficiência dos seus negócios ao eliminar problemas de comunicação, otimizar a velocidade do sistema e resolver falhas nos equipamentos de informática.</p>
-                    <Link href="https://api.whatsapp.com/send?phone=555180652808&text=Olá, gostaria de uma consulta com a empresa futuro Consultoria."><button>Fale agora com um Consultor</button></Link>
+                    <Link href="https://api.whatsapp.com/send?phone=555180652808&text=Olá, gostaria de uma consulta com a empresa futuro Consultoria."><button className={styles.pButton}>Fale agora com um Consultor</button></Link>
                 </div>
 
             </div>

@@ -6,6 +6,8 @@ import { useState } from 'react'
 import Contato from '../components/Contato'
 import BaixarC from '../components/BaixarC'
 import MenuOriginal from '../components/Menu'
+import { Analytics } from '@vercel/analytics/react'
+
 
 
 
@@ -28,6 +30,7 @@ export default function Home({abrirCurriculo}) {
     {homeBanner}
     <div className={styles.container}>
       <Head>
+        <Analytics />
         <meta property="og:locale" content="pt_BR" />
         
         <meta name="author" content="Gleiton Aparecido Soares de Souza" />
