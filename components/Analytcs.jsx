@@ -1,4 +1,5 @@
 import Head from "next/head"
+import Script from 'next/script'
 import { Children } from "react"
 
 export default function Analytcs({ children }) {

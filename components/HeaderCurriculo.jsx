@@ -65,6 +65,7 @@ export default function HeaderCurriculo({abrirCurriculo}) {
             <div className={styles.cabecalho}>
             <span id='inicio'>_</span>
                 <div className={styles.infoCapa}>
+                    
                
 
                     <div className={styles.fotoPerfil}>
