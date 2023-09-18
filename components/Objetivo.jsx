@@ -281,6 +281,24 @@ export default function Objetivo() {
             < BsChevronDoubleDown onClick={reurb} />
         </>)
     }
+
+    const cmanutencaoC = () => {
+        setManutencaoC(
+            <>
+                < RxDoubleArrowUp onClick={fecharcmanutencaoC}  />
+                <InfoEscritas info='Autuação do processo administrativo. 2. Definição de modalidade. 3. Gravar a área/núcleo como ZEIS se Reurb-S. 4. Levantamento documental.' />
+                <InfoEscritas info='' />
+                
+                <InfoEscritas info='CERTIFICADO:' />
+                <Certificados imagemC='/img/certificado-montagem-e-manutencao-de-computadores-gleiton-aparecido-soares-de-souza.jpeg' />
+                <Certificados imagemC='/img/fundo-certificado-curso-montagem-e-manutencao-de-computadores-gleiton-aparecido-soares-de-souza.jpeg' />
+            </>)
+    }
+    const fecharcmanutencaoC = () => {
+        setManutencaoC(<>
+            < BsChevronDoubleDown onClick={cmanutencaoC} />
+        </>)
+    }
     const [semInformacao, setInfomacao] = useState(<>< BsChevronDoubleDown onClick={semInfo} /></>)
     const [IObjetivo, setIObjetivo] = useState(<>< BsChevronDoubleDown onClick={abrirObjetivo} /></>)
 
@@ -299,6 +317,8 @@ export default function Objetivo() {
     const [dWeb, setdWeb] = useState(<>< BsChevronDoubleDown onClick={desenvolvimentoW} /></>)
     const [representante, setRepresentante] = useState(<>< BsChevronDoubleDown onClick={representanteC} /></>)
     const [reurby, setReurb] = useState(<>< BsChevronDoubleDown onClick={reurb} /></>)
+
+    const [manutencaoC, setManutencaoC] = useState(<>< BsChevronDoubleDown onClick={cmanutencaoC} /></>)
 
 
     return (
@@ -395,7 +415,7 @@ export default function Objetivo() {
                     <p className={styles.periodo}>Montagem e Manutenção de Computadores - UNISC(Universidade de Santa Cruz do Sul)/IPR (Instituto Padre Reus) - 1/2011 – 07/2011</p>
                     <p className={styles.pDesc}>Montagem, configuração e manutenção de hardware de computadores. Além de cuidados no manuseio e utilização de peças e equipamentos de informática, instalação e configuração dos diversos componentes de um microcomputador, seus periféricos e dos dispositivos auxiliares utilizados na computação.</p>
                     <div className={styles.iconeCertificado}>
-                        {semInformacao}
+                        {manutencaoC}
                     </div>
                 </div>
 
