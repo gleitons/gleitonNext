@@ -28,6 +28,7 @@ export default function BaixarC({ closeCurriculo }) {
                     <Link href="/curriculo-gleiton-aparecido-soares-de-souza.pdf" target='_blank'><button>Curriculo Clean</button></Link>
                     <Link href="./estudos-banrisul"><button className={styles.cursoP}>Estudos Banrisul</button></Link>
                     <Link href="./banco-do-brasil"><button className={styles.cursoP}>Estudos Banco do Brasil</button></Link>
+                    <Link href="./caixa-ti"><button className={styles.cursoP}>Estudos Caixa TI</button></Link>
                     <Link href="./crm-mg"><button className={styles.cursoP}>CRM MG</button></Link>
                     <Link href="./cvm"><button className={styles.cursoP}>CVM</button></Link>
                     <Link href="./banco-central"><button className={styles.cursoP}>Banco Central do Brasil</button></Link>

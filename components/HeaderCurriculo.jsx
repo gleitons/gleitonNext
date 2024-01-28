@@ -144,7 +144,7 @@ export default function HeaderCurriculo({abrirCurriculo}) {
                                     <p>GitHub: github.com/gleitons</p>
                                 </div>
                             </Link>
-                            <Link href="https://gleiton.com.br"
+                            <Link href="https://gleiton.vercel.app"
                                 target="_blank">
                                 <div className={styles.Isociais}>
                                     < CgWebsite />

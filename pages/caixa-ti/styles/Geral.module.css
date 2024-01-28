@@ -1,0 +1,71 @@
+.menuToCaixa {
+    display: flex;
+    gap: 10px;
+}
+.menuToCaixa {
+    display: flex;
+    gap: 10px;
+}
+.menuToCaixa li {
+    background-color: rgb(123, 115, 115);
+    list-style: none;
+    padding: 5px;
+    border-radius: 6px;
+}
+.menuToCaixa li:hover {
+    background-color: rgb(135, 135, 135);
+    cursor: pointer;
+}
+.menuToCaixa li:active {
+    box-shadow: inset black 0px 2px 5px 2px;
+    scale: .98;
+    font-size: .98em;
+   
+}
+.menuL {
+    background-color: rgb(77, 77, 77);
+    width: 300px;
+    padding: 10px;
+    position: sticky;
+    top: 0px;
+    border-radius: 0px 0px 8px 8px;
+    z-index: 1;
+    margin-top: 10px;
+}
+.menuL li {
+    background-color: rgb(54, 54, 54);
+    line-height: 2em;
+    border-radius: 12px;
+    margin: 10px;
+    list-style: none;
+    padding: 0px 10px;
+    
+}
+.menuL li:hover {
+    background-color: rgb(126, 126, 126);
+    cursor: pointer;
+}
+.menuL li:active {
+    box-shadow: inset black 0px 2px 2px 2px;
+   
+}
+.inicial {
+    display: flex;
+    width: 100%;
+}
+.inicial > div {
+    margin: 10px;
+    padding-left: 50px;
+    
+}
+.inicial > div h3 {
+    text-align: center;
+}
+.inicial > div embed {
+    width: 100%;
+    height: 100vh;
+}
+.bbody {
+    width: 80%;
+    margin: auto;
+}

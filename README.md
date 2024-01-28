@@ -1,4 +1,4 @@
-Esse Projeto foi realizado utilizando NextJS, meu currículo Online, para visualizar, acesse meu site https://gleiton.com.br
+Esse Projeto foi realizado utilizando NextJS, meu currículo Online, para visualizar, acesse meu site https://gleiton.vercel.app
 Também tenho a versão em React JS, para acessar a versão clique aqui - https://gleiton.netlify.app/
 Ainda em Construção e testando as ferramentas.
 
