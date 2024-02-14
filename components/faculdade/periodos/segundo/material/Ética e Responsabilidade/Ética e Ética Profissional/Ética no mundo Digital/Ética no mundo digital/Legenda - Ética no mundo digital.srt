@@ -1,0 +1,756 @@
+1
+00:00:05,710 --> 00:00:08,589
+Olá, pessoal! Tudo bem, nosso objetivo nessa
+
+2
+00:00:08,589 --> 00:00:14,089
+aula falar sobre ética no mundo digital Na atualidade,
+
+3
+00:00:14,089 --> 00:00:18,179
+a gente vive em um mundo atravessado pelo uso de
+
+4
+00:00:18,179 --> 00:00:23,010
+tecnologias, especialmente com o advento da internet, seguido
+
+5
+00:00:23,010 --> 00:00:28,160
+do uso dos smartphones e também das redes sociais.
+
+6
+00:00:28,260 --> 00:00:30,769
+Agora, com a inclusão, a ida da inteligência
+
+7
+00:00:30,769 --> 00:00:33,049
+artificial no nosso dia a dia, a gente vai
+
+8
+00:00:33,049 --> 00:00:38,549
+perceber cada vez mais o mundo atravessado pelas tecnologias.
+
+9
+00:00:39,359 --> 00:00:41,810
+O uso das tecnologias faz parte do nosso dia a
+
+10
+00:00:41,810 --> 00:00:44,740
+dia, e a nossa discussão aqui vai ser como
+
+11
+00:00:44,740 --> 00:00:49,310
+pensar do ponto de vista ético nesse mundo digital.
+
+12
+00:00:50,359 --> 00:00:54,380
+Nós já temos percebido algumas ameaças no mundo digital.
+
+13
+00:00:54,929 --> 00:01:02,700
+O saber terrorismo, os crimes virtuais, a desproteção
+
+14
+00:01:02,700 --> 00:01:07,349
+do acesso aos dados pessoais, Todos esses fenômenos trazem
+
+15
+00:01:07,349 --> 00:01:10,030
+alguns riscos no mundo digital.
+
+16
+00:01:10,579 --> 00:01:13,890
+Nesse sentido, Paradigma da ética no mundo digital vem
+
+17
+00:01:13,890 --> 00:01:19,299
+trazer algumas perspectivas para instituições, para profissionais e para
+
+18
+00:01:19,299 --> 00:01:25,989
+cidadãos de como compartilhar esse espaço digital, trazendo satisfação
+
+19
+00:01:25,989 --> 00:01:30,314
+pessoal e também bem estar coletivo, que essa essência
+
+20
+00:01:30,655 --> 00:01:31,795
+do trato ético.
+
+21
+00:01:31,974 --> 00:01:35,875
+A ética visa fazer com que o ser humano alcance
+
+22
+00:01:35,875 --> 00:01:39,105
+a realização pessoal, ao mesmo tempo em que ele
+
+23
+00:01:39,105 --> 00:01:42,174
+possa contribuir para o bem estar coletivo.
+
+24
+00:01:42,364 --> 00:01:44,834
+Então, nesse sentido, vamos dar uma olhadinha na
+
+25
+00:01:44,834 --> 00:01:50,525
+nossa discussão que trata especificamente dos aspectos éticos no mundo
+
+26
+00:01:50,594 --> 00:01:51,215
+digital.
+
+27
+00:01:51,605 --> 00:01:55,150
+Olha só pessoal do material que a gente trouxe.
+
+28
+00:01:55,209 --> 00:01:59,599
+O primeiro aspecto Superinteressante, nesse debate é como ser
+
+29
+00:01:59,599 --> 00:02:01,969
+um cidadão digital responsável.
+
+30
+00:02:02,400 --> 00:02:06,510
+Essa é uma questão e a gente vai perceber que
+
+31
+00:02:07,140 --> 00:02:10,830
+a comunicação é o epicentro desse debate.
+
+32
+00:02:11,229 --> 00:02:16,710
+A forma como falamos e nos relacionamos vai ditar os
+
+33
+00:02:16,710 --> 00:02:17,930
+efeitos dessa ação.
+
+34
+00:02:19,189 --> 00:02:23,689
+O modelo de comunicação não violenta, humanizada, baseada
+
+35
+00:02:23,689 --> 00:02:27,520
+na escuta empática e no trato respeitoso, é um
+
+36
+00:02:27,520 --> 00:02:32,800
+veículo de socialização e criação de vínculos pessoal no mundo
+
+37
+00:02:32,800 --> 00:02:33,430
+digital.
+
+38
+00:02:33,430 --> 00:02:39,310
+Hoje a gente consegue estabelecer vínculos, fortalecer relações,
+
+39
+00:02:39,310 --> 00:02:43,020
+consegue aprender, consegue formar uma rede que a gente
+
+40
+00:02:43,020 --> 00:02:49,379
+chama de network pela facilidade da comunicação instantânea que a
+
+41
+00:02:49,379 --> 00:02:51,800
+gente tem nesse mundo digital.
+
+42
+00:02:52,560 --> 00:02:55,759
+Por outro lado, neste mesmo mundo digital, a
+
+43
+00:02:55,759 --> 00:03:01,129
+gente pode acentuar conflitos, acentuar práticas de discriminação de
+
+44
+00:03:01,129 --> 00:03:02,060
+exclusão.
+
+45
+00:03:02,800 --> 00:03:07,030
+Nesse sentido, que a ética vem selar parâmetros de
+
+46
+00:03:07,030 --> 00:03:10,960
+como agir do ponto de vista institucional do ponto de
+
+47
+00:03:10,960 --> 00:03:13,770
+vista profissional e, do ponto de vista cidadão.
+
+48
+00:03:13,979 --> 00:03:18,650
+Como as instituições como profissionais, cidadãos podem e devem
+
+49
+00:03:18,650 --> 00:03:20,849
+agir nesse mundo digital.
+
+50
+00:03:21,349 --> 00:03:24,330
+Nesse sentido, a gente precisa estar atento a forma
+
+51
+00:03:24,330 --> 00:03:28,129
+de comunicação, a comunicação na internet.
+
+52
+00:03:28,129 --> 00:03:31,599
+Ela pode gerar muitos ruídos, até porque muitas vezes
+
+53
+00:03:31,599 --> 00:03:33,490
+ela acontece de forma textual.
+
+54
+00:03:34,020 --> 00:03:37,020
+Os textos geram muitos pelas interpretações.
+
+55
+00:03:37,599 --> 00:03:42,580
+Nesse sentido, que apreender as melhores formas de comunicação
+
+56
+00:03:42,580 --> 00:03:46,879
+baseada numa comunicação não violenta, vai facilitar a vida
+
+57
+00:03:46,879 --> 00:03:51,580
+das instituições, dos profissionais e dos cidadãos nesse mundo
+
+58
+00:03:51,580 --> 00:03:53,460
+digital pessoal.
+
+59
+00:03:53,460 --> 00:03:57,280
+É importante destacar que o mundo digital hoje, como
+
+60
+00:03:57,280 --> 00:04:00,349
+eu falei anteriormente, ele é atravessado por tecnologias.
+
+61
+00:04:00,849 --> 00:04:04,879
+Gente tem o teletrabalho pelo teletrabalho, gente usa as
+
+62
+00:04:04,879 --> 00:04:06,300
+ferramentas de estádios.
+
+63
+00:04:06,590 --> 00:04:09,180
+A gente tem o ensino digital, que traz vocês
+
+64
+00:04:09,180 --> 00:04:13,500
+aqui hoje, para vocês aprenderem se formarem, ganharem
+
+65
+00:04:13,500 --> 00:04:14,460
+a títulos.
+
+66
+00:04:14,460 --> 00:04:17,930
+Por meio do ensino digital, a gente tem apresentações
+
+67
+00:04:17,930 --> 00:04:18,819
+artísticas.
+
+68
+00:04:19,404 --> 00:04:23,545
+Acontecem neste mundo digital que tão próxima da gente,
+
+69
+00:04:23,795 --> 00:04:27,144
+o avanço dos extremistas, as salas de cinema dentro
+
+70
+00:04:27,144 --> 00:04:31,915
+de casa, demonstra a pujança força desse mundo digital
+
+71
+00:04:32,204 --> 00:04:33,805
+na vida das pessoas.
+
+72
+00:04:34,245 --> 00:04:36,615
+Não vejo em todas as esferas da nossa vida no
+
+73
+00:04:36,615 --> 00:04:40,045
+trabalho, na educação, No lazer, a gente
+
+74
+00:04:40,045 --> 00:04:42,644
+vivencia experiências no mundo digital.
+
+75
+00:04:43,324 --> 00:04:48,350
+Por isso, é importante ter acesso a alguns parâmetros
+
+76
+00:04:48,350 --> 00:04:52,850
+éticos que vão conduzir a nossa conduta dentro desse espaço.
+
+77
+00:04:52,850 --> 00:04:57,680
+É isso que a ética traz para o debate nesse
+
+78
+00:04:57,680 --> 00:05:02,410
+mundo digital em uma grande referência para isso Pessoal diz
+
+79
+00:05:02,410 --> 00:05:05,899
+respeitoà Lei Geral de proteção dos dados.
+
+80
+00:05:06,050 --> 00:05:11,259
+Essa lei estabelece aí alguns parâmetros para organizações para profissionais
+
+81
+00:05:11,259 --> 00:05:16,000
+atuarem, considerando a proteção dos dados pessoais, sensíveis
+
+82
+00:05:16,319 --> 00:05:20,920
+no sentido de celulares, referências para a atuação de
+
+83
+00:05:20,920 --> 00:05:24,420
+organizações e profissionais.
+
+84
+00:05:25,689 --> 00:05:29,149
+Nesse sentido, um aspecto fundamental quando a gente fala
+
+85
+00:05:29,420 --> 00:05:33,100
+de ética no mundo digital é a privacidade e a
+
+86
+00:05:33,100 --> 00:05:36,569
+Lei treze mil setecentos e nove de dois mil dezoito.
+
+87
+00:05:36,569 --> 00:05:40,240
+A lei geral de proteção dos Dados define o que
+
+88
+00:05:40,240 --> 00:05:45,269
+são os dados pessoais os cuidados específicos que as pessoas
+
+89
+00:05:45,269 --> 00:05:49,050
+precisam estar sujeitas nesse mundo virtual.
+
+90
+00:05:50,110 --> 00:05:53,980
+Há um risco enorme então pessoal, que os conteúdos
+
+91
+00:05:53,980 --> 00:06:00,029
+pessoais disponibilizados na rede possam ser capturados para fins de
+
+92
+00:06:00,029 --> 00:06:05,089
+controle dos comportamentos e vigilância dos indivíduos.
+
+93
+00:06:05,509 --> 00:06:07,910
+O que está em jogo aqui pessoal, é a
+
+94
+00:06:07,910 --> 00:06:12,850
+perda de liberdade e de autonomia com o uso da
+
+95
+00:06:12,850 --> 00:06:17,529
+inteligência artificial e dos cálculos logaritmos, que podem limitar
+
+96
+00:06:17,529 --> 00:06:22,310
+as possibilidades de escolha e de real expressão dos sujeitos.
+
+97
+00:06:22,680 --> 00:06:26,480
+Vejam vocês pessoal, que o uso da inteligência artificial
+
+98
+00:06:26,480 --> 00:06:30,269
+pode direcionar o nosso olhar, seja para a venda
+
+99
+00:06:30,269 --> 00:06:33,680
+de produtos, seja para gerar formas de pensar,
+
+100
+00:06:33,680 --> 00:06:35,920
+de acessar determinados conteúdos.
+
+101
+00:06:36,279 --> 00:06:38,540
+Nesse sentido, que a Lei Geral de Proteção de
+
+102
+00:06:38,540 --> 00:06:45,339
+Dados vem estabelecer parâmetros nesse trato das empresas das organizações
+
+103
+00:06:45,339 --> 00:06:48,470
+com relação aos indivíduos para que os nossos dados não
+
+104
+00:06:48,470 --> 00:06:54,189
+sejam livremente disponibilizados para fins mercantis ou para fins de
+
+105
+00:06:54,189 --> 00:06:56,240
+controle dos nossos comportamentos.
+
+106
+00:06:56,540 --> 00:07:00,629
+Essa lei vem estabelecer, então parâmetros éticos na relação
+
+107
+00:07:00,740 --> 00:07:05,509
+entre as instituições, entre as organizações e os cidadãos.
+
+108
+00:07:05,509 --> 00:07:09,430
+Beleza pessoal Nesse sentido a eles PMDB caminha na linha
+
+109
+00:07:09,430 --> 00:07:15,139
+do respeitoà privacidade e do trato adequado das informações
+
+110
+00:07:15,529 --> 00:07:21,220
+disponibilizadas públicamente Também tem como foco a criação de um
+
+111
+00:07:21,220 --> 00:07:25,680
+cenário de segurança jurídica, com a padronização de regulamentos
+
+112
+00:07:25,680 --> 00:07:30,189
+e práticas para promover a proteção aos dados pessoais de
+
+113
+00:07:30,189 --> 00:07:32,360
+todo cidadão que esteja no Brasil.
+
+114
+00:07:33,360 --> 00:07:36,750
+Na aérea depender o consentimento do titular dos dados é
+
+115
+00:07:36,750 --> 00:07:39,889
+considerado elemento essencial para o tratamento.
+
+116
+00:07:39,889 --> 00:07:45,019
+Regra recepcionada apenas nos casos previstos no artigo onze Pessoal.
+
+117
+00:07:45,019 --> 00:07:48,779
+A lei traz várias garantias ao cidadão, como poder
+
+118
+00:07:48,779 --> 00:07:54,180
+solicitar que seus dados sejam excluídos revogar o consentimento,
+
+119
+00:07:54,480 --> 00:07:58,790
+transfere dados para outro fornecedor de serviço, entre outras
+
+120
+00:07:58,860 --> 00:07:59,800
+ações.
+
+121
+00:08:00,370 --> 00:08:03,860
+Portanto, o tratamento dos dados deve ser feito levando
+
+122
+00:08:03,860 --> 00:08:09,519
+em conta alguns quesitos como finalidade necessidade a serem previamente
+
+123
+00:08:09,680 --> 00:08:12,930
+acertados informados ao titular.
+
+124
+00:08:13,579 --> 00:08:17,399
+Os estudos apontam também para o debate sobre propriedade intelectual
+
+125
+00:08:17,709 --> 00:08:20,589
+e acesso ao conhecimento nesta pegadas.
+
+126
+00:08:20,589 --> 00:08:25,569
+Enciclopédias virtuais Os sistemas de busca representa uma possibilidade real
+
+127
+00:08:25,939 --> 00:08:31,860
+democratização das informações voltando se para a ideia de propriedade
+
+128
+00:08:31,860 --> 00:08:32,370
+pública.
+
+129
+00:08:32,649 --> 00:08:35,720
+Então, veja os avanços do mundo digital também dos
+
+130
+00:08:35,720 --> 00:08:39,950
+trazem oportunidades de democratização das informações.
+
+131
+00:08:39,950 --> 00:08:44,210
+Antes de estudos acadêmicos estavam restritosàs bibliotecas das grandes
+
+132
+00:08:44,210 --> 00:08:45,450
+universidades do mundo.
+
+133
+00:08:45,970 --> 00:08:50,320
+Agora, toda a informação produzida cientificamente está na rede
+
+134
+00:08:50,700 --> 00:08:53,159
+de acesso livre para todas as pessoas.
+
+135
+00:08:53,360 --> 00:08:57,419
+Então, essa é uma potencialidade desse mundo digital.
+
+136
+00:08:58,620 --> 00:09:01,279
+Veja pessoal Aedes, que então deve ser utilizada para
+
+137
+00:09:01,279 --> 00:09:06,279
+determinar os valores que estabelecem as fronteiras morais no desenvolvimento
+
+138
+00:09:06,409 --> 00:09:09,500
+e no uso responsável de sistemas de informação.
+
+139
+00:09:09,970 --> 00:09:12,950
+Além disso, pessoal, a criação de códigos de
+
+140
+00:09:12,950 --> 00:09:17,345
+ética e um norteador moral entre os membros e os
+
+141
+00:09:17,345 --> 00:09:19,154
+usuários de uma organização.
+
+142
+00:09:19,294 --> 00:09:25,065
+A gente precisa ter alguns referenciais éticos justamente para dizer
+
+143
+00:09:25,065 --> 00:09:28,054
+quais são os valores que vão guiar aí.
+
+144
+00:09:28,134 --> 00:09:36,730
+A ação profissional nesse mundo digital está certo e o
+
+145
+00:09:36,730 --> 00:09:41,909
+Código de Ética representa uma alternativa concreta para estabelecer esses
+
+146
+00:09:41,909 --> 00:09:45,309
+para Mariolino, apresenta.
+
+147
+00:09:45,309 --> 00:09:49,059
+Outros pontos críticos da ética digital, A saber a
+
+148
+00:09:49,059 --> 00:09:54,779
+governança da internet, a guerra cibernética, o saber
+
+149
+00:09:54,779 --> 00:09:59,860
+terrorismo, os crimes virtuais são ações que influenciam os
+
+150
+00:09:59,860 --> 00:10:08,929
+comportamentos, principalmente de crianças e adolescentes, certo nesse
+
+151
+00:10:08,929 --> 00:10:10,210
+sentido pessoal.
+
+152
+00:10:11,649 --> 00:10:15,679
+O primeiro aspecto aí que tem que se trabalhar a
+
+153
+00:10:15,679 --> 00:10:18,190
+transmissão do conhecimento, ou seja, a ética das
+
+154
+00:10:18,190 --> 00:10:22,759
+ferramentas de busca para que elas não direcionem o nosso
+
+155
+00:10:22,759 --> 00:10:26,299
+olhar, Porque esse é um desafio que está posto.
+
+156
+00:10:27,450 --> 00:10:31,590
+Um segundo é a gestão das transações financeiras e de
+
+157
+00:10:31,590 --> 00:10:36,649
+alta frequência, como que esse capital circula numa perspectiva
+
+158
+00:10:36,649 --> 00:10:43,000
+e de avanço das especulações que impactam diretamente aí a
+
+159
+00:10:43,009 --> 00:10:46,470
+vida do cidadão? O terceiro problema é o protesto,
+
+160
+00:10:46,470 --> 00:10:49,480
+ou seja, a reputação na rede, um problema
+
+161
+00:10:49,480 --> 00:10:52,769
+muito delicado, importante, o qual não se discute
+
+162
+00:10:52,769 --> 00:10:57,120
+o suficiente, especialmente perante a rapidíssima difusão do uso
+
+163
+00:10:57,120 --> 00:10:58,509
+das redes sociais.
+
+164
+00:10:59,519 --> 00:11:02,159
+Nesse sentido pessoal, a gente também precisa falar da
+
+165
+00:11:02,159 --> 00:11:03,299
+inclusão digital.
+
+166
+00:11:03,789 --> 00:11:07,049
+A necessidade de pessoas com acesso a dispositivos móveis como
+
+167
+00:11:07,049 --> 00:11:09,980
+celular, mas com dificuldade de acessar a rede e
+
+168
+00:11:09,980 --> 00:11:13,370
+de se relacionar com atendimento virtual, como a gente,
+
+169
+00:11:13,370 --> 00:11:16,730
+pode fortalecer a inclusão digital.
+
+170
+00:11:17,480 --> 00:11:21,360
+Além disso, o financiamento da informação disponível divulgado pode
+
+171
+00:11:21,360 --> 00:11:23,559
+ser nociva as necessidades dos cidadãos.
+
+172
+00:11:23,860 --> 00:11:26,950
+Por esse motivo, é necessário dar transparência, a
+
+173
+00:11:26,950 --> 00:11:32,370
+lógica do ordenamento, publicização das informações na rede,
+
+174
+00:11:33,500 --> 00:11:36,799
+portanto, pessoal, a ética no mundo digital passa
+
+175
+00:11:36,799 --> 00:11:43,529
+pela capacidade de oferecermos informações confiáveis e validadas, especialmente
+
+176
+00:11:43,529 --> 00:11:47,750
+um contexto de prevalência das fake News.
+
+177
+00:11:47,750 --> 00:11:51,990
+O nosso desafio vai ser então pessoal em contribuir para
+
+178
+00:11:51,990 --> 00:11:58,039
+o desenvolvimento de ações que fortaleçam a garantia e a
+
+179
+00:11:58,039 --> 00:12:03,049
+confiabilidade das informações que são transmitidas de modo a não
+
+180
+00:12:03,049 --> 00:12:08,769
+prejudicar a reputação das pessoas a não influenciar indevidamente comportamentos
+
+181
+00:12:09,190 --> 00:12:13,019
+e a garantir a proteção dos dados disponíveis das pessoas.
+
+182
+00:12:13,429 --> 00:12:16,799
+A ética no mundo digital diz respeito justamente a um
+
+183
+00:12:16,799 --> 00:12:21,554
+trabalho que vai oferecer segurança o cidadão que se relaciona
+
+184
+00:12:21,924 --> 00:12:26,855
+o cidadão que interage e que utilizam as tecnologias da
+
+185
+00:12:26,855 --> 00:12:30,274
+informação para satisfazer as suas necessidades.
+
+186
+00:12:30,585 --> 00:12:31,514
+Beleza pessoal.
+
+187
+00:12:31,514 --> 00:12:35,054
+Então, nesse sentido, a gente vai defender todas
+
+188
+00:12:35,054 --> 00:12:38,644
+as ações que estão voltadas ao combate das fake News
+
+189
+00:12:38,965 --> 00:12:43,164
+a partir dos parâmetros da ética no mundo digital.
+
