@@ -24,7 +24,13 @@ export default function Home({abrirCurriculo}) {
  }
  
  const [homeBanner,setHomeBanner]=useState(<></>)
- 
+
+ const [objetivos, setObjetivos] = useState('Carregando, Aguarde...')
+
+ function loadObjetivos() {
+  setObjetivos(<>< Objetivo /></>)
+ }
+ setTimeout(loadObjetivos, 4000);
   return (
     <>
     {homeBanner}
@@ -50,9 +56,10 @@ export default function Home({abrirCurriculo}) {
       <div className={styles.corpoCurriculo}>
         
         < HeaderCurriculo abrirCurriculo={closeBanner}/>
-        
-        < Objetivo />
+       
+        {objetivos}
         < Contato />
+     
       </div>
     </div>
     </>
