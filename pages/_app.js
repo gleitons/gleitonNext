@@ -3,9 +3,8 @@ import Analytcs from '../components/Analytcs'
 import '../styles/Ham.module.css'
 
 function MyApp({ Component, pageProps }) {
-  return <Analytcs>
-        <Component {...pageProps} />
-        </Analytcs>
+  return <Component {...pageProps} />
+       
   }
 
 export default MyApp

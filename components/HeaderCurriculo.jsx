@@ -15,15 +15,8 @@ import { BsFillCloudArrowDownFill } from 'react-icons/bs'
 
 import { FaProjectDiagram } from 'react-icons/fa'
 
-
-
-// import Gleiton from '/public/img/gleiton-aparecido-soares-de-souza.jpg'
-// import GleitonCinza from '/public/gleiton-cinza.jpg'
-// import GleitonAzul from '/public/gleiton-azul.jpg'
-// import GleitonClean from '/public/gleiton-clean.jpg'
-// import GleitonTransparente from '/public/gleiton-transparente.png'
 import Image from 'next/image'
-// import Papel from './Papel'
+
 
 
 import gleiton1 from '../public/img/gleiton/images/gleiton_01.jpg'
@@ -56,6 +49,9 @@ import gleiton12 from '../public/img/gleiton/images/gleiton_12.jpg'
 
 
 export default function HeaderCurriculo({abrirCurriculo}) {
+    const parte1 = [gleiton1, gleiton2, gleiton3, gleiton4]
+    const parte2 = [gleiton5, gleiton6,  gleiton7, gleiton8]
+    const parte3 = [gleiton9, gleiton10, gleiton11, gleiton12]
    
     return (
         <>
@@ -65,35 +61,23 @@ export default function HeaderCurriculo({abrirCurriculo}) {
             <div className={styles.cabecalho}>
             <span id='inicio'>_</span>
                 <div className={styles.infoCapa}>
-                    
-               
-
                     <div className={styles.fotoPerfil}>
-                    {/* <div className={styles.gleitonWeb}>
-                    <Image src={gleitonwebp} alt='Gleiton 1' />
-                    </div> */}
                    
-
                         <div className={styles.gleitonOne}>
-                            <Image src={gleiton1} alt='Gleiton 1'  />
-                            <Image src={gleiton2} alt='Gleiton 2' />
-                            <Image src={gleiton3} alt='Gleiton 3' />
-                            <Image src={gleiton4} alt='Gleiton 4' />
-                        </div>
+                            {parte1.map((e, i) => (
+                                <Image key={e} src={e} alt={"Gleiton" + i}  />
+                            ))}                         
+                        </div>   
                         <div className={styles.gleitonOne}>
-                            <Image src={gleiton5} alt='Gleiton 5' />
-                            <Image src={gleiton6} alt='Gleiton 6' />
-                            <Image src={gleiton7} alt='Gleiton 7' />
-                            <Image src={gleiton8} alt='Gleiton 8' />
-                        </div>
+                            {parte2.map((e, i) => (
+                                <Image key={e} src={e} alt={"Gleiton"  + i}  />
+                            ))}                         
+                        </div>     
                         <div className={styles.gleitonOne}>
-                            <Image src={gleiton9} alt='Gleiton 9' />
-                            <Image src={gleiton10} alt='Gleiton 10' />
-                            <Image src={gleiton11} alt='Gleiton 11' />
-                            <Image src={gleiton12} alt='Gleiton 12' />
-                        </div>
-
-
+                            {parte3.map((e, i) => (
+                                <Image key={e} src={e} alt={"Gleiton"  + i}  />
+                            ))}                         
+                        </div>     
                     </div>
 
 
