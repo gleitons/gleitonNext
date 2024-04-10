@@ -1,14 +1,14 @@
 import Image from 'next/image'
 import styles from '../../styles/servicos.module.css'
 import Maos from "../../public/img/sobre-nos-cumprimentos.jpeg"
-import contrato from '../../public/img/sobre-nos-constrato.jpeg'
+
 
 export default function Sobrenos() {
     return (
         <>
             <div className={styles.informacaoSobre}>
                 <div>
-                    <Image src={Maos} />
+                    <Image src={Maos} fill alt='Sobre nós' />
                 </div>
                 <div>
                     <h3>Sobre nós</h3>

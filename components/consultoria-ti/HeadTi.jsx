@@ -22,7 +22,7 @@ export default function HeadTi() {
            
             <div className={styles.icoW}>
                 <Link href="https://api.whatsapp.com/send?phone=555180652808&text=Olá, gostaria de uma consulta com a empresa futuro Consultoria.">
-                    <Image src={wp} />
+                    <Image src={wp} alt="Consultoria TI" fill />
                 </Link>
             </div>
             <HeadTopo />
@@ -53,7 +53,7 @@ export default function HeadTi() {
                         <p>Trabalhando juntos, identificaremos o plano ideal para sua empresa, seja por meio de atendimentos presenciais, remotos ou uma combinação de ambos. Oferecemos consultoria e planejamento para os próximos níveis de TI.</p>
                     </div>
                     <div>
-                        <Image src={servicos} width={400} quality={60} />
+                        <Image src={servicos} width={400} quality={60} alt="Muito mais informações" />
                     </div>
                 </div>
                 <div>

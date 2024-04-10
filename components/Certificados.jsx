@@ -1,9 +1,10 @@
 import styles from '../styles/Ham.module.css'
+import Image from 'next/image'
 export default function Certificados({imagemC}) {
     return (
         <>
         <div>
-            <img className={styles.infoImg} src={imagemC} alt="Certificado Gleiton Ap Soares de Souza" />
+            <Image className={styles.infoImg} src={imagemC} alt="Certificado Gleiton Ap Soares de Souza" />
         </div>
         </>
     )
