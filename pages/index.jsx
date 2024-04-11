@@ -14,54 +14,52 @@ import MenuOriginal from '../components/Menu'
 
 
 
-export default function Home({abrirCurriculo}) {
-  const closeBanner=()=>{
-        
-    setHomeBanner(<BaixarC closeCurriculo={closeCurriculo}/>)
- }
- const closeCurriculo =() => {
+export default function Home({ abrirCurriculo }) {
+  const closeBanner = () => {
+
+    setHomeBanner(<BaixarC closeCurriculo={closeCurriculo} />)
+  }
+  const closeCurriculo = () => {
     setHomeBanner(<></>)
- }
- 
- const [homeBanner,setHomeBanner]=useState(<></>)
+  }
 
- const [objetivos, setObjetivos] = useState(<button onClick={loadObjetivos} className={styles.corpoCurriculo}>Clique aqui para Carregar Curriculo</button>)
+  const [homeBanner, setHomeBanner] = useState(<></>)
 
- function loadObjetivos() {
-  setObjetivos(<>< Objetivo /></>)
- }
- 
+  const [objetivos, setObjetivos] = useState(<button onClick={loadObjetivos} className={styles.corpoCurriculo}>Clique aqui para Carregar Curriculo</button>)
+
+  function loadObjetivos() {
+    setObjetivos(<>< Objetivo /></>)
+  }
+
   return (
     <>
-    {homeBanner}
-    <div className={styles.container}>
-      <Head>
-       
-        <meta property="og:locale" content="pt_BR" />
-        
-        <meta name="author" content="Gleiton Aparecido Soares de Souza" />
-        
+      {homeBanner}
+      <div className={styles.container}>
+        <Head>
 
-       
-        <meta name="keywords" content="Curriculo, programador Web, Gleiton, Gleiton Aparecido Soares de Souza" />
-        <meta name="robots" content="index, follow" />
+          <meta property="og:locale" content="pt_BR" />
+
+          <meta name="author" content="Gleiton Aparecido Soares de Souza" />
 
 
-        <title>Gleiton Aparecido Soares de Souza - Curriculum Vitae</title>
-        <meta name="description" content="Gleiton Aparecido Soares de Souza, informações profissionais, tudo sobre o Curricullum Vitae de Gleiton, site oficial, saiba mais sobre Gleiton - Montagem, configuração e manutenção de hardware de computadores. Além de cuidados no manuseio e utilização de peças e equipamentos de informática, instalação e configuração dos diversos componentes de um microcomputador, seus periféricos e dos dispositivos auxiliares utilizados na computação" />
-        
-        
-      </Head>
-      <MenuOriginal />
-      <div className={styles.corpoCurriculo}>
-        
-        < HeaderCurriculo abrirCurriculo={closeBanner}/>
-        {/* < Objetivo /> */}
-        {objetivos}
-        < Contato />
-     
+
+          <meta name="keywords" content="Curriculo, programador Web, Gleiton, Gleiton Aparecido Soares de Souza" />
+          <meta name="robots" content="index, follow" />
+
+
+          <title>Gleiton Aparecido Soares de Souza - Curriculum Vitae</title>
+          <meta name="description" content="Gleiton Aparecido Soares de Souza, informações profissionais, tudo sobre o Curricullum Vitae de Gleiton, site oficial, saiba mais sobre Gleiton - Montagem, configuração e manutenção de hardware de computadores. Além de cuidados no manuseio e utilização de peças e equipamentos de informática, instalação e configuração dos diversos componentes de um microcomputador, seus periféricos e dos dispositivos auxiliares utilizados na computação" />
+
+
+        </Head>
+        <MenuOriginal />
+        <div className={styles.corpoCurriculo}>
+          < HeaderCurriculo abrirCurriculo={closeBanner} />          
+          {objetivos}
+          < Contato />
+
+        </div>
       </div>
-    </div>
     </>
   )
 }

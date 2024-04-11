@@ -100,6 +100,7 @@ background-size: 100% 1.2em;
   text-decoration: none;
   color: white;
   transition: 300ms;
+  width: fit-content;
 }
 .sociais a:hover {
   color: rgb(0, 0, 0);
@@ -127,6 +128,7 @@ background-size: 100% 1.2em;
 }
 .iconesJ a {
   margin-left: 10px;
+  width: fit-content;
 }
 .baixarC a button {
   padding: 0.6em;

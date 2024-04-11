@@ -1,7 +1,7 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import styles from '../styles/HeaderCurriculo.module.css'
 import { IoLogoWhatsapp } from 'react-icons/io'
-// import { RiMailOpenFill } from 'react-icons/ri'
 import { BsFillFlagFill } from 'react-icons/bs'
 import { FaMapMarkerAlt } from 'react-icons/fa'
 import { IoCallSharp } from 'react-icons/io5'
@@ -12,46 +12,24 @@ import { CgWebsite } from 'react-icons/cg'
 import { AiFillCar } from 'react-icons/ai'
 import { FaMotorcycle } from 'react-icons/fa'
 import { BsFillCloudArrowDownFill } from 'react-icons/bs'
-
 import { FaProjectDiagram } from 'react-icons/fa'
 
-import Image from 'next/image'
-
-
-
-import gleiton1 from '../public/img/gleiton/images/gleiton_01.jpg'
-import gleiton2 from '../public/img/gleiton/images/gleiton_02.jpg'
-import gleiton3 from '../public/img/gleiton/images/gleiton_03.jpg'
-import gleiton4 from '../public/img/gleiton/images/gleiton_04.jpg'
-
-
-import gleiton5 from '../public/img/gleiton/images/gleiton_05.jpg'
-import gleiton6 from '../public/img/gleiton/images/gleiton_06.jpg'
-import gleiton7 from '../public/img/gleiton/images/gleiton_07.jpg'
-import gleiton8 from '../public/img/gleiton/images/gleiton_08.jpg'
-
-
-import gleiton9 from '../public/img/gleiton/images/gleiton_09.jpg'
-import gleiton10 from '../public/img/gleiton/images/gleiton_10.jpg'
-import gleiton11 from '../public/img/gleiton/images/gleiton_11.jpg'
-import gleiton12 from '../public/img/gleiton/images/gleiton_12.jpg'
-//import gleiton12 from '../public/img/images/gleiton-aparecido-soares-capa/gleiton-aparecido-soares-de-souza_12.jpg'
-
-
-
-
-
-
-
-
-
-
-
+var parte1 = []
+var parte2 = []
+var parte3 = []
+for(let i = 1; i <= 12; i++){
+    if(i <= 4) {        
+        parte1.push(`/gleiton_${i}.jpg`)
+    } else if(i > 4 && i <=8) {
+        parte2.push(`/gleiton_${i}.jpg`)
+    } else  {
+        parte3.push(`/gleiton_${i}.jpg`)
+    }
+    
+}
 
 export default function HeaderCurriculo({abrirCurriculo}) {
-    const parte1 = [gleiton1, gleiton2, gleiton3, gleiton4]
-    const parte2 = [gleiton5, gleiton6,  gleiton7, gleiton8]
-    const parte3 = [gleiton9, gleiton10, gleiton11, gleiton12]
+   
    
     return (
         <>
@@ -62,20 +40,20 @@ export default function HeaderCurriculo({abrirCurriculo}) {
             <span id='inicio'>_</span>
                 <div className={styles.infoCapa}>
                     <div className={styles.fotoPerfil}>
-                   
+                    
                         <div className={styles.gleitonOne}>
                             {parte1.map((e, i) => (
-                                <Image key={e} src={e} alt={"Gleiton" + i}  />
+                                <Image key={e} src={e} alt={"Gleiton " + i} width={95} height={126}  />
                             ))}                         
                         </div>   
                         <div className={styles.gleitonOne}>
                             {parte2.map((e, i) => (
-                                <Image key={e} src={e} alt={"Gleiton"  + i}  />
+                                <Image key={e} src={e} alt={"Gleiton "  + (i + 2)} width={95} height={126}  />
                             ))}                         
                         </div>     
                         <div className={styles.gleitonOne}>
                             {parte3.map((e, i) => (
-                                <Image key={e} src={e} alt={"Gleiton"  + i}  />
+                                <Image key={e} src={e} alt={"Gleiton "  + (i + 3)} width={95} height={126}  />
                             ))}                         
                         </div>     
                     </div>
