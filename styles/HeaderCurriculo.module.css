@@ -116,12 +116,7 @@ background-size: 100% 1.2em;
 .sociais {
   margin-top: 1px;
 }
-.Isociais {
-  width: fit-content;
-  display: flex;
-  gap: 10px;
-  align-items: center;
-}
+
 .iconesJ {
   width: 100%;
   background-color: gray;
@@ -140,6 +135,7 @@ background-size: 100% 1.2em;
 .stail {
   margin: 10px 0px;
   display: flex;
+  margin-top: 30px;
   gap: 10px;
   background-image: linear-gradient(to bottom, green, rgb(0, 55, 0));
   box-shadow: black 0px 1px 4px 0px;
@@ -284,13 +280,7 @@ background-size: 20px 20px;
   .janelaWindows {
     width: 100%;
   }
-  .Isociais {
-    display: flex;
-  }
-  .Isociais p {
-    max-width: 100%;
-    line-height: 1em;
-  }
+ 
   .infoP h2 {
     line-height: 1em;
     font-size: 1.7em;

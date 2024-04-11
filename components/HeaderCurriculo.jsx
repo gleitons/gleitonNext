@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import Image from 'next/image'
+import LinksMap from './LinksMap'
 import styles from '../styles/HeaderCurriculo.module.css'
 import { IoLogoWhatsapp } from 'react-icons/io'
 import { BsFillFlagFill } from 'react-icons/bs'
@@ -17,138 +18,106 @@ import { FaProjectDiagram } from 'react-icons/fa'
 var parte1 = []
 var parte2 = []
 var parte3 = []
-for(let i = 1; i <= 12; i++){
-    if(i <= 4) {        
+for (let i = 1; i <= 12; i++) {
+    if (i <= 4) {
         parte1.push(`/gleiton_${i}.jpg`)
-    } else if(i > 4 && i <=8) {
+    } else if (i > 4 && i <= 8) {
         parte2.push(`/gleiton_${i}.jpg`)
-    } else  {
+    } else {
         parte3.push(`/gleiton_${i}.jpg`)
     }
-    
+
 }
 
-export default function HeaderCurriculo({abrirCurriculo}) {
-   
-   
+export default function HeaderCurriculo({ abrirCurriculo }) {
+    const link = [
+        {
+            link: "#inicio",
+            icone: < BsFillFlagFill />,
+            descricao: "Brasileiro, solteiro, 33 anos"
+        },
+        {
+            link: "https://goo.gl/maps/BL5Wk1CDyH4JVXGv5",
+            icone: < FaMapMarkerAlt />,
+            descricao: "Endereço: Rua Pirapó, 514, 001 - Bairro Igara, Canoas – RS"
+        },
+        {
+            link: "tel:51980652808",
+            icone: < IoCallSharp />,
+            descricao: "Telefone: (51) 98065-2808"
+        },
+        {
+            link: "#contato",
+            icone: < RiMailSendFill />,
+            descricao: "E-mail: gleiton.adm@gmail.com"
+        },
+        {
+            link: "https://www.linkedin.com/in/gleiton/",
+            icone: < AiFillLinkedin />,
+            descricao: "Linkedin: linkedin.com/in/gleiton/"
+        },
+        {
+            link: "https://github.com/gleitons",
+            icone: < AiFillGithub />,
+            descricao: "GitHub: github.com/gleitons"
+        },
+        {
+            link: "https://gleiton.vercel.app",
+            icone: < CgWebsite />,
+            descricao: "Site: gleiton.vercel.app"
+        },
+        {
+            link: "https://goo.gl/maps/BL5Wk1CDyH4JVXGv5",
+            icone: <> < FaMotorcycle />< AiFillCar /></>,
+            descricao: "CNH(Carteira de Habilitação): A/B"
+        },
+        {
+            link: "/servicos",
+            icone: < FaProjectDiagram />,
+            descricao: "Veja nossos Projetos (Serviços)"
+        },
+        {
+            link: "#",
+            icone: < BsFillCloudArrowDownFill />,
+            descricao: <p onClick={abrirCurriculo}>Clique aqui para baixar este currículo</p>
+        },
+        {
+            link: "https://api.whatsapp.com/send?phone=5551980652808&text=Ol%C3%A1,%20gostaria%20de%20falar%20com%20Gleiton Soares",
+            icone: "",
+            descricao: <div className={styles.stail}>
+                <IoLogoWhatsapp />
+                <p>Estou Online Agora - Clique Aqui</p>
+            </div>
+        }
+    ]
     return (
         <>
-
-            {/* <Papel /> */}
-
             <div className={styles.cabecalho}>
-            <span id='inicio'>_</span>
+                <span id='inicio'>_</span>
                 <div className={styles.infoCapa}>
                     <div className={styles.fotoPerfil}>
-                    
                         <div className={styles.gleitonOne}>
                             {parte1.map((e, i) => (
-                                <Image key={e} src={e} alt={"Gleiton " + i} width={95} height={126}  />
-                            ))}                         
-                        </div>   
+                                <Image key={e} src={e} alt={"Gleiton " + i} width={95} height={126} />
+                            ))}
+                        </div>
                         <div className={styles.gleitonOne}>
                             {parte2.map((e, i) => (
-                                <Image key={e} src={e} alt={"Gleiton "  + (i + 2)} width={95} height={126}  />
-                            ))}                         
-                        </div>     
+                                <Image key={e} src={e} alt={"Gleiton " + (i + 2)} width={95} height={126} />
+                            ))}
+                        </div>
                         <div className={styles.gleitonOne}>
                             {parte3.map((e, i) => (
-                                <Image key={e} src={e} alt={"Gleiton "  + (i + 3)} width={95} height={126}  />
-                            ))}                         
-                        </div>     
+                                <Image key={e} src={e} alt={"Gleiton " + (i + 3)} width={95} height={126} />
+                            ))}
+                        </div>
                     </div>
-
-
-                    {/* <div className={styles.fotoPerfil}>
-                    <Image src= {Gleiton} alt="Gleiton Aparecido Soares de Souza" />
-                    </div> */}
                     <div className={styles.infoP}>
                         <h2>GLEITON APARECIDO SOARES DE SOUZA</h2>
-
                         <div className={styles.sociais}>
-                            <Link href="#inicio" >
-                                <div className={styles.Isociais}>
-                                    < BsFillFlagFill />
-                                    <p>Brasileiro, solteiro, 33 anos</p>
-                                </div>
-                            </Link>
-                            <Link href="https://goo.gl/maps/BL5Wk1CDyH4JVXGv5"
-                                target="_blank">
-                                <div className={styles.Isociais}>
-                                    < FaMapMarkerAlt />
-                                    <p>Endereço: Rua Pirapó, 514, 001 - Bairro Igara, Canoas – RS</p>
-                                </div>
-                            </Link>
-                            <Link href="tel:51980652808"
-                                target="_blank">
-                                <div className={styles.Isociais}>
-                                    < IoCallSharp />
-                                    <p>Telefone: (51) 98065-2808</p>
-                                </div>
-                            </Link>
-                            <Link href="#contato">
-                                <div className={styles.Isociais}>
-                                    < RiMailSendFill />
-                                    <p>E-mail: gleiton.adm@gmail.com</p>
-                                </div>
-                            </Link>
-                            <Link href="https://www.linkedin.com/in/gleiton/"
-                                target="_blank">
-                                <div className={styles.Isociais}>
-                                    < AiFillLinkedin />
-                                    <p>Linkedin: linkedin.com/in/gleiton/</p>
-                                </div>
-                            </Link>
-                            <Link href="https://github.com/gleitons"
-                                target="_blank">
-                                <div className={styles.Isociais}>
-                                    < AiFillGithub />
-                                    <p>GitHub: github.com/gleitons</p>
-                                </div>
-                            </Link>
-                            <Link href="https://gleiton.vercel.app"
-                                target="_blank">
-                                <div className={styles.Isociais}>
-                                    < CgWebsite />
-                                    <p>Site: gleiton.com.br</p>
-                                </div>
-                            </Link>
-                            <Link href="https://goo.gl/maps/BL5Wk1CDyH4JVXGv5"
-                                target="_blank"
-                            >
-                                <div className={styles.Isociais}>
-                                    < FaMotorcycle />
-                                    < AiFillCar />
-
-                                    <p>CNH(Carteira de Habilitação): A/B</p>
-                                </div>
-                            </Link>
-                            <Link href="/servicos"
-                                
-                            >
-                                <div className={styles.Isociais}>
-                                   
-                                    < FaProjectDiagram />
-
-                                    <p>Veja nossos Projetos (Serviços)</p>
-                                </div>
-                            </Link>
-                            <a >
-                                <div className={styles.Isociais}>
-                                    < BsFillCloudArrowDownFill />
-                                    <p  onClick={abrirCurriculo}>Clique aqui para baixar este currículo</p>
-                                </div>
-                            </a>
-                           
-                           {/* <BaixarC /> */}
-                            <Link href="https://api.whatsapp.com/send?phone=5551980652808&text=Ol%C3%A1,%20gostaria%20de%20falar%20com%20Gleiton Soares."
-                                target="_blank">
-                                <div className={styles.stail}>
-                                    <IoLogoWhatsapp />
-                                    <p>Estou Online Agora - Clique Aqui</p>
-                                </div>
-                            </Link>
-
+                            {link.map((e) => (
+                                <LinksMap key={e.link} link={e.link} icone={e.icone} desc={e.descricao} />
+                            ))}
                         </div>
                     </div>
 
