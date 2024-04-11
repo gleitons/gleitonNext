@@ -4,7 +4,7 @@ export default function Certificados({imagemC}) {
     return (
         <>
         <div>
-            <Image className={styles.infoImg} src={imagemC} alt="Certificado Gleiton Ap Soares de Souza" />
+            <Image className={styles.infoImg} src={imagemC} width={900} height={1200} alt="Certificado Gleiton Ap Soares de Souza" />
         </div>
         </>
     )

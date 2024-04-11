@@ -25,12 +25,12 @@ export default function Home({abrirCurriculo}) {
  
  const [homeBanner,setHomeBanner]=useState(<></>)
 
- const [objetivos, setObjetivos] = useState('Carregando, Aguarde...')
+ const [objetivos, setObjetivos] = useState(<button onClick={loadObjetivos} className={styles.corpoCurriculo}>Clique aqui para Carregar Curriculo</button>)
 
  function loadObjetivos() {
   setObjetivos(<>< Objetivo /></>)
  }
- setTimeout(loadObjetivos, 4000);
+ 
   return (
     <>
     {homeBanner}
@@ -56,7 +56,7 @@ export default function Home({abrirCurriculo}) {
       <div className={styles.corpoCurriculo}>
         
         < HeaderCurriculo abrirCurriculo={closeBanner}/>
-       
+        {/* < Objetivo /> */}
         {objetivos}
         < Contato />
      

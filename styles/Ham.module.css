@@ -58,6 +58,8 @@
   }
   .infoImg {
     animation: verInfo 500ms normal;
+    width: 100%;
+    height: 100%;
   }
   @keyframes verInfo {
     0% {
