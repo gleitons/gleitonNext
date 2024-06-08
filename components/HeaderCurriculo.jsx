@@ -29,12 +29,19 @@ for (let i = 1; i <= 12; i++) {
 
 }
 
+const anoAt = () => {
+    const anoA = new Date().getFullYear()
+
+    
+    return `Brasileiro, solteiro, ${anoA - 1990} anos em ${anoA}. `;
+}
+
 export default function HeaderCurriculo({ abrirCurriculo }) {
     const link = [
         {
             link: "#inicio",
             icone: < BsFillFlagFill />,
-            descricao: "Brasileiro, solteiro, 33 anos"
+            descricao: anoAt()
         },
         {
             link: "https://goo.gl/maps/BL5Wk1CDyH4JVXGv5",
