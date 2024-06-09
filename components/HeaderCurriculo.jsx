@@ -14,10 +14,12 @@ import { AiFillCar } from 'react-icons/ai'
 import { FaMotorcycle } from 'react-icons/fa'
 import { BsFillCloudArrowDownFill } from 'react-icons/bs'
 import { FaProjectDiagram } from 'react-icons/fa'
+import gleiton from '/public/gleiton.jpg'
 
 var parte1 = []
 var parte2 = []
 var parte3 = []
+
 for (let i = 1; i <= 12; i++) {
     if (i <= 4) {
         parte1.push(`/gleiton_${i}.jpg`)
@@ -32,7 +34,7 @@ for (let i = 1; i <= 12; i++) {
 const anoAt = () => {
     const anoA = new Date().getFullYear()
 
-    
+
     return `Brasileiro, solteiro, ${anoA - 1990} anos em ${anoA}. `;
 }
 
@@ -102,8 +104,12 @@ export default function HeaderCurriculo({ abrirCurriculo }) {
             <div className={styles.cabecalho}>
                 <span id='inicio'>_</span>
                 <div className={styles.infoCapa}>
-                    <div className={styles.fotoPerfil}>
-                        <div className={styles.gleitonOne}>
+                    <div className={styles.fotoPerfilUm}>
+                        <Image src={gleiton} alt='Gleiton' />
+                    </div>
+                    {/* <div className={styles.fotoPerfil}>
+                        <Image src={gleiton} alt='Gleiton' />
+                         <div className={styles.gleitonOne}>
                             {parte1.map((e, i) => (
                                 <Image key={e} src={e} alt={"Gleiton " + i} width={95} height={126} />
                             ))}
@@ -118,7 +124,7 @@ export default function HeaderCurriculo({ abrirCurriculo }) {
                                 <Image key={e} src={e} alt={"Gleiton " + (i + 3)} width={95} height={126} />
                             ))}
                         </div>
-                    </div>
+                    </div> */}
                     <div className={styles.infoP}>
                         <h2>GLEITON APARECIDO SOARES DE SOUZA</h2>
                         <div className={styles.sociais}>

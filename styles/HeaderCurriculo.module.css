@@ -287,3 +287,6 @@ background-size: 20px 20px;
     text-align: center;
   }
 }
+.fotoPerfilUm img {
+  width: 360px;
+}
