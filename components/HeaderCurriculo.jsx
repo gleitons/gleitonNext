@@ -16,25 +16,23 @@ import { BsFillCloudArrowDownFill } from 'react-icons/bs'
 import { FaProjectDiagram } from 'react-icons/fa'
 import gleiton from '/public/gleiton.jpg'
 
-var parte1 = []
-var parte2 = []
-var parte3 = []
+// var parte1 = []
+// var parte2 = []
+// var parte3 = []
 
-for (let i = 1; i <= 12; i++) {
-    if (i <= 4) {
-        parte1.push(`/gleiton_${i}.jpg`)
-    } else if (i > 4 && i <= 8) {
-        parte2.push(`/gleiton_${i}.jpg`)
-    } else {
-        parte3.push(`/gleiton_${i}.jpg`)
-    }
+// for (let i = 1; i <= 12; i++) {
+//     if (i <= 4) {
+//         parte1.push(`/gleiton_${i}.jpg`)
+//     } else if (i > 4 && i <= 8) {
+//         parte2.push(`/gleiton_${i}.jpg`)
+//     } else {
+//         parte3.push(`/gleiton_${i}.jpg`)
+//     }
 
-}
+// }
 
 const anoAt = () => {
-    const anoA = new Date().getFullYear()
-
-
+    const anoA = new Date().getFullYear();
     return `Brasileiro, solteiro, ${anoA - 1990} anos em ${anoA}. `;
 }
 

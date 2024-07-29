@@ -7,9 +7,9 @@ export default function Sobrenos() {
     return (
         <>
             <div className={styles.informacaoSobre}>
-                <div>
+                {/* <div>
                     <Image src={Maos} fill alt='Sobre nós' />
-                </div>
+                </div> */}
                 <div>
                     <h3>Sobre nós</h3>
                     <p>A Futuro Consultoria é uma empresa de consultoria especializada sediada em Lagoa dos Patos, MG, Brasil. Com vasta experiência e conhecimento em consultoria, estamos comprometidos em fornecer soluções estratégicas e personalizadas para nossos clientes.</p>

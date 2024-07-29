@@ -9,7 +9,7 @@ import HeadTopo from "./HeadTopo"
 import Sobrenos from "./Sobrenos"
 
 import Link from "next/link"
-import { IoLogIn } from "react-icons/io5"
+// import { IoLogIn } from "react-icons/io5"
 export default function HeadTi() {
 
     return (
@@ -21,14 +21,14 @@ export default function HeadTi() {
             </Link>
            
             <div className={styles.icoW}>
-                <Link href="https://api.whatsapp.com/send?phone=555180652808&text=Olá, gostaria de uma consulta com a empresa futuro Consultoria.">
+                <Link href="https://api.whatsapp.com/send?phone=5538999167841&text=Olá, gostaria de uma consulta com a empresa futuro Consultoria.">
                     <Image src={wp} alt="Consultoria TI" fill />
                 </Link>
             </div>
             <HeadTopo />
             <div className={styles.hdd}>
                 <BannerTopo />
-                <Sobrenos />
+               
             </div>
 
             <div className={styles.hTopo} >
@@ -114,12 +114,12 @@ export default function HeadTi() {
                         <input type="text" name="" id="" placeholder="Fone" />
                         <p>Mensagem</p>
                         <textarea name="" id="" cols="30" rows="10"></textarea>
-                        <Link href="https://api.whatsapp.com/send?phone=555180652808&text=Olá, gostaria de uma consulta com a empresa futuro Consultoria." ><button type="submit">Enviar</button></Link>
+                        <Link href="https://api.whatsapp.com/send?phone=5538999167841&text=Olá, gostaria de uma consulta com a empresa futuro Consultoria." ><button type="submit">Enviar</button></Link>
 
                     </div>
                 </div>
             </div>
-
+            <Sobrenos />
             <div>
                 <p>TODOS OS DIREITO RESERVADOS - FUTURO CONSULTORIA - 26.300.217/0001-00</p>
             </div>

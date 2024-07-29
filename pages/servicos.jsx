@@ -5,7 +5,7 @@ export default function Servicos() {
     return (
         <>
         <Head>
-        <title>Serviços de Consultoria TI</title>
+        <title>Serviços de Consultoria TI e Certificados</title>
         </Head>
         
         <HeadTi />
