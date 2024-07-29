@@ -35,7 +35,7 @@ export default function HeadTi() {
                 <div className={styles.place}>
                     <h2>Suporte e Gestão de TI</h2>
                     <p>Garanta a eficiência dos seus negócios ao eliminar problemas de comunicação, otimizar a velocidade do sistema e resolver falhas nos equipamentos de informática.</p>
-                    <Link href="https://api.whatsapp.com/send?phone=555180652808&text=Olá, gostaria de uma consulta com a empresa futuro Consultoria."><button className={styles.pButton}>Fale agora com um Consultor</button></Link>
+                    <Link href="https://api.whatsapp.com/send?phone=55538999167841&text=Olá, gostaria de uma consulta com a empresa futuro Consultoria."><button className={styles.pButton}>Fale agora com um Consultor</button></Link>
                 </div>
 
             </div>
