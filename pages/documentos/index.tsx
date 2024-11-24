@@ -1,13 +1,14 @@
 import Link from "next/link";
 import { useState } from "react";
 import Btns from "../../components/Contracheques";
+import Head from "next/head";
 // import { useRouter } from "next/router";
 
 export function Btn({ nome, link, color, onClick }) {
   return (
     <button
       onClick={onClick}
-      className={`p-2 bg-${color}-800  text-white rounded-md hover:opacity-80`}
+      className={`p-2 bg-red-800  text-white rounded-md hover:opacity-80`}
     >
       {nome}
     </button>
@@ -44,19 +45,39 @@ export default function Index() {
 
   return (
     <div className="w-full">
+      <Head>
+        <meta property="og:locale" content="pt_BR" />
+
+        <meta name="author" content="Gleiton Aparecido Soares de Souza" />
+
+        <meta
+          name="keywords"
+          content="Curriculo, programador Web, Gleiton, Gleiton Aparecido Soares de Souza"
+        />
+        <meta name="robots" content="index, follow" />
+
+        <title>Gleiton Aparecido Soares de Souza - Documentos</title>
+        <meta
+          name="description"
+          content="Gleiton Aparecido Soares de Souza, informações profissionais, tudo sobre o Curricullum Vitae de Gleiton, site oficial, saiba mais sobre Gleiton - Montagem, configuração e manutenção de hardware de computadores. Além de cuidados no manuseio e utilização de peças e equipamentos de informática, instalação e configuração dos diversos componentes de um microcomputador, seus periféricos e dos dispositivos auxiliares utilizados na computação"
+        />
+      </Head>
       <div className="m-auto w-2/3 mt-10 flex flex-col justify-center">
         <div>
-          <h2 className="font-bold text-xl">À Prefeitura Municipal de Lagoa dos Patos - MG Setor de Recursos Humanos </h2>
+          <h2 className="font-bold text-xl">
+            À Prefeitura Municipal de Lagoa dos Patos - MG Setor de Recursos
+            Humanos{" "}
+          </h2>
           <p>
-            Ilmo(a). Sr(a). Responsável pelo Setor de Recursos Humanos
-            Assunto: Solicitação de Regularização de Direitos e Esclarecimentos
-            Eu, Gleiton Aparecido Soares de Souza, portador do CPF 083.030.206-92,
-            servidor público municipal, admitido em 01/04/2016 no cargo de Agente
-            Administrativo Fazendário, Matricula: 1749, venho, por meio deste,
-            requerer a análise, regularização e resposta formal aos seguintes
-            pontos, conforme estabelecidos no Plano de Cargos e Salários de Lagoa
-            dos Patos - MG, na legislação municipal aplicável e na Constituição
-            Federal entre outros.
+            Ilmo(a). Sr(a). Responsável pelo Setor de Recursos Humanos Assunto:
+            Solicitação de Regularização de Direitos e Esclarecimentos Eu,
+            Gleiton Aparecido Soares de Souza, portador do CPF 083.030.206-92,
+            servidor público municipal, admitido em 01/04/2016 no cargo de
+            Agente Administrativo Fazendário, Matricula: 1749, venho, por meio
+            deste, requerer a análise, regularização e resposta formal aos
+            seguintes pontos, conforme estabelecidos no Plano de Cargos e
+            Salários de Lagoa dos Patos - MG, na legislação municipal aplicável
+            e na Constituição Federal entre outros.
           </p>
         </div>
         <div>
@@ -64,11 +85,8 @@ export default function Index() {
           <p>
             1. Verificação do Salário Base de Acordo com as Leis Informadas{" "}
           </p>
-          <p>
-            2. Recebimento de Valores Retroativos
-          </p>
-          <p>3. Aumento de Nível e
-          Progressão Funcional</p>
+          <p>2. Recebimento de Valores Retroativos</p>
+          <p>3. Aumento de Nível e Progressão Funcional</p>
           <p>
             4. Insalubridade 5. Verificação da Redução do Salário Base Durante
             Férias Prêmio
@@ -80,7 +98,7 @@ export default function Index() {
           {btns.map((e, index) => (
             <div key={index}>
               <div
-                className={`bg-${e.color}-200 text-black p-4 rounded-lg shadow-md mb-4`}
+                className={`bg-red-200 text-black p-4 rounded-lg shadow-md mb-4`}
               >
                 <p>{e.info}</p>
                 <Btn
