@@ -1,0 +1,186 @@
+const Btns = [
+  {
+    nome: "Documento de Solicitação",
+    link: "/documentos/#solicitacao",
+    color: "yellow",
+    info: "Poderá ter atualizações",
+    documento: "https://meusiteonline.sirv.com/Solicitacao-RH-prefeitura-de-lagoa-dos-patos-mg-gleiton-aparecido-soares-de-souza.pdf",
+  },
+  {
+    nome: "ESTATUTO DOS SERVIDORES PÚBLICOS DO MUNICÍPIO DE LAGOA DOS PATOS",
+    link: "/documentos/#solicitacao",
+    color: "yellow",
+    info: "DISPÕE SOBRE O ESTATUTO DOS SERVIDORES PÚBLICOS DO MUNICÍPIO DE LAGOA DOS PATOS - ESTADO DE MINAS GERAIS.",
+    documento: "https://meusiteonline.sirv.com/Estatuto%20lagoa%20dos%20patos%20DEFINITIVO.pdf",
+  },
+  
+  {
+    nome: "Contracheque Gleiton Aparecido Soares de Souza",
+    link: "/documentos/#solicitacao",
+    color: "green",
+    info: "Contracheque Gleiton Aparecido Soares de Souza de 2016 a 2024",
+    documento: "https://meusiteonline.sirv.com/gleiton-salario-2016-2024.pdf",
+  },
+  {
+    nome: "Plano de Cargos e Salários (2015)",
+    link: "",
+    color: "green",
+    info: "Plano de Cargos e Salários (2015)",
+    documento:
+      "https://meusiteonline.sirv.com/LEI%20COMPLEMENTAR%20N%C2%BA%20720-2015%20PLANO%20DE%20CARGOS.pdf",
+  },
+  {
+    nome: "Tabela - Última encontrada ",
+    link: "",
+    color: "green",
+    info: "Pode haver outra atualizada - Não foi encontrada mais recente - 2024",
+    documento: "https://meusiteonline.sirv.com/Anexo-I-tabela-de-salarios.pdf",
+  },
+  {
+    nome: "Certificados - Informações ",
+    link: "",
+    color: "green",
+    info: "Informações de como os cursos realizados podem ser utilizados na administração pública",
+    documento:
+      "https://meusiteonline.sirv.com/Certificados%20-%20Informacoes.pdf",
+  },
+  {
+    nome: "Certificados - Arquivos",
+    link: "",
+    color: "green",
+    info: "Veja as horas e certificados completos",
+    documento: "https://meusiteonline.sirv.com/certificados-2.pdf",
+  },
+  {
+    nome: "Documentos de convocação e efetivação - GLEITON A. SOARES DE SOUZA",
+    link: "",
+    color: "green",
+    info: "Chamamento compreensão de nomeação - Concurso publico, 2016, Agente Fazendário",
+    documento: "https://meusiteonline.sirv.com/Convocacao%20de%20Nomea%C3%A7%C3%A3o%20-%20Gleiton%20Aparecido%20Soares%20de%20Souza.pdf",
+  },
+  {
+    nome: "Lei Complementar nº 760/2017 - Lagoa dos Patos MG",
+    link: "/documentos/#solicitacao",
+    color: "purple",
+    info: "DISPÕE SOBRE CONCESSÃO DE GRATIFICAÇÃO PARA SERVIDORES MUNICIPAIS, CONTRATAÇÃO DE ESTAGIÁRIOS E DÁ OUTRAS PROVIDÊNCIAS.",
+    documento: "https://meusiteonline.sirv.com/Lei%20760-2017.pdf",
+  },
+  {
+    nome: "Lei Complementar nº 787/2018 - Lagoa dos Patos MG",
+    link: "/documentos/#solicitacao",
+    color: "purple",
+    info: "Dispõe sobre o licenciamento, autorização e fiscalização das atividades socioeconômicas do município de Lagoa dos Patos e dá outras providências.",
+    documento: "/documentos/787-2018.pdf",
+  },
+  {
+    nome: "Lei Complementar nº 813/2019 - Lagoa dos Patos MG",
+    link: "/documentos/#solicitacao",
+    color: "purple",
+    info: "Dispõe sobre reajustamento de vencimento de servidores ocupante de cargos de Professores Auxiliares/Monitores, autoriza concessão de direitos por produtividade e desempenho profissional e dá outras providências.",
+    documento:
+      "https://meusiteonline.sirv.com/lei-813-2019-reajusta-vencimento-professor-monitor-e-autoriza-gratifica%C3%A7a%C3%B5-por-produtividade.pdf",
+  },
+  {
+    nome: "Lei Complementar nº 821/2019",
+    link: "/documentos/#solicitacao",
+    color: "purple",
+    info: "Dá nova redação ao artigo 2º., da Lei 813, de 20 de agosto de 2019 e dá outras providências.",
+    documento:
+      "https://meusiteonline.sirv.com/Lei%20821-2019-altera%20lei%20813.pdf",
+  },
+  {
+    nome: "CONSTITUIÇÃO DA REPÚBLICA FEDERATIVA DO BRASIL DE 1988",
+    link: "/documentos/#solicitacao",
+    color: "purple",
+    info: "Nós, representantes do povo brasileiro, reunidos em Assembléia Nacional Constituinte para instituir um Estado Democrático, destinado a assegurar o exercício dos direitos sociais e individuais, a liberdade, a segurança, o bem-estar, o desenvolvimento, a igualdade e a justiça como valores supremos de uma sociedade fraterna, pluralista e sem preconceitos, fundada na harmonia social e comprometida, na ordem interna e internacional, com a solução pacífica das controvérsias, promulgamos, sob a proteção de Deus, a seguinte CONSTITUIÇÃO DA REPÚBLICA FEDERATIVA DO BRASIL.",
+    documento:
+      "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+  },
+  {
+    nome: "LDO - LOA - PPA",
+    link: "/documentos/#solicitacao",
+    color: "purple",
+    info: "Plano Plurianual - PPA / Lei de Diretrizes Orçamentárias - LDO / Lei Orçamentária Anual - LOA",
+    documento:
+      "https://www2.camara.leg.br/orcamento-da-uniao/cidadao/entenda/cursopo/planejamento",
+  },
+  {
+    nome: "Lei Complementar nº 101/2000 (Lei de Responsabilidade Fiscal - LRF) ",
+    link: "/documentos/#solicitacao",
+    color: "purple",
+    info: "Estabelece normas de finanças públicas voltadas para a responsabilidade na gestão fiscal e dá outras providências.",
+    documento: "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm",
+  },
+  {
+    nome: "Lei nº 4.320/64",
+    link: "/documentos/#solicitacao",
+    color: "purple",
+    info: "Estatui Normas Gerais de Direito Financeiro para elaboração e contrôle dos orçamentos e balanços da União, dos Estados, dos Municípios e do Distrito Federal.",
+    documento: "https://www.planalto.gov.br/ccivil_03/leis/l4320.htm",
+  },
+  {
+    nome: "Lei Complementar nº. 720 de 13 de março de 2015 - Plano de cargo de Servidor Público",
+    link: "/documentos/#solicitacao",
+    color: "red",
+    info: "Dispõe sobre o Plano de Cargos, Carreiras e Vencimentos  dos Servidores do Públicos do  Poder Executivo do Município de Lagoa dos Patos-Mg e dá outras providências",
+    documento: "https://meusiteonline.sirv.com/LEI%20COMPLEMENTAR%20N%C2%BA%20720-2015%20PLANO%20DE%20CARGOS.pdf",
+  },
+  {
+    nome: "Lei Complementar nº. 907/2024",
+    link: "/documentos/#solicitacao",
+    color: "red",
+    info: "Disciplina a concessão de adicional de insalubridade e periculusidade para os servidores detentores de cargos de provimento efetivo em Lagoa dos Patos e dá outras providências.",
+    documento: "https://lagoadospatos.mg.gov.br/wp-content/uploads/2024/09/Lei-907-2024-disciplina-adicional-de-insalubridde.pdf",
+  },
+  {
+    nome: "Fiscal de tributos municipal - Condições gerais de exercício",
+    link: "/documentos/#solicitacao",
+    color: "red",
+    info: "Condições gerais de exercício Trabalham em secretarias de fazenda dos estados e municípios. Atuam de forma individual e, eventualmente, em equipe, sob supervisão permanente, em ambiente fechado, a céu aberto ou em veículos, em horários diurno, noturno e irregulares. Podem permanecer em posições desconfortáveis por longos períodos, estar expostos a materiais tóxicos, radiação e ruído intenso, bem como a insalubridade, periculosidade e risco de perder a vida, ocasionalmente. Tais condições podem conduzi-los à estresse.",
+    documento: "https://meusiteonline.sirv.com/templateWord.pdf",
+  },
+  {
+    nome: "Atividades relacionadas -  Fiscal de tributos municipal",
+    link: "/documentos/#solicitacao",
+    color: "red",
+    info: "Condições gerais de exercício Trabalham em secretarias de fazenda dos estados e municípios. Atuam de forma individual e, eventualmente, em equipe, sob supervisão permanente, em ambiente fechado, a céu aberto ou em veículos, em horários diurno, noturno e irregulares. Podem permanecer em posições desconfortáveis por longos períodos, estar expostos a materiais tóxicos, radiação e ruído intenso, bem como a insalubridade, periculosidade e risco de perder a vida, ocasionalmente. Tais condições podem conduzi-los à estresse.",
+    documento: "https://meusiteonline.sirv.com/TabelaAtividade_2544_2.pdf",
+  },
+  {
+    nome: "Pagamentos de 2016 a 2024",
+    link: "/documentos/#solicitacao",
+    color: "orange",
+    info: "Pagamentos de 2016 a 2024",
+    documento: "https://meusiteonline.sirv.com/gleiton-salario-2016-2024.pdf",
+  },
+  {
+    nome: "Último pagamento – Férias Prêmio",
+    link: "/documentos/#solicitacao",
+    color: "orange",
+    info: "Contracheque Abril 2024 com 1/3 de férias",
+    documento: "https://meusiteonline.sirv.com/contracheque-abril.pdf",
+  },
+  {
+    nome: "Último pagamento – Férias Prêmio",
+    link: "/documentos/#solicitacao",
+    color: "orange",
+    info: "Contracheque outubro 2024 sem 1/3 de férias",
+    documento: "https://meusiteonline.sirv.com/contracheque-outubro.pdf",
+  },
+  {
+    nome: "Comissão REURB 2018",
+    link: "/documentos/#comissaoreurb2018",
+    color: "blue",
+    info: "",
+    documento: "/documentos/participacao-comissao-2018-lagoa-dos-patos-mg.pdf",
+  },
+  {
+    nome: "Lei Complementar nº 101/2000 (Lei de Responsabilidade Fiscal - LRF), ",
+    link: "/documentos/#solicitacao",
+    color: "blue",
+    info: "Estabelece normas de finanças públicas voltadas para a responsabilidade na gestão fiscal e dá outras providências.",
+    documento: "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm",
+  },
+];
+
+export default Btns;

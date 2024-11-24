@@ -6,6 +6,9 @@
   height: 70vh;
   position: relative;
 }
+.centraliza {
+  text-align: center;
+}
 .place {
   width: 60%;
   margin: auto;
@@ -277,7 +280,7 @@
   line-height: 32px;
 }
 .informacaoSobre div:nth-last-child(1){
-  width: 25%;
+  width: 30%;
   line-height: 2em;
   padding: 10px;
   /* border: #000000 solid 1px; */
@@ -286,7 +289,13 @@
   
   line-height: 2em;
   padding: 10px;
-  font-size: 2.5em;
+  /* font-size: 2.5em; */
+}
+.informacaoSobre div:nth-last-child(3) p{
+  
+  line-height: 2em;
+  padding: 10px;
+  /* font-size: 2.5em; */
 }
 /* end Banner Topo  */
 .informacaoSobre img {
@@ -295,8 +304,14 @@
   padding: 50px;
 }
 .informacaoSobre {
-  padding: 2em;
+  padding: 20px;
+  width: 100%;
   display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.informacaoSobre > div {
+  width: 30%;
 }
 .imgQuem {
   width: 100%;

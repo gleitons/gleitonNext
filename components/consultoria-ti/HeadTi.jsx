@@ -120,7 +120,7 @@ export default function HeadTi() {
                 </div>
             </div>
             <Sobrenos />
-            <div>
+            <div className={styles.centraliza}>
                 <p>TODOS OS DIREITO RESERVADOS - FUTURO CONSULTORIA - 26.300.217/0001-00</p>
             </div>
 
