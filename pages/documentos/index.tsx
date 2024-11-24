@@ -8,7 +8,7 @@ export function Btn({ nome, link, color, onClick }) {
   return (
     <button
       onClick={onClick}
-      className={`p-2 bg-red-800  text-white rounded-md hover:opacity-80`}
+      className={`p-2 bg-${color}-800  text-white rounded-md hover:opacity-80`}
     >
       {nome}
     </button>
@@ -98,7 +98,7 @@ export default function Index() {
           {btns.map((e, index) => (
             <div key={index}>
               <div
-                className={`bg-red-200 text-black p-4 rounded-lg shadow-md mb-4`}
+                className={`bg-${e.color}-200 text-black p-4 rounded-lg shadow-md mb-4`}
               >
                 <p>{e.info}</p>
                 <Btn
