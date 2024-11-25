@@ -8,17 +8,17 @@ export function Btn({ nome, link, color, onClick }) {
   return (
     <button
       onClick={onClick}
-      className={`p-2 bg-${color}-800  text-white rounded-md hover:opacity-80`}
+      className={`p-2 ${color} forte  text-white rounded-md hover:opacity-80`}
     >
       {nome}
     </button>
   );
 }
 
-export function redirect({ hashDo, linkDo }) {
+export async function redirect({ hashDo, linkDo }) {
   return (
     <Link href={linkDo}>
-      <button className={`p-2 bg-blue-600 text-white rounded-md`}>
+      <button className={`p-2 bg-blue-600 text-black rounded-md`}>
         {hashDo}
       </button>
     </Link>
@@ -99,7 +99,7 @@ export default function Index() {
           {btns.map((e, index) => (
             <div key={index}>
               <div
-                className={`bg-${e.color}-200 text-black p-4 rounded-lg shadow-md mb-4`}
+                className={`${e.color} text-black p-4 rounded-lg shadow-md mb-4`}
               >
                 <p>{e.info}</p>
                 <Btn
@@ -108,9 +108,11 @@ export default function Index() {
                   color={e.color}
                   onClick={() => handleButtonClick(e.documento)}
                 />
+               
               </div>
             </div>
           ))}
+         
         </div>
       </div>
       {mostraFooter && (

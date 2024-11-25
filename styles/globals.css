@@ -16,6 +16,30 @@ body {
   padding: 0;
   
 }
+.green {
+  background-color: rgb(134, 226, 134);
+}
+.red {
+  background-color: rgb(228, 104, 104);
+}
+.orange {
+  background-color: rgb(223, 149, 52);
+}
+.yellow {
+  background-color: rgb(206, 223, 52);
+}
+.purple {
+  background-color: rgb(206, 89, 221);
+}
+.blue {
+  background-color: rgb(89, 131, 221);
+}
+
+.forte {
+  filter: saturate(1.8);
+  border: black solid 2px;
+  color: black;
+}
 :root {
   --topo: 4vh;
 }
