@@ -4,7 +4,7 @@ const Btns = [
     link: "/documentos/#solicitacao",
     color: "yellow",
     info: "Poderá ter atualizações",
-    documento: "https://meusiteonline.sirv.com/Solicitacao-RH-prefeitura-de-lagoa-dos-patos-mg-gleiton-aparecido-soares-de-souza.pdf",
+    documento: "https://meusiteonline.sirv.com/Solicitacao-RH-prefeitura-de-lagoa-dos-patos-mg-gleiton-aparecido-soares-de-souza-25.pdf",
   },
   {
     nome: "ESTATUTO DOS SERVIDORES PÚBLICOS DO MUNICÍPIO DE LAGOA DOS PATOS",
