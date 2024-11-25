@@ -59,6 +59,13 @@ const Btns = [
     documento: "https://meusiteonline.sirv.com/Convocacao%20de%20Nomea%C3%A7%C3%A3o%20-%20Gleiton%20Aparecido%20Soares%20de%20Souza.pdf",
   },
   {
+    nome: "Relatório do TCEMG - 2022",
+    link: "",
+    color: "green",
+    info: "Relatório preliminar de ação fiscalizatória acompanhamento de receitas municipais prefeitura municipal de lagoa dos patos/MG.",
+    documento: "https://meusiteonline.sirv.com/RELAT%20PRELIMINAR%2069_2022%20-%20Lagoa%20dos%20Patos.pdf",
+  },
+  {
     nome: "Lei Complementar nº 760/2017 - Lagoa dos Patos MG",
     link: "/documentos/#solicitacao",
     color: "purple",
@@ -117,6 +124,20 @@ const Btns = [
     color: "purple",
     info: "Estatui Normas Gerais de Direito Financeiro para elaboração e contrôle dos orçamentos e balanços da União, dos Estados, dos Municípios e do Distrito Federal.",
     documento: "https://www.planalto.gov.br/ccivil_03/leis/l4320.htm",
+  },
+  {
+    nome: "Pesquisa TCEMG – Arrecadação e tributos",
+    link: "/documentos/#solicitacao",
+    color: "purple",
+    info: "i-Fiscal TCEMG - 2024 Nº.: 65 Emitido em: 18/09/2024 1/21 Estrutura [2276] 1.Há estrutura administrativa voltada para a administração tributária? [8353] M04Q00300 # ID Descrição 1 13501 1.0000 - Sim [M04Q00300R00100] [13501] 2 13502 2.0000 - Não [M04Q00300R00200] [13502] Opção (M04Q00300R00100) [2277] - exibido ao selecionar: 'Sim' 1.1.A prefeitura dispõe de recursos humanos para a operacionalização das atividades relacionadas a administração tributária? [8354] M04Q00330 Orientações: Instrução: Aplica-se a denominação de Recursos Humanos no quesito o mesmo conceito de servidores públicos em sentido amplo. DI PIETRO (2016, p.655) nos ensina: “São servidores públicos, em sentido amplo, as pessoas físicas que prestam serviços ao Estado e às entidades da Administração Indireta, com vínculo empregatício e mediante remuneração paga pelos cofres públicos”. Nessa classificação os servidores públicos compreendem os servidores estatutários, empregados públicos e os servidores temporários. Di Pietro, Maria Sylvia Zanella. Direito Administrativo. 29º Edição – Editora Forense....",
+    documento: "https://meusiteonline.sirv.com/Formul%C3%A1rios-i-Fiscal%20TCEMG%20-%202024-65.pdf",
+  },
+  {
+    nome: "Relatório TCEMG  - Resposta Municipal",
+    link: "/documentos/#solicitacao",
+    color: "purple",
+    info: "Formulário: i-Fiscal TCEMG - 2024 Tribunal TCEMG Data Emissão: 20/09/2024 14:01:55 Município 3137304 Nome Município: LAGOA DOS PATOS Início: 03/09/2024 10:36:18 Término: 20/09/2024 08:40:22 Item: i-Fiscal Status: Aguardando Validação",
+    documento: "https://meusiteonline.sirv.com/relatorio%20Tributos%20-%20modo%20tributario%20pesquisa%20-%20LAGOA%20DOS%20PATOS%20MG.pdf",
   },
   {
     nome: "Lei Complementar nº. 720 de 13 de março de 2015 - Plano de cargo de Servidor Público",

@@ -63,26 +63,26 @@ export default function Index() {
           content="Gleiton Aparecido Soares de Souza, informações profissionais, tudo sobre o Curricullum Vitae de Gleiton, site oficial, saiba mais sobre Gleiton - Montagem, configuração e manutenção de hardware de computadores. Além de cuidados no manuseio e utilização de peças e equipamentos de informática, instalação e configuração dos diversos componentes de um microcomputador, seus periféricos e dos dispositivos auxiliares utilizados na computação"
         />
       </Head>
-      <div className="m-auto w-2/3 mt-10 flex flex-col justify-center">
+      <div className="m-auto lg:w-2/3 px-6 mt-10 flex flex-col justify-center text-justify">
         <div>
-          <h2 className="font-bold text-xl">
+          <h2 className="font-bold text-xl my-2">
             À Prefeitura Municipal de Lagoa dos Patos - MG Setor de Recursos
             Humanos{" "}
           </h2>
           <p>
             Ilmo(a). Sr(a). Responsável pelo Setor de Recursos Humanos Assunto:
             Solicitação de Regularização de Direitos e Esclarecimentos Eu,
-            Gleiton Aparecido Soares de Souza, portador do CPF 083.030.206-92,
-            servidor público municipal, admitido em 01/04/2016 no cargo de
-            Agente Administrativo Fazendário, Matricula: 1749, venho, por meio
+            <strong>Gleiton Aparecido Soares de Souza</strong>, portador do <strong>CPF: 083.030.206-92</strong>,
+            servidor público municipal,<strong> admitido em 01/04/2016</strong> no cargo de
+            <strong>Agente Administrativo Fazendário</strong>, <strong>Matricula: 1749</strong>, venho, por meio
             deste, requerer a análise, regularização e resposta formal aos
             seguintes pontos, conforme estabelecidos no Plano de Cargos e
             Salários de Lagoa dos Patos - MG, na legislação municipal aplicável
             e na Constituição Federal entre outros.
           </p>
         </div>
-        <div>
-          <h2>Documentos</h2>
+        <div className="text-justify">
+          <h2 className="font-bold text-xl my-2">Documentos</h2>
           <p>
             1. Verificação do Salário Base de Acordo com as Leis Informadas{" "}
           </p>
@@ -94,6 +94,7 @@ export default function Index() {
           </p>
           <p>6. Solicitação de Resposta Formal e Prazos</p>
         </div>
+        <br />
 
         <div className="w-full ">
           {btns.map((e, index) => (
