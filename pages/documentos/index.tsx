@@ -133,7 +133,7 @@ export default function Index() {
             ></iframe>
             <span
               onClick={handleCloseIframe}
-              className="absolute top-4 right-4 bg-red-600 text-center text-white p-2 rounded-md hover:bg-red-800"
+              className="absolute top-4 left-4 bg-red-600 text-center text-white p-2 rounded-md hover:bg-red-800"
             >
               ATENÇÃO: NÃO APERTE BOTÃO VOLTAR, clique aqui em Fechar
             </span>
