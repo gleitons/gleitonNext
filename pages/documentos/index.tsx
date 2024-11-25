@@ -37,6 +37,7 @@ export default function Index() {
   };
 
   const handleCloseIframe = () => {
+    setMostraFooter(true);
     setShowIframe(false);
     setIframeSrc("");
   };
