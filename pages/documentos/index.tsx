@@ -2,6 +2,7 @@ import Link from "next/link";
 import { useState } from "react";
 import Btns from "../../components/Contracheques";
 import Head from "next/head";
+import AlertaPersonalizado from "../../components/AlertaPersonalizado";
 // import { useRouter } from "next/router";
 
 export function Btn({ nome, link, color, onClick }) {
@@ -46,6 +47,7 @@ export default function Index() {
 
   return (
     <div className="w-full">
+      <AlertaPersonalizado />
       <Head>
         <meta property="og:locale" content="pt_BR" />
 

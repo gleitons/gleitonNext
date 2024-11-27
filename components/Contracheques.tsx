@@ -202,6 +202,13 @@ const Btns = [
     info: "Estabelece normas de finanças públicas voltadas para a responsabilidade na gestão fiscal e dá outras providências.",
     documento: "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm",
   },
+  {
+    nome: "Participações em comissões - Sempre ativo participando das melhorias do município",
+    link: "/documentos/#solicitacao",
+    color: "blue",
+    info: "Programa Percursos Gerais: Trajetória para Autonomia, Aprovação do Regimento interno e escolha das familias",
+    documento: "https://meusiteonline.sirv.com/participacoes-gleiton.pdf",
+  }
 ];
 
 export default Btns;
