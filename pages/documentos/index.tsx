@@ -76,7 +76,7 @@ export default function Index() {
             Solicitação de Regularização de Direitos e Esclarecimentos Eu,
             <strong>Gleiton Aparecido Soares de Souza</strong>, portador do <strong>CPF: 083.030.206-92</strong>,
             servidor público municipal,<strong> admitido em 01/04/2016</strong> no cargo de
-            <strong>Agente Administrativo Fazendário</strong>, <strong>Matricula: 1749</strong>, venho, por meio
+            <strong> Agente Administrativo Fazendário</strong>, <strong>Matricula: 1749</strong>, venho, por meio
             deste, requerer a análise, regularização e resposta formal aos
             seguintes pontos, conforme estabelecidos no Plano de Cargos e
             Salários de Lagoa dos Patos - MG, na legislação municipal aplicável

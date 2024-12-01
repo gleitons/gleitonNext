@@ -29,12 +29,14 @@ body {
   background-color: rgb(206, 223, 52);
 }
 .purple {
-  background-color: rgb(206, 89, 221);
+  background-color: rgb(123, 41, 230);
 }
 .blue {
   background-color: rgb(89, 131, 221);
 }
-
+.pink {
+  background-color: #FF00FF;
+}
 .forte {
   filter: saturate(1.8);
   border: black solid 2px;

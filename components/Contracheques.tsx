@@ -188,12 +188,20 @@ const Btns = [
     info: "Contracheque outubro 2024 sem 1/3 de férias",
     documento: "https://meusiteonline.sirv.com/contracheque-outubro.pdf",
   },
+  //https://drive.google.com/file/d/1PaJDLD-7Sv2cII6NWidvrS0GHNZy7Ppl/view?usp=sharing
   {
     nome: "Comissão REURB 2018",
     link: "/documentos/#comissaoreurb2018",
     color: "blue",
-    info: "",
+    info: "Em razão do pedido, determino a abertura do procedimento administrativo, nomeando os seguintes servidores para compor a comissão técnica: Gleiton Aparecido Soares de Souza, agente Administrativo Fazendário; Maria Odete Borges Leite, assistente social; Emerson Wesley Barbosa Soares, advogado e Flavio Pereira Duarte Filho, engenheiro, para que sob a Presidência do primeiro classifiquem e fixem uma das modalidades da Reurb ou promovam o indeferimento fundamentado do requerimento em até 180 (cento e oitenta) dias, nos termos dos artigos 32 da Lei nº 13.465/17.",
     documento: "/documentos/participacao-comissao-2018-lagoa-dos-patos-mg.pdf",
+  },
+  {
+    nome: "Comissão REURB 2023",
+    link: "/documentos/#comissaoreurb2018",
+    color: "blue",
+    info: "RESOLVE: Art. 1o. – Nomear os membros indicados para a composição da comissão Técnica de Regularização Fundiária. Trata-se de requerimento formulado pelo legitimado Hércules Vandy Durães da Fonseca, devidamente qualificado, postulando a instauração formal da regularização fundiária por interesse e com o requerimento vieram documentos. Em razão do pedido, determino a abertura do ́procedimento administrativo, nomeando os seguintes servidores para compor a comissão técnica; Gleiton Aparecido Soares de Souza, agente administrativo Fazendário, Maria Odete Borges Leite, assistente Social, Wellington Flaminio Rezende Prates, advogado, Anderson da Rocha Moreira engenheiro, para que sob a Presidência do primeiro classifiquem e fixem uma modalidade da Reurb-S ou promovam o indeferimento fundamentado do requerimento em até 180(cento e oitenta) dias, nos termos do artigos 32 da lei n°13.465/17.",
+    documento: "https://reurbldp.sirv.com/Documentos/portaria-26-2023-lagoa-dos-patos-mg.pdf",
   },
   {
     nome: "Lei Complementar nº 101/2000 (Lei de Responsabilidade Fiscal - LRF), ",
@@ -208,6 +216,27 @@ const Btns = [
     color: "blue",
     info: "Programa Percursos Gerais: Trajetória para Autonomia, Aprovação do Regimento interno e escolha das familias",
     documento: "https://meusiteonline.sirv.com/participacoes-gleiton.pdf",
+  },
+  {
+    nome: "Lei nº 8.429/1992",
+    link: "",
+    color: "pink",
+    info: "Dispõe sobre as sanções aplicáveis em virtude da prática de atos de improbidade administrativa, de que trata o § 4º do art. 37 da Constituição Federal; e dá outras providências.",
+    documento: "https://www.planalto.gov.br/ccivil_03/leis/l8429.htm",
+  },
+  {
+    nome: "Fundamentos na Lei nº 8.429/1992",
+    link: "",
+    color: "pink",
+    info: "Fundamentos na Lei nº 8.429/1992 1. Garantias do Cargo Efetivo •	Princípio da Legalidade (Art. 37 da Constituição Federal): o	Todo ato administrativo deve ser amparado por lei. Como você ocupa um cargo efetivo, sua substituição ou remoção não pode ser arbitrária e deve seguir rigorosamente as regras do Estatuto do Servidor e demais legislações aplicáveis. •	Estabilidade no Serviço Público: o	Como servidor efetivo, você tem estabilidade, e a substituição só poderia ocorrer por motivo disciplinar, insuficiência de desempenho, ou por extinção formal do cargo, que deve ser prevista em lei e justificada no interesse público.",
+    documento: "https://meusiteonline.sirv.com/Fundamentos%20na%20Lei%20n%C2%BA%208.429-1992.pdf",
+  },
+  {
+    nome: "Exclusividade das Funções de Agente Administrativo Fazendário",
+    link: "",
+    color: "pink",
+    info: "O cargo de Agente Administrativo Fazendário é estratégico para o município e exige habilidades técnicas e conhecimento especializado para o exercício de atividades essenciais à arrecadação tributária. A designação de outro servidor, especialmente não concursado, para desempenhar as funções deste cargo pode configurar:",
+    documento: "https://reurbldp.sirv.com/Documentos/Exclusividade%20das%20Fun%C3%A7%C3%B5es%20de%20Agente%20Administrativo%20Fazend%C3%A1rio.pdf",
   }
 ];
 
