@@ -3,9 +3,27 @@ import { useState } from "react";
 import Btns from "../../components/Contracheques";
 import Head from "next/head";
 import AlertaPersonalizado from "../../components/AlertaPersonalizado";
+
 // import { useRouter } from "next/router";
+export async function getServerSideProps() {
+  try {
+    const res = await fetch('http://localhost:3000/api/data'); // Substitua pela URL da sua API em produção
+    const result = await res.json();
+
+    if (!result.success) {
+      throw new Error(result.error || "Erro desconhecido");
+    }
+
+    return { props: { data: result.data } };
+  } catch (error) {
+    console.error("Erro ao buscar dados:", error.message);
+    return { props: { data: [] } };
+  }
+}
+
 
 export function Btn({ nome, link, color, onClick }) {
+ 
   return (
     <button
       onClick={onClick}
@@ -26,7 +44,8 @@ export async function redirect({ hashDo, linkDo }) {
   );
 }
 
-export default function Index() {
+export default function Index({data}) {
+  
   const [showIframe, setShowIframe] = useState(false);
   const [iframeSrc, setIframeSrc] = useState("");
   const [mostraFooter, setMostraFooter] = useState(true);
@@ -44,7 +63,7 @@ export default function Index() {
   };
 
   const btns = Btns;
-
+  // const data = getServerSideProps();
   return (
     <div className="w-full">
       <AlertaPersonalizado />
@@ -66,7 +85,8 @@ export default function Index() {
         />
       </Head>
       <div className="m-auto lg:w-2/3 px-6 mt-10 flex flex-col justify-center text-justify">
-        <div>
+
+
           <h2 className="font-bold text-xl my-2">
             À Prefeitura Municipal de Lagoa dos Patos - MG Setor de Recursos
             Humanos{" "}
@@ -115,8 +135,27 @@ export default function Index() {
               </div>
             </div>
           ))}
-         
-        </div>
+          
+      
+        
+        <div>
+        <div>
+           <h2>Conheca todos os cursos</h2>
+            {data.map((item:any) => (
+              <li key={item._id} className="mb-4 border-b pb-2">
+              <h2 className="font-semibold">{item.titulo || "Sem título"}</h2>
+              <p>{item.descricao || "Sem descrição"}</p>
+              <p><strong>Utilidade:</strong> {item.utilidade || "Não informado"}</p>
+              <p><strong>Escola:</strong> {item.escola || "Não informado"}</p>
+              <p><strong>Local:</strong> {item.local || "Não informado"}</p>
+              <p><strong>PDF:</strong> <a href={item.pdf} target="_blank" rel="noopener noreferrer">{item.pdf || "Nenhum link"}</a></p>
+              <p><strong>Info:</strong> {item.info || "Sem informações"}</p>
+              <p><strong>Data:</strong> {item.data ? new Date(item.data).toLocaleDateString() : "Não informada"}</p>
+            </li>
+            ))}
+          </div>
+        
+      </div>
       </div>
       {mostraFooter && (
         <div className="h-screen flex flex-col justify-center items-center">

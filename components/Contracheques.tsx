@@ -237,6 +237,13 @@ const Btns = [
     color: "pink",
     info: "O cargo de Agente Administrativo Fazendário é estratégico para o município e exige habilidades técnicas e conhecimento especializado para o exercício de atividades essenciais à arrecadação tributária. A designação de outro servidor, especialmente não concursado, para desempenhar as funções deste cargo pode configurar:",
     documento: "https://reurbldp.sirv.com/Documentos/Exclusividade%20das%20Fun%C3%A7%C3%B5es%20de%20Agente%20Administrativo%20Fazend%C3%A1rio.pdf",
+  },
+  {
+    nome: "Exclusividade das Funções de Agente Administrativo Fazendário",
+    link: "",
+    color: "pink",
+    info: "O cargo de Agente Administrativo Fazendário é estratégico para o município e exige habilidades técnicas e conhecimento especializado para o exercício de atividades essenciais à arrecadação tributária. A designação de outro servidor, especialmente não concursado, para desempenhar as funções deste cargo pode configurar:",
+    documento: "https://reurbldp.sirv.com/Documentos/Exclusividade%20das%20Fun%C3%A7%C3%B5es%20de%20Agente%20Administrativo%20Fazend%C3%A1rio.pdf",
   }
 ];
 
