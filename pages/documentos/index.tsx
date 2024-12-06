@@ -5,25 +5,8 @@ import Head from "next/head";
 import AlertaPersonalizado from "../../components/AlertaPersonalizado";
 
 // import { useRouter } from "next/router";
-export async function getServerSideProps() {
-  try {
-    const res = await fetch('http://localhost:3000/api/data'); // Substitua pela URL da sua API em produção
-    const result = await res.json();
-
-    if (!result.success) {
-      throw new Error(result.error || "Erro desconhecido");
-    }
-
-    return { props: { data: result.data } };
-  } catch (error) {
-    console.error("Erro ao buscar dados:", error.message);
-    return { props: { data: [] } };
-  }
-}
-
 
 export function Btn({ nome, link, color, onClick }) {
- 
   return (
     <button
       onClick={onClick}
@@ -44,8 +27,7 @@ export async function redirect({ hashDo, linkDo }) {
   );
 }
 
-export default function Index({data}) {
-  
+export default function Index({ data }) {
   const [showIframe, setShowIframe] = useState(false);
   const [iframeSrc, setIframeSrc] = useState("");
   const [mostraFooter, setMostraFooter] = useState(true);
@@ -69,56 +51,56 @@ export default function Index({data}) {
       <AlertaPersonalizado />
       <Head>
         <meta property="og:locale" content="pt_BR" />
-
         <meta name="author" content="Gleiton Aparecido Soares de Souza" />
-
         <meta
           name="keywords"
           content="Curriculo, programador Web, Gleiton, Gleiton Aparecido Soares de Souza"
         />
         <meta name="robots" content="index, follow" />
-
         <title>Gleiton Aparecido Soares de Souza - Documentos</title>
         <meta
           name="description"
-          content="Gleiton Aparecido Soares de Souza, informações profissionais, tudo sobre o Curricullum Vitae de Gleiton, site oficial, saiba mais sobre Gleiton - Montagem, configuração e manutenção de hardware de computadores. Além de cuidados no manuseio e utilização de peças e equipamentos de informática, instalação e configuração dos diversos componentes de um microcomputador, seus periféricos e dos dispositivos auxiliares utilizados na computação"
+          content="Gleiton Aparecido Soares de Souza, informações profissionais, tudo sobre o Curriculum Vitae de Gleiton, site oficial, saiba mais sobre Gleiton - Montagem, configuração e manutenção de hardware de computadores. Além de cuidados no manuseio e utilização de peças e equipamentos de informática, instalação e configuração dos diversos componentes de um microcomputador, seus periféricos e dos dispositivos auxiliares utilizados na computação."
         />
       </Head>
       <div className="m-auto lg:w-2/3 px-6 mt-10 flex flex-col justify-center text-justify">
-
-
-          <h2 className="font-bold text-xl my-2">
-            À Prefeitura Municipal de Lagoa dos Patos - MG Setor de Recursos
-            Humanos{" "}
-          </h2>
-          <p>
-            Ilmo(a). Sr(a). Responsável pelo Setor de Recursos Humanos Assunto:
-            Solicitação de Regularização de Direitos e Esclarecimentos Eu,
-            <strong>Gleiton Aparecido Soares de Souza</strong>, portador do <strong>CPF: 083.030.206-92</strong>,
-            servidor público municipal,<strong> admitido em 01/04/2016</strong> no cargo de
-            <strong> Agente Administrativo Fazendário</strong>, <strong>Matricula: 1749</strong>, venho, por meio
-            deste, requerer a análise, regularização e resposta formal aos
-            seguintes pontos, conforme estabelecidos no Plano de Cargos e
-            Salários de Lagoa dos Patos - MG, na legislação municipal aplicável
-            e na Constituição Federal entre outros.
-          </p>
+        <h2 className="font-bold text-xl my-2">
+          À Prefeitura Municipal de Lagoa dos Patos - MG
+          <br />
+          Setor de Recursos Humanos
+        </h2>
+        <p>
+          Ilmo(a). Sr(a). Responsável pelo Setor de Recursos Humanos
+          <br />
+          <strong>Assunto:</strong> Solicitação de Regularização de Direitos e
+          Esclarecimentos
+          <br />
+          Eu, <strong>Gleiton Aparecido Soares de Souza</strong>, portador do{" "}
+          <strong>CPF: 083.030.206-92</strong>, servidor público municipal,{" "}
+          <strong>admitido em 01/04/2016</strong> no cargo de{" "}
+          <strong>Agente Administrativo Fazendário</strong>,{" "}
+          <strong>Matrícula: 1749</strong>, venho, por meio deste, requerer a
+          análise, regularização e resposta formal aos seguintes pontos,
+          conforme estabelecidos no Plano de Cargos e Salários de Lagoa dos
+          Patos - MG, na legislação municipal aplicável e na Constituição
+          Federal entre outros.
+        </p>
+        <div className="text-justify mt-6">
+          <h2 className="font-bold text-xl mb-4">Documentos</h2>
+          <ol className="list-decimal list-inside space-y-2">
+            <li>
+              Verificação do Salário Base de Acordo com as Leis Informadas
+            </li>
+            <li>Recebimento de Valores Retroativos</li>
+            <li>Aumento de Nível e Progressão Funcional</li>
+            <li>Insalubridade</li>
+            <li>
+              Verificação da Redução do Salário Base Durante Férias Prêmio
+            </li>
+            <li>Solicitação de Resposta Formal e Prazos</li>
+          </ol>
         </div>
-        <div className="text-justify">
-          <h2 className="font-bold text-xl my-2">Documentos</h2>
-          <p>
-            1. Verificação do Salário Base de Acordo com as Leis Informadas{" "}
-          </p>
-          <p>2. Recebimento de Valores Retroativos</p>
-          <p>3. Aumento de Nível e Progressão Funcional</p>
-          <p>
-            4. Insalubridade 5. Verificação da Redução do Salário Base Durante
-            Férias Prêmio
-          </p>
-          <p>6. Solicitação de Resposta Formal e Prazos</p>
-        </div>
-        <br />
-
-        <div className="w-full ">
+        <div className="w-full mt-8">
           {btns.map((e, index) => (
             <div key={index}>
               <div
@@ -131,64 +113,45 @@ export default function Index({data}) {
                   color={e.color}
                   onClick={() => handleButtonClick(e.documento)}
                 />
-               
               </div>
             </div>
           ))}
-          
-      
-        
-        <div>
-        <div>
-           <h2>Conheca todos os cursos</h2>
-            {data.map((item:any) => (
-              <li key={item._id} className="mb-4 border-b pb-2">
-              <h2 className="font-semibold">{item.titulo || "Sem título"}</h2>
-              <p>{item.descricao || "Sem descrição"}</p>
-              <p><strong>Utilidade:</strong> {item.utilidade || "Não informado"}</p>
-              <p><strong>Escola:</strong> {item.escola || "Não informado"}</p>
-              <p><strong>Local:</strong> {item.local || "Não informado"}</p>
-              <p><strong>PDF:</strong> <a href={item.pdf} target="_blank" rel="noopener noreferrer">{item.pdf || "Nenhum link"}</a></p>
-              <p><strong>Info:</strong> {item.info || "Sem informações"}</p>
-              <p><strong>Data:</strong> {item.data ? new Date(item.data).toLocaleDateString() : "Não informada"}</p>
-            </li>
-            ))}
-          </div>
-        
-      </div>
-      </div>
-      {mostraFooter && (
-        <div className="h-screen flex flex-col justify-center items-center">
-          <p>2024 - Todos direitos reservados - Futuro Consultoria</p>
         </div>
-      )}
-
-      {/* Overlay para o iframe */}
-      {showIframe && (
-        <div className="fixed inset-0 bg-black bg-opacity-80 z-50 flex items-center justify-center">
-          <div className="relative  w-full h-screen">
-            <iframe
-              src={iframeSrc}
-              className="w-full h-full border-none"
-              allowFullScreen
-            ></iframe>
-            <span
-              onClick={handleCloseIframe}
-              className="absolute top-4 left-4 bg-red-600 text-center text-white p-2 rounded-md hover:bg-red-800"
-            >
-              ATENÇÃO: NÃO APERTE BOTÃO VOLTAR, clique aqui em Fechar
-            </span>
-            <Link href={iframeSrc} target="_blank" rel="noopener noreferrer">
+       
+        {mostraFooter && (
+          <div className="h-screen flex flex-col justify-center items-center mt-10">
+            <p className="text-gray-600">
+              2024 - Todos os direitos reservados - Futuro Consultoria
+            </p>
+          </div>
+        )}
+        {/* Overlay para o iframe */}
+        {showIframe && (
+          <div className="fixed inset-0 bg-black bg-opacity-80 z-50 flex items-center justify-center">
+            <div className="relative w-full h-screen">
+              <iframe
+                src={iframeSrc}
+                className="w-full h-full border-none"
+                allowFullScreen
+              ></iframe>
               <button
                 onClick={handleCloseIframe}
-                className="absolute bottom-4 right-4 bg-green-600 text-center text-white p-2 rounded-md hover:bg-green-800"
+                className="absolute top-4 left-4 bg-red-600 text-center text-white p-2 rounded-md hover:bg-red-800"
               >
-                CLIQUE PARA VER COMPLETO
+                ATENÇÃO: NÃO APERTE BOTÃO VOLTAR, clique aqui em Fechar
               </button>
-            </Link>
+              <Link href={iframeSrc} target="_blank" rel="noopener noreferrer">
+                <button
+                  onClick={handleCloseIframe}
+                  className="absolute bottom-4 right-4 bg-green-600 text-center text-white p-2 rounded-md hover:bg-green-800"
+                >
+                  CLIQUE PARA VER COMPLETO
+                </button>
+              </Link>
+            </div>
           </div>
-        </div>
-      )}
+        )}
+      </div>
     </div>
   );
 }
